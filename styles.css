@@ -71,17 +71,17 @@ a {
 }
 
 .nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 24px;
+  padding: 18px clamp(20px, 4vw, 56px);
   transition: padding var(--transition);
+  gap: 16px;
 }
 
 .navbar.scrolled .nav-container {
-  padding: 12px 24px;
+  padding: 12px clamp(20px, 4vw, 56px);
 }
 
 .logo {
