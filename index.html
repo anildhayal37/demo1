@@ -133,15 +133,56 @@
     </section>
 
     <section id="contact" class="section section-alt">
-      <div class="section-inner narrow">
-        <p class="eyebrow">Contact</p>
-        <h2>Let's build something together.</h2>
+      <div class="section-inner contact-layout">
+        <div class="contact-info">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's build something together.</h2>
+          <p class="body">Have a project in mind, or just want to say hello? Drop us a line — we read every message and reply within 24 hours.</p>
+
+          <ul class="contact-details">
+            <li>
+              <span class="contact-ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </span>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:hello@nova.design" class="contact-value">hello@nova.design</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact-ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </span>
+              <div>
+                <span class="contact-label">Studio</span>
+                <span class="contact-value">San Francisco, CA</span>
+              </div>
+            </li>
+            <li>
+              <span class="contact-ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </span>
+              <div>
+                <span class="contact-label">Hours</span>
+                <span class="contact-value">Mon–Fri · 9am–6pm PT</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
         <form class="contact-form" onsubmit="event.preventDefault(); this.querySelector('.form-status').textContent='Thanks — we\\'ll be in touch!';">
-          <div class="form-row">
+          <label class="field">
+            <span class="field-label">Name</span>
             <input type="text" placeholder="Your name" required />
+          </label>
+          <label class="field">
+            <span class="field-label">Email</span>
             <input type="email" placeholder="you@example.com" required />
-          </div>
-          <textarea rows="4" placeholder="Tell us about your project..." required></textarea>
+          </label>
+          <label class="field">
+            <span class="field-label">Message</span>
+            <textarea rows="5" placeholder="Tell us about your project..." required></textarea>
+          </label>
           <button type="submit" class="btn btn-primary">Send message</button>
           <p class="form-status" aria-live="polite"></p>
         </form>
