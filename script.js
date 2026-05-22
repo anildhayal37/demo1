@@ -1,8 +1,8 @@
 (() => {
   const navbar = document.getElementById('navbar');
-  const navMenu = document.getElementById('nav-menu');
+  const drawer = document.getElementById('mobile-drawer');
   const hamburger = document.getElementById('hamburger');
-  const navLinks = document.querySelectorAll('.nav-link');
+  const navLinks = document.querySelectorAll('.nav-link, .drawer-link');
   const sections = document.querySelectorAll('main .section');
   const progressBar = document.getElementById('scroll-progress');
   const themeToggle = document.getElementById('theme-toggle');
@@ -22,31 +22,33 @@
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
-  // Mobile menu toggle
-  const closeMenu = () => {
-    navMenu.classList.remove('open');
+  // Mobile drawer toggle
+  const closeDrawer = () => {
+    drawer.classList.remove('open');
     hamburger.classList.remove('open');
     hamburger.setAttribute('aria-expanded', 'false');
+    drawer.setAttribute('aria-hidden', 'true');
   };
 
   hamburger.addEventListener('click', () => {
-    const isOpen = navMenu.classList.toggle('open');
+    const isOpen = drawer.classList.toggle('open');
     hamburger.classList.toggle('open', isOpen);
     hamburger.setAttribute('aria-expanded', String(isOpen));
+    drawer.setAttribute('aria-hidden', String(!isOpen));
   });
 
   navLinks.forEach(link => {
-    link.addEventListener('click', closeMenu);
+    link.addEventListener('click', closeDrawer);
   });
 
   document.addEventListener('click', (e) => {
-    if (!navMenu.classList.contains('open')) return;
-    if (e.target.closest('.nav-menu') || e.target.closest('.hamburger')) return;
-    closeMenu();
+    if (!drawer.classList.contains('open')) return;
+    if (e.target.closest('#mobile-drawer') || e.target.closest('.hamburger')) return;
+    closeDrawer();
   });
 
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeMenu();
+    if (e.key === 'Escape') closeDrawer();
   });
 
   // Scroll-spy: highlight active link based on viewport
