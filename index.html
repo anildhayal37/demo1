@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova — Interactive Nav Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-mark">N</span>
+        <span class="logo-text">Nova</span>
+      </a>
+
+      <nav>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-cta">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+              <span class="theme-icon">☾</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="scroll-progress" id="scroll-progress"></div>
+  </header>
+
+  <main>
+    <section id="home" class="section hero">
+      <div class="hero-content">
+        <p class="eyebrow">Welcome to Nova</p>
+        <h1>Build interfaces that <span class="gradient-text">move</span> with you.</h1>
+        <p class="lead">A demo of a modern, interactive navigation experience — sticky on scroll, animated underlines, mobile-first, and aware of where you are on the page.</p>
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-primary">Explore services</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-inner">
+        <p class="eyebrow">About</p>
+        <h2>Crafted for clarity and motion.</h2>
+        <p class="body">We believe navigation is more than a list of links — it's how people understand where they are and where they can go. Every micro-interaction in this demo has a job: feedback, hierarchy, or delight.</p>
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-num" data-target="120">0</span>
+            <span class="stat-label">Projects shipped</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-target="48">0</span>
+            <span class="stat-label">Happy clients</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-target="99">0</span>
+            <span class="stat-label">% uptime</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section section-alt">
+      <div class="section-inner">
+        <p class="eyebrow">Services</p>
+        <h2>What we do.</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon">◐</div>
+            <h3>Design Systems</h3>
+            <p>Component libraries and tokens that scale across teams and products.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">◑</div>
+            <h3>Web Apps</h3>
+            <p>Performant, accessible interfaces built with modern frameworks.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">◒</div>
+            <h3>Motion</h3>
+            <p>Purposeful animation that guides attention and rewards exploration.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">◓</div>
+            <h3>Strategy</h3>
+            <p>Roadmaps and audits that align product goals with user needs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <div class="section-inner">
+        <p class="eyebrow">Portfolio</p>
+        <h2>Selected work.</h2>
+        <div class="gallery">
+          <div class="tile" style="--tile-color: #6366f1">Aurora Dashboard</div>
+          <div class="tile" style="--tile-color: #ec4899">Pulse Mobile App</div>
+          <div class="tile" style="--tile-color: #14b8a6">Forge CLI</div>
+          <div class="tile" style="--tile-color: #f59e0b">Lumen Editor</div>
+          <div class="tile" style="--tile-color: #8b5cf6">Drift Studio</div>
+          <div class="tile" style="--tile-color: #06b6d4">Echo Player</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="section-inner narrow">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's build something together.</h2>
+        <form class="contact-form" onsubmit="event.preventDefault(); this.querySelector('.form-status').textContent='Thanks — we\\'ll be in touch!';">
+          <div class="form-row">
+            <input type="text" placeholder="Your name" required />
+            <input type="email" placeholder="you@example.com" required />
+          </div>
+          <textarea rows="4" placeholder="Tell us about your project..." required></textarea>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Nova. Built as an interactive nav demo.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
