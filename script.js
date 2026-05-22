@@ -6,7 +6,6 @@
   const sections = document.querySelectorAll('main .section');
   const progressBar = document.getElementById('scroll-progress');
   const themeToggle = document.getElementById('theme-toggle');
-  const themeIcon = themeToggle.querySelector('.theme-icon');
   const yearSpan = document.getElementById('year');
 
   yearSpan.textContent = new Date().getFullYear();
@@ -105,18 +104,15 @@
   const savedTheme = localStorage.getItem('nova-theme');
   if (savedTheme === 'light') {
     document.documentElement.setAttribute('data-theme', 'light');
-    themeIcon.textContent = '☀';
   }
 
   themeToggle.addEventListener('click', () => {
     const isLight = document.documentElement.getAttribute('data-theme') === 'light';
     if (isLight) {
       document.documentElement.removeAttribute('data-theme');
-      themeIcon.textContent = '☾';
       localStorage.setItem('nova-theme', 'dark');
     } else {
       document.documentElement.setAttribute('data-theme', 'light');
-      themeIcon.textContent = '☀';
       localStorage.setItem('nova-theme', 'light');
     }
   });
