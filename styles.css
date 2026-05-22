@@ -72,16 +72,18 @@ a {
 
 .nav-container {
   width: 100%;
+  max-width: 100%;
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px clamp(20px, 4vw, 56px);
+  padding: 18px clamp(16px, 2vw, 32px);
   transition: padding var(--transition);
   gap: 16px;
 }
 
 .navbar.scrolled .nav-container {
-  padding: 12px clamp(20px, 4vw, 56px);
+  padding: 12px clamp(16px, 2vw, 32px);
 }
 
 .logo {
