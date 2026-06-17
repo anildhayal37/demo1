@@ -3,3 +3,5 @@ package.json
 package-lock.json
 snap.mjs
 snap-mobile.mjs
+__pycache__/
+*.pyc

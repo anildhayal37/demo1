@@ -1,0 +1,17 @@
+Senior Backend Engineer — Cloud Infrastructure
+
+We're looking for a backend engineer who loves distributed systems. You'll own services
+that handle millions of requests/day. The ideal candidate has deep Python or Go experience,
+production Kubernetes know-how, and a track record of improving reliability (SLOs, error
+budgets) and developer productivity.
+
+Must-haves:
+- 5+ years building production backend systems
+- Strong with Python or Go
+- Hands-on Kubernetes, Docker, observability (OpenTelemetry, Prometheus, Grafana)
+- Experience leading large refactors or migrations
+- Mentorship experience
+
+Nice-to-haves:
+- gRPC, Protobuf, event-driven systems (Kafka, NATS)
+- Terraform, AWS or GCP
