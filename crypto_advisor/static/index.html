@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crypto Advisor — Paper Trading</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">◎</span>
+      <div>
+        <h1>Crypto Advisor</h1>
+        <p class="tagline">Paper-trading sandbox · watches the market &amp; tells you when to buy/sell</p>
+      </div>
+    </div>
+    <div class="equity-box">
+      <span class="equity-label">Equity</span>
+      <span id="equity" class="equity-value">$100,000.00</span>
+      <span id="total-pnl" class="pnl-chip">+$0.00 (0.00%)</span>
+    </div>
+  </header>
+
+  <div class="controls">
+    <label>Crypto
+      <select id="symbol"></select>
+    </label>
+    <label>Timeframe
+      <select id="interval"></select>
+    </label>
+    <span id="price-tag" class="price-tag">—</span>
+    <span id="source-tag" class="source-tag" title="Where the price data is coming from">…</span>
+    <button id="reset" class="btn ghost" title="Reset paper balance to $100,000">Reset</button>
+  </div>
+
+  <main class="grid">
+    <!-- Chart -->
+    <section class="card chart-card">
+      <div class="chart-head">
+        <h2 id="chart-title">—</h2>
+        <div class="legend">
+          <span><i class="sw sma20"></i>SMA20</span>
+          <span><i class="sw sma50"></i>SMA50</span>
+          <span><i class="sw bb"></i>Bollinger</span>
+          <span><i class="sw buy"></i>Buy signal</span>
+          <span><i class="sw sell"></i>Sell signal</span>
+        </div>
+      </div>
+      <canvas id="chart"></canvas>
+    </section>
+
+    <!-- Signal -->
+    <section class="card signal-card">
+      <h2>Advisor Signal</h2>
+      <div id="signal-badge" class="signal-badge hold">HOLD</div>
+      <div class="confidence">
+        <div class="conf-bar"><div id="conf-fill" class="conf-fill"></div></div>
+        <span id="conf-text">Confidence 0%</span>
+      </div>
+      <ul id="reasons" class="reasons"></ul>
+      <div class="indi-grid" id="indi-grid"></div>
+    </section>
+
+    <!-- Trade -->
+    <section class="card trade-card">
+      <h2>Trade <span class="muted" id="trade-symbol"></span></h2>
+      <div class="amount-row">
+        <label>Amount (USD)
+          <input id="amount" type="number" value="5000" min="1" step="100" />
+        </label>
+        <div class="quick">
+          <button data-amt="1000" class="chip">$1k</button>
+          <button data-amt="5000" class="chip">$5k</button>
+          <button data-amt="10000" class="chip">$10k</button>
+          <button data-amt="25000" class="chip">$25k</button>
+        </div>
+      </div>
+      <div class="trade-btns">
+        <button id="buy" class="btn buy">BUY</button>
+        <button id="sell" class="btn sell">SELL</button>
+      </div>
+      <div class="sell-opts">
+        <span>Sell:</span>
+        <button data-pct="25" class="chip">25%</button>
+        <button data-pct="50" class="chip">50%</button>
+        <button data-pct="100" class="chip">All</button>
+      </div>
+      <p id="trade-msg" class="trade-msg"></p>
+
+      <div class="wallet">
+        <div><span>Cash</span><b id="cash">$100,000.00</b></div>
+        <div><span>Holdings</span><b id="holdings-value">$0.00</b></div>
+        <div><span>Realized P&amp;L</span><b id="realized">$0.00</b></div>
+        <div><span>Unrealized P&amp;L</span><b id="unrealized">$0.00</b></div>
+      </div>
+    </section>
+
+    <!-- Positions -->
+    <section class="card positions-card">
+      <h2>Open Positions</h2>
+      <table class="data-table">
+        <thead><tr><th>Asset</th><th>Qty</th><th>Avg Cost</th><th>Price</th><th>Value</th><th>P&amp;L</th></tr></thead>
+        <tbody id="positions"><tr><td colspan="6" class="empty">No open positions.</td></tr></tbody>
+      </table>
+    </section>
+
+    <!-- History -->
+    <section class="card history-card">
+      <h2>Trade History</h2>
+      <table class="data-table">
+        <thead><tr><th>Time</th><th>Side</th><th>Asset</th><th>Qty</th><th>Price</th><th>USD</th><th>P&amp;L</th></tr></thead>
+        <tbody id="history"><tr><td colspan="7" class="empty">No trades yet.</td></tr></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="disclaimer">
+    ⚠️ Educational paper-trading simulator. No real money, no orders sent to any exchange.
+    Signals are technical indicators, <b>not financial advice</b>.
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
