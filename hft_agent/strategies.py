@@ -35,9 +35,9 @@ class MomentumScalpingStrategy:
         self._min_hold_seconds = 8.0
         # Only enter when the EMA gap is at least this fraction of price, so we
         # need a *real* trend, not noise. Must clear the round-trip fee too.
-        self._entry_threshold = max(0.0008, self.config.fee_pct * 4)
+        self._entry_threshold = max(0.0001, self.config.fee_pct)
         # Only exit on signal when momentum reverses hard (much bigger wobble).
-        self._reversal_threshold = 0.0015
+        self._reversal_threshold = 0.0003
 
     def evaluate(self, symbol: str, prices: np.ndarray, portfolio: Portfolio) -> Signal:
         now = time.time()
@@ -56,15 +56,15 @@ class MomentumScalpingStrategy:
 
         open_pos = {p.symbol: p for p in portfolio.get_open_positions()}
 
-        # Crossover: fast just crossed above slow in last 3 ticks
-        recently_crossed_up = fast[-3] < slow[-3] and fast[-1] > slow[-1]
-        recently_crossed_down = fast[-3] > slow[-3] and fast[-1] < slow[-1]
+        # Established uptrend: fast clearly above slow (gap beats fees) AND the
+        # fast line is still rising — momentum is building, not fading. This
+        # avoids the crossover-instant trap where the gap is ~0 by definition.
+        uptrend = (fast[-1] > slow[-1] and rel_diff >= self._entry_threshold
+                   and fast[-1] > fast[-3])
 
-        # ENTRY: require a real, fee-beating trend (not a tiny wobble).
-        if (recently_crossed_up and symbol not in open_pos
-                and rel_diff >= self._entry_threshold):
+        if uptrend and symbol not in open_pos:
             self._last_signal_time[symbol] = now
-            return Signal(symbol, "buy", strength, "ema_crossover_bullish")
+            return Signal(symbol, "buy", strength, "momentum_uptrend")
 
         # EXIT via signal only after a minimum hold AND on a hard reversal.
         # Otherwise we leave the position alone and let TP/SL handle it.
@@ -72,7 +72,7 @@ class MomentumScalpingStrategy:
             held = now - open_pos[symbol].entry_time
             if held < self._min_hold_seconds:
                 return Signal(symbol, "hold", 0.0, "min_hold")
-            hard_reversal = (recently_crossed_down or diff < 0) and rel_diff >= self._reversal_threshold
+            hard_reversal = fast[-1] < slow[-1] and rel_diff >= self._reversal_threshold
             if hard_reversal:
                 self._last_signal_time[symbol] = now
                 return Signal(symbol, "sell", strength, "momentum_reversal")
