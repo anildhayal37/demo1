@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NSE Stock Analysis Agent</title>
+<style>
+  :root {
+    --bg: #0d1117; --panel: #161b22; --border: #30363d;
+    --text: #e6edf3; --muted: #8b949e; --accent: #2f81f7;
+    --green: #3fb950; --red: #f85149; --amber: #d29922;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 14px/1.5 -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 24px 16px 60px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin-bottom: 20px; }
+  .card { background: var(--panel); border: 1px solid var(--border);
+          border-radius: 10px; padding: 18px; margin-bottom: 18px; }
+  form { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; }
+  label { display: block; color: var(--muted); font-size: 12px; margin-bottom: 4px; }
+  input, select { background: var(--bg); color: var(--text); border: 1px solid var(--border);
+                  border-radius: 6px; padding: 8px 10px; font-size: 14px; width: 140px; }
+  button { background: var(--accent); color: #fff; border: 0; border-radius: 6px;
+           padding: 9px 20px; font-size: 14px; font-weight: 600; cursor: pointer; }
+  button:disabled { opacity: .5; cursor: default; }
+  .status { margin-top: 10px; color: var(--muted); }
+  .status.running::before { content: "⏳ "; }
+  .status.error { color: var(--red); }
+  h2 { font-size: 16px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; white-space: nowrap; }
+  tr:hover td { background: rgba(255,255,255,.03); }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+  .tag.STRONGBUY { background: rgba(63,185,80,.2); color: var(--green); }
+  .tag.BUY  { background: rgba(47,129,247,.2); color: var(--accent); }
+  .tag.SELL { background: rgba(248,81,73,.2); color: var(--red); }
+  .tag.HOLD { background: rgba(210,153,34,.2); color: var(--amber); }
+  .pos { color: var(--green); } .neg { color: var(--red); }
+  .why { color: var(--muted); font-size: 12px; }
+  .disclaimer { color: var(--muted); font-size: 12px; border-top: 1px solid var(--border);
+                margin-top: 30px; padding-top: 12px; }
+  details summary { cursor: pointer; color: var(--accent); font-size: 12px; }
+  details li { font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>📈 NSE Stock Analysis Agent</h1>
+  <div class="sub">Nifty 500 scanner — investment picks, intraday signals (ORB / VWAP / momentum), news sentiment, and 2%-rule position sizing.</div>
+
+  <div class="card">
+    <form id="scanForm">
+      <div><label>Capital (INR)</label><input type="number" id="capital" value="100000" min="1000"></div>
+      <div><label>Mode</label>
+        <select id="mode">
+          <option value="both">Invest + Intraday</option>
+          <option value="invest">Invest only</option>
+          <option value="intraday">Intraday only</option>
+        </select></div>
+      <div><label>Top picks</label><input type="number" id="top" value="10" min="1" max="50"></div>
+      <div><label>Universe limit <span title="Scan only first N symbols — faster">(?)</span></label>
+        <input type="number" id="limit" placeholder="all 500"></div>
+      <button id="runBtn" type="submit">Run scan</button>
+    </form>
+    <div class="status" id="status">Idle — configure and hit Run. A full 500-stock scan takes a few minutes.</div>
+  </div>
+
+  <div id="results"></div>
+  <div class="disclaimer" id="disclaimer"></div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let poller = null;
+
+$("scanForm").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const body = {
+    capital: +$("capital").value || 100000,
+    mode: $("mode").value,
+    top: +$("top").value || 10,
+    limit: $("limit").value ? +$("limit").value : null,
+  };
+  const r = await fetch("/api/scan", { method: "POST",
+    headers: {"Content-Type": "application/json"}, body: JSON.stringify(body) });
+  if (!r.ok) { const j = await r.json(); setStatus("error", j.error || "failed"); return; }
+  setStatus("running", "Scanning… fetching data, scoring stocks, checking news.");
+  $("runBtn").disabled = true;
+  if (poller) clearInterval(poller);
+  poller = setInterval(poll, 2500);
+});
+
+function setStatus(cls, msg) {
+  const el = $("status");
+  el.className = "status " + cls;
+  el.textContent = msg;
+}
+
+async function poll() {
+  const s = await (await fetch("/api/status")).json();
+  $("disclaimer").textContent = "⚠️ " + s.disclaimer;
+  if (s.status === "running") {
+    setStatus("running", `Scanning… ${s.elapsed_sec ?? 0}s elapsed.`);
+  } else if (s.status === "error") {
+    clearInterval(poller); $("runBtn").disabled = false;
+    setStatus("error", "Scan failed: " + s.error);
+  } else if (s.status === "done") {
+    clearInterval(poller); $("runBtn").disabled = false;
+    setStatus("", "Done. Scanned " + (s.report.universe_size ?? "?") + " stocks.");
+    render(s.report);
+  }
+}
+
+const inr = (x) => "₹" + Math.round(x).toLocaleString("en-IN");
+
+function render(rep) {
+  let html = "";
+  if (rep.investment_picks) {
+    html += `<div class="card"><h2>💼 Investment picks</h2><table><tr>
+      <th>#</th><th>Stock</th><th>Rating</th><th>Score</th><th>Price</th>
+      <th>3m / 6m</th><th>RSI</th><th>News</th><th>Buy qty</th><th>Amount</th></tr>`;
+    rep.investment_picks.forEach((p, i) => {
+      const f = p.factors, tag = p.rating.replace(" ", "");
+      const news = p.news_sentiment > 0.1 ? `<span class="pos">+${p.news_sentiment}</span>`
+                 : p.news_sentiment < -0.1 ? `<span class="neg">${p.news_sentiment}</span>`
+                 : `<span class="why">${p.news_sentiment}</span>`;
+      html += `<tr><td>${i+1}</td><td><b>${p.symbol}</b></td>
+        <td><span class="tag ${tag}">${p.rating}</span></td>
+        <td>${p.score}</td><td>${inr(p.close)}</td>
+        <td><span class="${f.ret_3m_pct>=0?'pos':'neg'}">${f.ret_3m_pct}%</span> /
+            <span class="${f.ret_6m_pct>=0?'pos':'neg'}">${f.ret_6m_pct}%</span></td>
+        <td>${f.rsi}</td><td>${news}</td>
+        <td>${p.suggested_quantity}</td><td>${inr(p.approx_invest_inr)}</td></tr>`;
+      if (p.headlines && p.headlines.length) {
+        html += `<tr><td></td><td colspan="9"><details><summary>headlines</summary><ul>` +
+          p.headlines.map(h => `<li>${h}</li>`).join("") + `</ul></details></td></tr>`;
+      }
+    });
+    html += "</table></div>";
+  }
+  if (rep.intraday_signals) {
+    html += `<div class="card"><h2>⚡ Intraday signals</h2>`;
+    if (!rep.intraday_signals.length) {
+      html += `<div class="why">No high-confluence setups right now. Signals are best
+        during market hours (9:15–15:30 IST), after the first 30 minutes.</div>`;
+    } else {
+      html += `<table><tr><th>Stock</th><th>Side</th><th>Strategy</th><th>Entry</th>
+        <th>Stop</th><th>Target</th><th>Qty</th><th>Deploy</th><th>Max loss</th>
+        <th>Potential</th><th>Conf.</th></tr>`;
+      rep.intraday_signals.forEach(s => {
+        const p = s.position;
+        html += `<tr><td><b>${s.symbol}</b></td>
+          <td><span class="tag ${s.side}">${s.side}</span></td>
+          <td>${s.strategy}</td><td>${inr(s.entry)}</td><td>${inr(s.stop_loss)}</td>
+          <td>${inr(s.target)}</td><td>${p.quantity}</td><td>${inr(p.invest_amount)}</td>
+          <td class="neg">${inr(p.risk_amount)}</td><td class="pos">${inr(p.potential_profit)}</td>
+          <td>${Math.round(s.confidence*100)}%</td></tr>
+          <tr><td></td><td colspan="10" class="why">${s.reason}</td></tr>`;
+      });
+      html += "</table>";
+    }
+    html += "</div>";
+  }
+  $("results").innerHTML = html;
+}
+
+poll(); // show cached results if any
+</script>
+</body>
+</html>

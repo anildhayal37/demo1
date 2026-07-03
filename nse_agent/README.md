@@ -52,6 +52,44 @@ export ANTHROPIC_API_KEY=sk-ant-...   # then:
 python -m nse_agent --ai
 ```
 
+## Web dashboard
+
+```bash
+pip install -r nse_agent/requirements.txt
+uvicorn nse_agent.server:app --host 0.0.0.0 --port 8000
+# or: python -m nse_agent.server
+```
+
+Open **http://localhost:8000** — set your capital, pick a mode, hit *Run scan*,
+and the dashboard shows investment picks and intraday signals with quantities,
+amounts, stops, targets, and news headlines. Scans run in the background; the
+page polls until results are ready.
+
+### Deploying to the web
+
+Any host that runs a Python web process works. The start command is always:
+
+```bash
+uvicorn nse_agent.server:app --host 0.0.0.0 --port $PORT
+```
+
+- **Render / Railway / Fly.io** — create a new web service from this repo,
+  set the build command to `pip install -r nse_agent/requirements.txt` and the
+  start command above. Free tiers are enough for personal use.
+- **Your own VPS** — `pip install -r nse_agent/requirements.txt`, run uvicorn
+  behind nginx/caddy, or just expose port 8000.
+- **Quick share from your laptop** — run locally, then tunnel with
+  `ngrok http 8000` (or `cloudflared tunnel --url http://localhost:8000`).
+
+Notes for hosting:
+- Yahoo Finance rate-limits aggressively from shared/cloud IPs — if a full
+  500-stock scan fails on a cloud host, use the *Universe limit* field (e.g.
+  200) or run bigger scans from a residential connection.
+- The server runs one scan at a time and holds results in memory — fine for
+  personal use, not designed for many concurrent users.
+- There is no authentication built in. If you expose it publicly, put it
+  behind basic auth on your reverse proxy.
+
 ## Example output
 
 ```
