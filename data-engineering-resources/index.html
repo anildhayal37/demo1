@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Engineering Resources</title>
+</head>
+<body>
+<style>
+  :root {
+    --bg: #F1F4F6;
+    --surface: #FFFFFF;
+    --ink: #131C24;
+    --muted: #5B6C7D;
+    --line: #C9D3DB;
+    --line-soft: #DDE4E9;
+    --accent: #E05A10;
+    --accent-ink: #FFFFFF;
+    --accent-wash: #FBEADF;
+    --chip: #E7ECF0;
+    --code: #22303C;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0D1319;
+      --surface: #141C24;
+      --ink: #E2E9EF;
+      --muted: #90A1B0;
+      --line: #2C3946;
+      --line-soft: #22303C;
+      --accent: #F4762E;
+      --accent-ink: #10161C;
+      --accent-wash: #2A1E14;
+      --chip: #1D2833;
+      --code: #E2E9EF;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0D1319; --surface: #141C24; --ink: #E2E9EF; --muted: #90A1B0;
+    --line: #2C3946; --line-soft: #22303C; --accent: #F4762E; --accent-ink: #10161C;
+    --accent-wash: #2A1E14; --chip: #1D2833; --code: #E2E9EF;
+  }
+  :root[data-theme="light"] {
+    --bg: #F1F4F6; --surface: #FFFFFF; --ink: #131C24; --muted: #5B6C7D;
+    --line: #C9D3DB; --line-soft: #DDE4E9; --accent: #E05A10; --accent-ink: #FFFFFF;
+    --accent-wash: #FBEADF; --chip: #E7ECF0; --code: #22303C;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { animation: none !important; transition: none !important; }
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  a { color: inherit; }
+  a:focus-visible, input:focus-visible, button:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 2px;
+  }
+  .mono {
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+    letter-spacing: .08em; text-transform: uppercase; font-size: .72rem;
+  }
+
+  /* ---------- shell ---------- */
+  .shell { max-width: 1160px; margin: 0 auto; padding: 0 20px 96px; }
+  .grid { display: grid; grid-template-columns: 236px minmax(0, 1fr); gap: 40px; }
+  @media (max-width: 860px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+
+  /* ---------- hero ---------- */
+  header.hero { border-bottom: 1px solid var(--line); padding: 44px 0 36px; margin-bottom: 40px; }
+  .hero-top { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  .hero-eyebrow { color: var(--accent); font-weight: 600; }
+  .hero h1 {
+    font-size: clamp(2rem, 5vw, 3.1rem); line-height: 1.05; letter-spacing: -0.02em;
+    font-weight: 800; margin: 14px 0 16px; text-wrap: balance; max-width: 20ch;
+  }
+  .hero p.lede { max-width: 62ch; color: var(--muted); margin: 0 0 22px; }
+  .hero-stats { display: flex; gap: 28px; flex-wrap: wrap; color: var(--muted); }
+  .hero-stats strong { display: block; font-size: 1.5rem; color: var(--ink); font-variant-numeric: tabular-nums; }
+
+  /* DAG schematic */
+  .dag { margin-top: 30px; border: 1px solid var(--line); background: var(--surface); overflow-x: auto; }
+  .dag svg { display: block; min-width: 720px; width: 100%; height: auto; }
+  .dag .edge { stroke: var(--line); stroke-width: 1.5; fill: none; }
+  .dag .flow { stroke: var(--accent); stroke-width: 1.5; fill: none; stroke-dasharray: 6 8; animation: flow 2.4s linear infinite; }
+  @keyframes flow { to { stroke-dashoffset: -14; } }
+  .dag .node { fill: var(--surface); stroke: var(--line); stroke-width: 1.5; }
+  .dag .node.hot { stroke: var(--accent); }
+  .dag text { fill: var(--ink); font: 600 11px ui-monospace, Menlo, Consolas, monospace; letter-spacing: .06em; }
+  .dag text.sub { fill: var(--muted); font-weight: 400; font-size: 10px; }
+
+  /* ---------- sidebar ---------- */
+  nav.rail { position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 16px 0 24px; }
+  @media (max-width: 860px) { nav.rail { position: static; max-height: none; border-bottom: 1px solid var(--line); margin-bottom: 8px; } }
+  .rail-group { margin: 0 0 18px; }
+  .rail-group .mono { color: var(--muted); display: block; margin-bottom: 6px; }
+  .rail a {
+    display: block; text-decoration: none; padding: 5px 10px; color: var(--ink);
+    border-left: 2px solid transparent; font-size: .92rem;
+  }
+  .rail a:hover { background: var(--chip); }
+  .rail a.active { border-left-color: var(--accent); background: var(--chip); font-weight: 600; }
+
+  /* ---------- search ---------- */
+  .search { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 14px 0 12px; border-bottom: 1px solid var(--line-soft); margin-bottom: 30px; }
+  .search input {
+    width: 100%; padding: 11px 14px; font: inherit; color: var(--ink);
+    background: var(--surface); border: 1px solid var(--line); border-radius: 0;
+  }
+  .search input::placeholder { color: var(--muted); }
+  .search .count { color: var(--muted); margin-top: 6px; display: block; }
+
+  /* ---------- topic sections ---------- */
+  section.topic { border: 1px solid var(--line); background: var(--surface); margin-bottom: 34px; scroll-margin-top: 84px; }
+  .topic-head { padding: 22px 26px 18px; border-bottom: 1px solid var(--line-soft); }
+  .topic-head .mono { color: var(--accent); }
+  .topic-head h2 { margin: 6px 0 8px; font-size: 1.45rem; letter-spacing: -0.01em; font-weight: 750; }
+  .topic-head p { margin: 0; color: var(--muted); max-width: 68ch; }
+  .skills { display: flex; flex-wrap: wrap; gap: 8px; padding: 14px 26px; border-bottom: 1px solid var(--line-soft); }
+  .skills span { background: var(--chip); color: var(--ink); padding: 3px 10px; font-size: .78rem; }
+
+  .res { list-style: none; margin: 0; padding: 0; }
+  .res li { display: grid; grid-template-columns: 92px minmax(0,1fr); gap: 14px; padding: 14px 26px; border-bottom: 1px solid var(--line-soft); }
+  .res li:last-child { border-bottom: 0; }
+  @media (max-width: 560px) { .res li { grid-template-columns: minmax(0,1fr); gap: 4px; } }
+  .tag { color: var(--accent); font-weight: 700; padding-top: 3px; }
+  .res a { font-weight: 600; text-decoration: none; border-bottom: 1px solid var(--line); }
+  .res a:hover { border-bottom-color: var(--accent); color: var(--accent); }
+  .res p { margin: 3px 0 0; color: var(--muted); font-size: .92rem; max-width: 70ch; }
+  .free { background: var(--accent-wash); color: var(--accent); font-weight: 700; padding: 1px 7px; margin-left: 8px; font-size: .68rem; }
+
+  /* ---------- roadmap ---------- */
+  .phases { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0; border-top: 1px solid var(--line-soft); }
+  .phase { padding: 18px 22px; border-right: 1px solid var(--line-soft); border-bottom: 1px solid var(--line-soft); }
+  .phase .mono { color: var(--accent); }
+  .phase h3 { margin: 6px 0 8px; font-size: 1rem; }
+  .phase p { margin: 0; color: var(--muted); font-size: .9rem; }
+
+  .divider { margin: 46px 0 30px; }
+  .divider .mono { color: var(--muted); }
+  .divider h2 { margin: 4px 0 0; font-size: 1.15rem; letter-spacing: .01em; }
+
+  footer { border-top: 1px solid var(--line); margin-top: 56px; padding-top: 22px; color: var(--muted); font-size: .9rem; }
+  .hidden { display: none !important; }
+</style>
+
+<div class="shell">
+  <header class="hero">
+    <div class="hero-top">
+      <span class="mono hero-eyebrow">source → ingest → transform → serve</span>
+      <span class="mono" style="color:var(--muted)">curated · 2026</span>
+    </div>
+    <h1>The Data Engineer's Resource Stack</h1>
+    <p class="lede">A curated, opinionated map of the best free docs, courses, books, and hands-on labs for every layer of the modern data stack — from Python and SQL fundamentals through Spark, the three clouds, Databricks and Snowflake, orchestration, and system design. Use the search to filter, or work through the roadmap in order.</p>
+    <div class="hero-stats">
+      <div><strong>16</strong><span class="mono">topics</span></div>
+      <div><strong>100+</strong><span class="mono">resources</span></div>
+      <div><strong>6</strong><span class="mono">roadmap phases</span></div>
+    </div>
+    <div class="dag" aria-hidden="true">
+      <svg viewBox="0 0 900 190" role="img" aria-label="Pipeline schematic: sources flow through ingestion and transformation into a warehouse and serving layers">
+        <path class="edge" d="M150 45 C 210 45, 210 75, 260 82"/>
+        <path class="edge" d="M150 95 L 260 95"/>
+        <path class="edge" d="M150 145 C 210 145, 210 115, 260 108"/>
+        <path class="flow" d="M400 95 L 470 95"/>
+        <path class="flow" d="M610 95 L 680 95"/>
+        <path class="edge" d="M820 95 C 850 95, 850 60, 880 60" opacity="0"/>
+        <rect class="node" x="40" y="28" width="110" height="34"/>
+        <text x="52" y="49">APIS · EVENTS</text>
+        <rect class="node" x="40" y="78" width="110" height="34"/>
+        <text x="52" y="99">OLTP · CDC</text>
+        <rect class="node" x="40" y="128" width="110" height="34"/>
+        <text x="52" y="149">FILES · LOGS</text>
+        <rect class="node hot" x="260" y="72" width="140" height="46"/>
+        <text x="276" y="92">INGEST</text>
+        <text class="sub" x="276" y="106">kafka · nifi · adf</text>
+        <rect class="node hot" x="470" y="72" width="140" height="46"/>
+        <text x="486" y="92">TRANSFORM</text>
+        <text class="sub" x="486" y="106">spark · dbt · sql</text>
+        <rect class="node hot" x="680" y="72" width="150" height="46"/>
+        <text x="696" y="92">WAREHOUSE</text>
+        <text class="sub" x="696" y="106">snowflake · lakehouse</text>
+        <path class="edge" d="M755 72 C 755 40, 700 30, 660 30"/>
+        <rect class="node" x="530" y="12" width="130" height="30"/>
+        <text x="544" y="31">ORCHESTRATE</text>
+        <path class="edge" d="M755 118 C 755 152, 700 160, 660 160"/>
+        <rect class="node" x="520" y="145" width="140" height="30"/>
+        <text x="534" y="164">BI · ML · APPS</text>
+      </svg>
+    </div>
+  </header>
+
+  <div class="grid">
+    <nav class="rail" aria-label="Topic index">
+      <div class="rail-group">
+        <span class="mono">Start here</span>
+        <a href="#roadmap">Learning roadmap</a>
+      </div>
+      <div class="rail-group">
+        <span class="mono">Foundations</span>
+        <a href="#python">Python</a>
+        <a href="#sql-ssms">SQL &amp; SSMS</a>
+        <a href="#data-modeling">Data modeling</a>
+      </div>
+      <div class="rail-group">
+        <span class="mono">Processing</span>
+        <a href="#spark">Apache Spark</a>
+        <a href="#pyspark">PySpark</a>
+      </div>
+      <div class="rail-group">
+        <span class="mono">Cloud platforms</span>
+        <a href="#aws">AWS</a>
+        <a href="#azure">Azure</a>
+        <a href="#gcp">GCP</a>
+      </div>
+      <div class="rail-group">
+        <span class="mono">Lakehouse &amp; warehouse</span>
+        <a href="#databricks">Databricks</a>
+        <a href="#snowflake">Snowflake</a>
+      </div>
+      <div class="rail-group">
+        <span class="mono">Orchestration &amp; ETL</span>
+        <a href="#airflow">Apache Airflow</a>
+        <a href="#ssis">SSIS</a>
+        <a href="#nifi">Apache NiFi</a>
+      </div>
+      <div class="rail-group">
+        <span class="mono">Ops &amp; beyond</span>
+        <a href="#bigpanda">BigPanda &amp; AIOps</a>
+        <a href="#ml-for-de">ML for data engineers</a>
+        <a href="#system-design">System design</a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="search">
+        <label class="mono" for="q" style="color:var(--muted); display:block; margin-bottom:6px">Filter resources</label>
+        <input id="q" type="search" placeholder="Try: certification, streaming, free course, Kimball, Delta Lake…" autocomplete="off">
+        <span class="count mono" id="count"></span>
+      </div>
+
+      <section class="topic" id="roadmap">
+        <div class="topic-head">
+          <span class="mono">00 · Start here</span>
+          <h2>Learning roadmap</h2>
+          <p>A pragmatic order of attack. Each phase builds on the last; pick one cloud in phase 3 and go deep rather than wide — the concepts transfer.</p>
+        </div>
+        <div class="phases">
+          <div class="phase"><span class="mono">Phase 1</span><h3>Foundations</h3><p>Python + SQL until they're reflexes. Model a small star schema by hand. (~4–6 weeks)</p></div>
+          <div class="phase"><span class="mono">Phase 2</span><h3>Distributed processing</h3><p>Spark internals, then PySpark hands-on: DataFrames, joins, partitions, tuning. (~4 weeks)</p></div>
+          <div class="phase"><span class="mono">Phase 3</span><h3>One cloud, deep</h3><p>AWS, Azure, or GCP — storage, warehouse, streaming, IAM. Take the cert path as a syllabus. (~6 weeks)</p></div>
+          <div class="phase"><span class="mono">Phase 4</span><h3>Lakehouse &amp; warehouse</h3><p>Databricks (Delta Lake, Unity Catalog) and Snowflake fundamentals. (~3–4 weeks)</p></div>
+          <div class="phase"><span class="mono">Phase 5</span><h3>Orchestration &amp; ops</h3><p>Airflow DAGs, plus the ETL tool your shop uses (SSIS / NiFi). Monitoring &amp; alerting basics. (~3 weeks)</p></div>
+          <div class="phase"><span class="mono">Phase 6</span><h3>Design &amp; ML</h3><p>DDIA, system-design interviews, feature pipelines and MLOps handoffs. (ongoing)</p></div>
+        </div>
+      </section>
+
+      <div class="divider"><span class="mono">Part 1</span><h2>Foundations</h2></div>
+
+      <section class="topic" id="python">
+        <div class="topic-head">
+          <span class="mono">01 · Foundations</span>
+          <h2>Python</h2>
+          <p>The lingua franca of data engineering — pipeline glue, PySpark driver, Airflow DAG language, and testing framework all at once. Aim for fluency with data structures, comprehensions, typing, and packaging, not just scripts.</p>
+        </div>
+        <div class="skills">
+          <span>data structures</span><span>OOP &amp; typing</span><span>pandas</span><span>virtualenv/uv</span><span>pytest</span><span>API clients</span><span>logging</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Docs</span><div><a href="https://docs.python.org/3/tutorial/" rel="noopener">Official Python Tutorial</a><span class="free">free</span><p>Still the best structured intro; read chapters 3–9 carefully, skim the rest, return often.</p></div></li>
+          <li><span class="tag mono">Book</span><div><a href="https://wesmckinney.com/book/" rel="noopener">Python for Data Analysis — Wes McKinney</a><span class="free">free online</span><p>By the creator of pandas. The open-access 3rd edition is the canonical pandas + NumPy reference.</p></div></li>
+          <li><span class="tag mono">Book</span><div><a href="https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/" rel="noopener">Fluent Python (2nd ed.) — Luciano Ramalho</a><p>Takes you from "writes Python" to "thinks in Python": data model, iterators, decorators, concurrency.</p></div></li>
+          <li><span class="tag mono">Course</span><div><a href="https://realpython.com/" rel="noopener">Real Python</a><span class="free">free tier</span><p>Deep, well-edited tutorials — their pieces on virtual environments, logging, and pytest are DE staples.</p></div></li>
+          <li><span class="tag mono">Practice</span><div><a href="https://leetcode.com/problemset/" rel="noopener">LeetCode (Easy/Medium)</a> · <a href="https://www.hackerrank.com/domains/python" rel="noopener">HackerRank Python</a><p>Interview screens for DE roles lean on string/dict/list manipulation — 50–75 problems is plenty.</p></div></li>
+          <li><span class="tag mono">Hands-on</span><div><a href="https://github.com/DataTalksClub/data-engineering-zoomcamp" rel="noopener">DataTalksClub Data Engineering Zoomcamp</a><span class="free">free</span><p>A full project-based DE bootcamp on GitHub — Docker, Terraform, orchestration, warehousing, Spark, streaming. The single best free end-to-end resource on this page.</p></div></li>
+        </ul>
+      </section>
+
+      <section class="topic" id="sql-ssms">
+        <div class="topic-head">
+          <span class="mono">02 · Foundations</span>
+          <h2>SQL, SQL Server &amp; SSMS</h2>
+          <p>SQL is the one skill every data engineering interview tests. SSMS (SQL Server Management Studio) remains the daily driver in Microsoft shops — learn it together with T-SQL, execution plans, and index basics.</p>
+        </div>
+        <div class="skills">
+          <span>window functions</span><span>CTEs</span><span>query plans</span><span>indexing</span><span>T-SQL</span><span>stored procedures</span><span>SSMS tooling</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Course</span><div><a href="https://mode.com/sql-tutorial" rel="noopener">Mode SQL Tutorial</a><span class="free">free</span><p>The best free path from basics to window functions and query optimization, with a live editor.</p></div></li>
+          <li><span class="tag mono">Practice</span><div><a href="https://datalemur.com/" rel="noopener">DataLemur</a> · <a href="https://www.stratascratch.com/" rel="noopener">StrataScratch</a><span class="free">free tiers</span><p>Real FAANG-style SQL interview questions with difficulty ratings — the fastest way to interview-ready SQL.</p></div></li>
+          <li><span class="tag mono">Docs</span><div><a href="https://learn.microsoft.com/en-us/ssms/sql-server-management-studio-ssms" rel="noopener">SSMS Documentation — Microsoft Learn</a><span class="free">free</span><p>Installation, Object Explorer, query editor, execution plans, and profiling from the source.</p></div></li>
+          <li><span class="tag mono">Book</span><div><a href="https://www.oreilly.com/library/view/t-sql-fundamentals-4th/9780138101930/" rel="noopener">T-SQL Fundamentals — Itzik Ben-Gan</a><p>The definitive T-SQL text: logical query processing, windowing, sets — worth reading even if you use another dialect.</p></div></li>
+          <li><span class="tag mono">Blog</span><div><a href="https://www.brentozar.com/blitz/" rel="noopener">Brent Ozar — SQL Server Health &amp; Performance</a><span class="free">free</span><p>Practical performance tuning, wait stats, and index advice from the most-read SQL Server practitioner.</p></div></li>
+          <li><span class="tag mono">Practice</span><div><a href="https://sqlbolt.com/" rel="noopener">SQLBolt</a><span class="free">free</span><p>Quick interactive drills — ideal as a refresher or absolute-beginner on-ramp before Mode.</p></div></li>
+        </ul>
+      </section>
+
+      <section class="topic" id="data-modeling">
+        <div class="topic-head">
+          <span class="mono">03 · Foundations</span>
+          <h2>Data Modeling</h2>
+          <p>The skill that separates pipeline writers from data engineers. Dimensional modeling (Kimball) is still the interview standard; layer on lakehouse patterns (medallion) and know when Data Vault or One Big Table applies.</p>
+        </div>
+        <div class="skills">
+          <span>star schema</span><span>SCD types 1–2</span><span>normalization</span><span>grain</span><span>medallion architecture</span><span>data vault</span><span>dbt layers</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Book</span><div><a href="https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/books/data-warehouse-dw-toolkit/" rel="noopener">The Data Warehouse Toolkit (3rd ed.) — Kimball &amp; Ross</a><p>The dimensional-modeling bible. Chapters 1–6 plus the retail/order case studies cover 90% of interview questions.</p></div></li>
+          <li><span class="tag mono">Reference</span><div><a href="https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/" rel="noopener">Kimball Dimensional Modeling Techniques</a><span class="free">free</span><p>The official condensed cheat-sheet of every Kimball technique — conformed dimensions, SCDs, bridge tables.</p></div></li>
+          <li><span class="tag mono">Guide</span><div><a href="https://docs.getdbt.com/best-practices/how-we-structure/1-guide-overview" rel="noopener">dbt — How We Structure Our Projects</a><span class="free">free</span><p>Modern staging → intermediate → marts layering; how modeling actually gets practiced in analytics engineering.</p></div></li>
+          <li><span class="tag mono">Guide</span><div><a href="https://www.databricks.com/glossary/medallion-architecture" rel="noopener">Medallion Architecture (Bronze/Silver/Gold) — Databricks</a><span class="free">free</span><p>The default lakehouse layering pattern; know it cold for any Databricks-adjacent role.</p></div></li>
+          <li><span class="tag mono">Book</span><div><a href="https://www.oreilly.com/library/view/agile-data-warehouse/9780956817204/" rel="noopener">Agile Data Warehouse Design — Corr &amp; Stagnitto</a><p>BEAM: modeling by asking business questions first. The most practical "how do I start" companion to Kimball.</p></div></li>
+          <li><span class="tag mono">Blog</span><div><a href="https://www.ssp.sh/brain/data-modeling/" rel="noopener">Data Modeling — ssp.sh knowledge base</a><span class="free">free</span><p>A living map of modeling approaches — Kimball vs Data Vault vs OBT — with links into the source debates.</p></div></li>
+        </ul>
+      </section>
+
+      <div class="divider"><span class="mono">Part 2</span><h2>Distributed processing</h2></div>
+
+      <section class="topic" id="spark">
+        <div class="topic-head">
+          <span class="mono">04 · Processing</span>
+          <h2>Apache Spark</h2>
+          <p>The engine behind Databricks, EMR, Synapse Spark pools, and Dataproc. Understand the execution model — driver, executors, stages, shuffles, Catalyst, AQE — before memorizing APIs; tuning questions dominate senior interviews.</p>
+        </div>
+        <div class="skills">
+          <span>DataFrame API</span><span>lazy evaluation</span><span>shuffles &amp; partitions</span><span>Catalyst &amp; AQE</span><span>broadcast joins</span><span>Spark UI</span><span>Structured Streaming</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Docs</span><div><a href="https://spark.apache.org/docs/latest/" rel="noopener">Apache Spark Official Documentation</a><span class="free">free</span><p>The SQL/DataFrame guide and the tuning + performance pages are required reading.</p></div></li>
+          <li><span class="tag mono">Book</span><div><a href="https://www.databricks.com/resources/ebook/learning-spark-2nd-edition" rel="noopener">Learning Spark, 2nd Edition</a><span class="free">free PDF</span><p>Free from Databricks; the cleanest modern (3.x) introduction to DataFrames, Spark SQL, and streaming.</p></div></li>
+          <li><span class="tag mono">Book</span><div><a href="https://www.oreilly.com/library/view/spark-the-definitive/9781491912201/" rel="noopener">Spark: The Definitive Guide — Chambers &amp; Zaharia</a><p>Deeper coverage of internals and low-level APIs, co-authored by Spark's creator.</p></div></li>
+          <li><span class="tag mono">Course</span><div><a href="https://www.databricks.com/learn/training/home" rel="noopener">Databricks Academy — Self-Paced Spark Courses</a><span class="free">free</span><p>Free self-paced training including the prep path for the Spark Developer Associate certification.</p></div></li>
+          <li><span class="tag mono">Deep dive</span><div><a href="https://spark.apache.org/docs/latest/sql-performance-tuning.html" rel="noopener">Spark SQL Performance Tuning Guide</a><span class="free">free</span><p>AQE, skew-join handling, broadcast thresholds, caching — the source material for every tuning interview answer.</p></div></li>
+          <li><span class="tag mono">Video</span><div><a href="https://www.youtube.com/c/Databricks" rel="noopener">Databricks YouTube — Data+AI Summit talks</a><span class="free">free</span><p>Search "Spark internals" and "shuffle" — conference deep-dives from the engineers who build it.</p></div></li>
+        </ul>
+      </section>
+
+      <section class="topic" id="pyspark">
+        <div class="topic-head">
+          <span class="mono">05 · Processing</span>
+          <h2>PySpark</h2>
+          <p>How 90% of data engineers actually use Spark. Focus on DataFrame transformations, window functions, UDF trade-offs (prefer built-ins and pandas UDFs), and reading the Spark UI when your job crawls.</p>
+        </div>
+        <div class="skills">
+          <span>select/withColumn</span><span>joins &amp; skew</span><span>window specs</span><span>pandas UDFs</span><span>partitioning strategy</span><span>Delta read/write</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Docs</span><div><a href="https://spark.apache.org/docs/latest/api/python/" rel="noopener">PySpark API Reference</a><span class="free">free</span><p>Keep the <code>pyspark.sql.functions</code> page permanently open; it answers most day-to-day questions.</p></div></li>
+          <li><span class="tag mono">Book</span><div><a href="https://www.manning.com/books/data-analysis-with-python-and-pyspark" rel="noopener">Data Analysis with Python and PySpark — Jonathan Rioux</a><p>The best PySpark-specific book: idiomatic DataFrame code, window functions, UDF performance.</p></div></li>
+          <li><span class="tag mono">Tutorial</span><div><a href="https://sparkbyexamples.com/pyspark-tutorial/" rel="noopener">Spark By Examples — PySpark</a><span class="free">free</span><p>Copy-paste-ready recipes for nearly every transformation; ideal as a working reference.</p></div></li>
+          <li><span class="tag mono">Hands-on</span><div><a href="https://community.cloud.databricks.com/" rel="noopener">Databricks Free Edition</a><span class="free">free</span><p>A free hosted workspace — the lowest-friction way to run real PySpark on real clusters today.</p></div></li>
+          <li><span class="tag mono">Practice</span><div><a href="https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/05-batch" rel="noopener">DE Zoomcamp — Batch Processing module</a><span class="free">free</span><p>Guided PySpark homework on real NYC taxi data: ingestion, transformations, and SQL over millions of rows.</p></div></li>
+          <li><span class="tag mono">Deep dive</span><div><a href="https://www.databricks.com/blog/2020/05/29/adaptive-query-execution-speeding-up-spark-sql-at-runtime.html" rel="noopener">Adaptive Query Execution explained — Databricks blog</a><span class="free">free</span><p>Why your Spark 3 job re-plans itself at runtime, and how to reason about it when tuning.</p></div></li>
+        </ul>
+      </section>
+
+      <div class="divider"><span class="mono">Part 3</span><h2>Cloud platforms</h2></div>
+
+      <section class="topic" id="aws">
+        <div class="topic-head">
+          <span class="mono">06 · Cloud</span>
+          <h2>AWS for Data Engineering</h2>
+          <p>The largest job market of the three clouds. The core service map: S3 (lake) → Glue (catalog/ETL) → Athena/Redshift (query/warehouse) → Kinesis/MSK (streaming) → EMR (Spark) → Step Functions/MWAA (orchestration), with IAM and Lake Formation across everything.</p>
+        </div>
+        <div class="skills">
+          <span>S3 &amp; partitioning</span><span>Glue &amp; Data Catalog</span><span>Redshift</span><span>Athena</span><span>Kinesis</span><span>EMR</span><span>Lambda</span><span>IAM</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Cert path</span><div><a href="https://aws.amazon.com/certification/certified-data-engineer-associate/" rel="noopener">AWS Certified Data Engineer — Associate (DEA-C01)</a><p>Use the exam guide as your syllabus even if you never sit the exam — it enumerates exactly what AWS DEs must know.</p></div></li>
+          <li><span class="tag mono">Course</span><div><a href="https://skillbuilder.aws/" rel="noopener">AWS Skill Builder</a><span class="free">free tier</span><p>Official training. The free "Data Engineering on AWS" learning plan plus service-intro courses cover the foundations.</p></div></li>
+          <li><span class="tag mono">Hands-on</span><div><a href="https://workshops.aws/" rel="noopener">AWS Workshops</a><span class="free">free</span><p>Self-paced labs with real console walkthroughs — search Glue, Redshift, and Kinesis workshops.</p></div></li>
+          <li><span class="tag mono">Docs</span><div><a href="https://docs.aws.amazon.com/whitepapers/latest/aws-overview/analytics.html" rel="noopener">AWS Analytics Services Overview</a><span class="free">free</span><p>One page that positions every analytics service against its neighbors — read first to build the mental map.</p></div></li>
+          <li><span class="tag mono">Blog</span><div><a href="https://aws.amazon.com/blogs/big-data/" rel="noopener">AWS Big Data Blog</a><span class="free">free</span><p>Reference architectures and migration stories; excellent for "how would you design…" interview prep.</p></div></li>
+          <li><span class="tag mono">Course</span><div><a href="https://learn.cantrill.io/" rel="noopener">Adrian Cantrill — AWS courses</a><p>Widely regarded as the deepest third-party AWS training; the SA-Associate course builds the platform fundamentals DEs need.</p></div></li>
+        </ul>
+      </section>
+
+      <section class="topic" id="azure">
+        <div class="topic-head">
+          <span class="mono">07 · Cloud</span>
+          <h2>Azure for Data Engineering</h2>
+          <p>Dominant in enterprise/consulting environments. The map: ADLS Gen2 (lake) → Azure Data Factory (ingestion/orchestration) → Azure Databricks or Synapse (processing) → Microsoft Fabric (the new unified analytics platform) → Event Hubs (streaming), with Entra ID and Purview for governance.</p>
+        </div>
+        <div class="skills">
+          <span>ADLS Gen2</span><span>Data Factory</span><span>Synapse</span><span>Microsoft Fabric</span><span>Event Hubs</span><span>Azure Databricks</span><span>Purview</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Cert path</span><div><a href="https://learn.microsoft.com/en-us/credentials/certifications/fabric-data-engineer-associate/" rel="noopener">DP-700: Fabric Data Engineer Associate</a><span class="free">free training</span><p>Microsoft's current data-engineering certification, with a complete free learning path on Microsoft Learn.</p></div></li>
+          <li><span class="tag mono">Course</span><div><a href="https://learn.microsoft.com/en-us/training/career-paths/data-engineer" rel="noopener">Microsoft Learn — Data Engineer career path</a><span class="free">free</span><p>Free, hands-on modules with in-browser sandboxes covering ADF, Synapse, Databricks, and Fabric.</p></div></li>
+          <li><span class="tag mono">Docs</span><div><a href="https://learn.microsoft.com/en-us/azure/data-factory/introduction" rel="noopener">Azure Data Factory documentation</a><span class="free">free</span><p>Pipelines, mapping data flows, integration runtimes, and triggers — ADF is the backbone of most Azure DE work.</p></div></li>
+          <li><span class="tag mono">Docs</span><div><a href="https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction" rel="noopener">ADLS Gen2 documentation</a><span class="free">free</span><p>Hierarchical namespaces, access control, and lake layout best practices.</p></div></li>
+          <li><span class="tag mono">Docs</span><div><a href="https://learn.microsoft.com/en-us/fabric/" rel="noopener">Microsoft Fabric documentation</a><span class="free">free</span><p>OneLake, Lakehouse, Data Warehouse, and Real-Time Intelligence — where Microsoft is taking its whole data stack.</p></div></li>
+          <li><span class="tag mono">Blog</span><div><a href="https://blog.fabric.microsoft.com/" rel="noopener">Microsoft Fabric Blog</a><span class="free">free</span><p>Monthly feature updates; the fastest way to stay current in a fast-moving platform.</p></div></li>
+        </ul>
+      </section>
+
+      <section class="topic" id="gcp">
+        <div class="topic-head">
+          <span class="mono">08 · Cloud</span>
+          <h2>GCP for Data Engineering</h2>
+          <p>The most opinionated data cloud: BigQuery (serverless warehouse) is the center of gravity, with Dataflow (Apache Beam) for unified batch/stream processing, Pub/Sub for messaging, Dataproc for Spark, and Cloud Composer for managed Airflow.</p>
+        </div>
+        <div class="skills">
+          <span>BigQuery</span><span>partitioning &amp; clustering</span><span>Dataflow / Beam</span><span>Pub/Sub</span><span>Dataproc</span><span>Cloud Composer</span><span>slots &amp; pricing</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Cert path</span><div><a href="https://cloud.google.com/learn/certification/data-engineer" rel="noopener">Google Professional Data Engineer</a><p>One of the most respected data certs; the exam guide doubles as a GCP DE curriculum.</p></div></li>
+          <li><span class="tag mono">Course</span><div><a href="https://www.cloudskillsboost.google/paths/16" rel="noopener">Google Cloud Skills Boost — Data Engineer path</a><span class="free">free tier</span><p>Official hands-on labs in real GCP projects — the labs are the differentiator; do them, don't just watch.</p></div></li>
+          <li><span class="tag mono">Docs</span><div><a href="https://cloud.google.com/bigquery/docs/best-practices-performance-overview" rel="noopener">BigQuery performance best practices</a><span class="free">free</span><p>Partitioning, clustering, slot economics, and anti-patterns — BigQuery cost questions come up constantly.</p></div></li>
+          <li><span class="tag mono">Docs</span><div><a href="https://beam.apache.org/documentation/programming-guide/" rel="noopener">Apache Beam Programming Guide</a><span class="free">free</span><p>The model behind Dataflow: PCollections, windowing, watermarks, triggers — core streaming theory that transfers everywhere.</p></div></li>
+          <li><span class="tag mono">Course</span><div><a href="https://www.coursera.org/professional-certificates/gcp-data-engineering" rel="noopener">Coursera — Data Engineering on Google Cloud</a><p>Google's own specialization; the most structured video path if Skills Boost alone feels sparse.</p></div></li>
+          <li><span class="tag mono">Blog</span><div><a href="https://cloud.google.com/blog/products/data-analytics" rel="noopener">Google Cloud Data Analytics Blog</a><span class="free">free</span><p>BigQuery feature launches and reference architectures straight from the product teams.</p></div></li>
+        </ul>
+      </section>
+
+      <div class="divider"><span class="mono">Part 4</span><h2>Lakehouse &amp; warehouse platforms</h2></div>
+
+      <section class="topic" id="databricks">
+        <div class="topic-head">
+          <span class="mono">09 · Platforms</span>
+          <h2>Databricks</h2>
+          <p>The lakehouse platform: Spark + Delta Lake + Unity Catalog + Lakeflow (Delta Live Tables) + SQL warehouses. Learn Delta Lake internals (transaction log, OPTIMIZE, time travel) and Unity Catalog governance — they anchor most Databricks interviews.</p>
+        </div>
+        <div class="skills">
+          <span>Delta Lake</span><span>Unity Catalog</span><span>Lakeflow / DLT</span><span>Workflows</span><span>SQL warehouses</span><span>Autoloader</span><span>OPTIMIZE &amp; Z-order</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Course</span><div><a href="https://www.databricks.com/learn/training/home" rel="noopener">Databricks Academy</a><span class="free">free self-paced</span><p>Official free training including the full prep paths for Data Engineer Associate and Professional certs.</p></div></li>
+          <li><span class="tag mono">Cert path</span><div><a href="https://www.databricks.com/learn/certification/data-engineer-associate" rel="noopener">Databricks Certified Data Engineer Associate</a><p>The highest-signal platform cert for lakehouse roles; Professional is the senior follow-up.</p></div></li>
+          <li><span class="tag mono">Docs</span><div><a href="https://docs.databricks.com/" rel="noopener">Databricks Documentation</a><span class="free">free</span><p>Start with the Delta Lake, Unity Catalog, and Lakeflow sections; the "best practices" pages are interview gold.</p></div></li>
+          <li><span class="tag mono">Deep dive</span><div><a href="https://www.databricks.com/blog/2019/08/21/diving-into-delta-lake-unpacking-the-transaction-log.html" rel="noopener">Diving into Delta Lake: the transaction log</a><span class="free">free</span><p>How ACID on a data lake actually works — read the whole "Diving into Delta Lake" series.</p></div></li>
+          <li><span class="tag mono">Hands-on</span><div><a href="https://community.cloud.databricks.com/" rel="noopener">Databricks Free Edition</a><span class="free">free</span><p>Free workspace to practice notebooks, Delta tables, SQL, and jobs without a cloud bill.</p></div></li>
+          <li><span class="tag mono">Book</span><div><a href="https://www.oreilly.com/library/view/delta-lake-the/9781098151935/" rel="noopener">Delta Lake: The Definitive Guide</a><p>Complete coverage of Delta internals, streaming writes, and table optimization patterns.</p></div></li>
+        </ul>
+      </section>
+
+      <section class="topic" id="snowflake">
+        <div class="topic-head">
+          <span class="mono">10 · Platforms</span>
+          <h2>Snowflake</h2>
+          <p>The dominant cloud data warehouse. Its architecture — separated storage/compute, virtual warehouses, micro-partitions, zero-copy cloning, Time Travel — is itself a favorite interview topic. Add Snowpipe/Streams/Tasks for pipelines and Snowpark for Python.</p>
+        </div>
+        <div class="skills">
+          <span>virtual warehouses</span><span>micro-partitions</span><span>Snowpipe</span><span>Streams &amp; Tasks</span><span>zero-copy clone</span><span>Time Travel</span><span>Snowpark</span><span>cost control</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Course</span><div><a href="https://learn.snowflake.com/" rel="noopener">Snowflake University</a><span class="free">free</span><p>Official free courses with hands-on badge workshops ("Data Warehousing", "Data Engineering") on a free trial account.</p></div></li>
+          <li><span class="tag mono">Docs</span><div><a href="https://docs.snowflake.com/en/user-guide/intro-key-concepts" rel="noopener">Snowflake Key Concepts &amp; Architecture</a><span class="free">free</span><p>The three-layer architecture explained by the source — the single most-asked Snowflake interview topic.</p></div></li>
+          <li><span class="tag mono">Cert path</span><div><a href="https://www.snowflake.com/en/certifications/" rel="noopener">SnowPro Core → SnowPro Advanced: Data Engineer</a><p>Core proves platform fluency; the Advanced DE cert is the specialist credential.</p></div></li>
+          <li><span class="tag mono">Hands-on</span><div><a href="https://quickstarts.snowflake.com/" rel="noopener">Snowflake Quickstarts</a><span class="free">free</span><p>Guided end-to-end builds — data pipelines with Streams &amp; Tasks, Snowpark ETL, dbt on Snowflake.</p></div></li>
+          <li><span class="tag mono">Book</span><div><a href="https://www.oreilly.com/library/view/snowflake-the-definitive/9781098103820/" rel="noopener">Snowflake: The Definitive Guide — Joyce Kay Avila</a><p>Thorough platform coverage from architecture through security and cost management.</p></div></li>
+          <li><span class="tag mono">Deep dive</span><div><a href="https://docs.snowflake.com/en/user-guide/tables-clustering-micropartitions" rel="noopener">Micro-partitions &amp; clustering docs</a><span class="free">free</span><p>How Snowflake prunes data and when clustering keys are (and aren't) worth it.</p></div></li>
+        </ul>
+      </section>
+
+      <div class="divider"><span class="mono">Part 5</span><h2>Orchestration &amp; ETL</h2></div>
+
+      <section class="topic" id="airflow">
+        <div class="topic-head">
+          <span class="mono">11 · Orchestration</span>
+          <h2>Apache Airflow</h2>
+          <p>The de facto standard orchestrator — DAGs as Python code. Learn the TaskFlow API, scheduling semantics (data intervals!), idempotent task design, sensors/deferrable operators, and how managed offerings (MWAA, Cloud Composer, Astronomer) differ.</p>
+        </div>
+        <div class="skills">
+          <span>DAGs &amp; TaskFlow API</span><span>scheduling &amp; data intervals</span><span>idempotency</span><span>XComs</span><span>sensors &amp; deferrables</span><span>backfills</span><span>Airflow 3</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Docs</span><div><a href="https://airflow.apache.org/docs/" rel="noopener">Apache Airflow Documentation</a><span class="free">free</span><p>Do the official tutorial, then read "Best Practices" — it corrects most beginner DAG mistakes.</p></div></li>
+          <li><span class="tag mono">Course</span><div><a href="https://academy.astronomer.io/" rel="noopener">Astronomer Academy</a><span class="free">free</span><p>Free courses and the DAG Authoring certification from the company behind most managed Airflow expertise.</p></div></li>
+          <li><span class="tag mono">Book</span><div><a href="https://www.manning.com/books/data-pipelines-with-apache-airflow-second-edition" rel="noopener">Data Pipelines with Apache Airflow — Harenslak &amp; de Ruiter</a><p>The standard Airflow book: DAG design, testing, custom operators, and production deployment.</p></div></li>
+          <li><span class="tag mono">Guide</span><div><a href="https://www.astronomer.io/docs/learn/" rel="noopener">Astronomer Learn guides</a><span class="free">free</span><p>Focused, current articles on every tricky corner — dynamic task mapping, deferrable operators, datasets/assets.</p></div></li>
+          <li><span class="tag mono">Course</span><div><a href="https://www.udemy.com/course/the-complete-hands-on-course-to-master-apache-airflow/" rel="noopener">Marc Lamberti — The Complete Hands-On Airflow Course</a><p>The most popular video course; strong for learners who want guided, project-style repetition.</p></div></li>
+          <li><span class="tag mono">Hands-on</span><div><a href="https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/02-workflow-orchestration" rel="noopener">DE Zoomcamp — Workflow Orchestration module</a><span class="free">free</span><p>Build a real ingestion DAG end-to-end with homework and peer review.</p></div></li>
+        </ul>
+      </section>
+
+      <section class="topic" id="ssis">
+        <div class="topic-head">
+          <span class="mono">12 · Orchestration</span>
+          <h2>SSIS — SQL Server Integration Services</h2>
+          <p>Still everywhere in enterprise Microsoft estates and a staple of consulting work. Learn control flow vs data flow, package configuration and deployment (SSISDB), incremental-load patterns, and how SSIS lifts and shifts into Azure Data Factory.</p>
+        </div>
+        <div class="skills">
+          <span>control flow</span><span>data flow</span><span>SSISDB &amp; deployment</span><span>incremental loads</span><span>CDC</span><span>error handling</span><span>ADF lift-and-shift</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Docs</span><div><a href="https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services" rel="noopener">SSIS Documentation — Microsoft Learn</a><span class="free">free</span><p>Official reference: designer walkthroughs, deployment models, and the complete component catalog.</p></div></li>
+          <li><span class="tag mono">Tutorial</span><div><a href="https://learn.microsoft.com/en-us/sql/integration-services/ssis-how-to-create-an-etl-package" rel="noopener">Create an ETL package — official tutorial</a><span class="free">free</span><p>The canonical guided build of a first package: extract, lookup, load, and loop over files.</p></div></li>
+          <li><span class="tag mono">Series</span><div><a href="https://www.sqlservercentral.com/stairways/stairway-to-integration-services" rel="noopener">Stairway to Integration Services — Andy Leonard</a><span class="free">free</span><p>The best free structured SSIS curriculum, from first package through fault-tolerant design patterns.</p></div></li>
+          <li><span class="tag mono">Book</span><div><a href="https://link.springer.com/book/10.1007/978-1-4842-3937-0" rel="noopener">SQL Server Integration Services Design Patterns</a><p>Production patterns: metadata-driven frameworks, restartability, logging, and parallel loads.</p></div></li>
+          <li><span class="tag mono">Reference</span><div><a href="https://www.mssqltips.com/sql-server-tip-category/49/integration-services-development/" rel="noopener">MSSQLTips — SSIS section</a><span class="free">free</span><p>Hundreds of task-level how-tos; the place to search when a component misbehaves.</p></div></li>
+          <li><span class="tag mono">Guide</span><div><a href="https://learn.microsoft.com/en-us/azure/data-factory/scenario-ssis-migration-overview" rel="noopener">Migrating SSIS to Azure Data Factory</a><span class="free">free</span><p>SSIS Integration Runtime in ADF — the modernization path every Microsoft-shop DE gets asked about.</p></div></li>
+        </ul>
+      </section>
+
+      <section class="topic" id="nifi">
+        <div class="topic-head">
+          <span class="mono">13 · Orchestration</span>
+          <h2>Apache NiFi</h2>
+          <p>Visual, flow-based data movement with backpressure, provenance, and fine-grained delivery guarantees — common in ingestion-heavy, regulated, and streaming-edge environments. Learn FlowFiles, processors, process groups, and the Expression Language.</p>
+        </div>
+        <div class="skills">
+          <span>FlowFiles</span><span>processors</span><span>backpressure</span><span>data provenance</span><span>Expression Language</span><span>NiFi Registry</span><span>site-to-site</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Docs</span><div><a href="https://nifi.apache.org/docs/nifi-docs/" rel="noopener">Apache NiFi Documentation</a><span class="free">free</span><p>Start with the Getting Started guide and User Guide; the Expression Language guide is your daily reference.</p></div></li>
+          <li><span class="tag mono">Deep dive</span><div><a href="https://nifi.apache.org/docs/nifi-docs/html/nifi-in-depth.html" rel="noopener">NiFi In Depth</a><span class="free">free</span><p>Repositories, FlowFile lifecycle, and delivery guarantees — the architecture doc that explains why NiFi behaves as it does.</p></div></li>
+          <li><span class="tag mono">Course</span><div><a href="https://www.cloudera.com/services-and-support/tutorials.html" rel="noopener">Cloudera tutorials — DataFlow / NiFi</a><span class="free">free</span><p>Vendor-maintained walkthroughs; Cloudera DataFlow is how most enterprises run NiFi.</p></div></li>
+          <li><span class="tag mono">Video</span><div><a href="https://www.youtube.com/results?search_query=apache+nifi+anti+patterns" rel="noopener">NiFi Anti-Patterns series — Mark Payne</a><span class="free">free</span><p>From NiFi's lead committer: the flow-design mistakes that kill throughput, and how to fix them.</p></div></li>
+          <li><span class="tag mono">Hands-on</span><div><a href="https://hub.docker.com/r/apache/nifi" rel="noopener">Run NiFi in Docker</a><span class="free">free</span><p>One <code>docker run</code> gets you the full canvas locally — build a file-to-database flow as a first project.</p></div></li>
+        </ul>
+      </section>
+
+      <div class="divider"><span class="mono">Part 6</span><h2>Ops, ML &amp; design</h2></div>
+
+      <section class="topic" id="bigpanda">
+        <div class="topic-head">
+          <span class="mono">14 · Operations</span>
+          <h2>BigPanda &amp; AIOps</h2>
+          <p>Pipelines page people at 3am; incident tooling is part of the job. BigPanda correlates alerts from monitoring tools into unified incidents. Learn the event-correlation model, integrations, and the SRE alerting fundamentals underneath it.</p>
+        </div>
+        <div class="skills">
+          <span>event correlation</span><span>alert enrichment</span><span>integrations &amp; webhooks</span><span>incident workflow</span><span>on-call hygiene</span><span>SLOs</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Docs</span><div><a href="https://docs.bigpanda.io/" rel="noopener">BigPanda Documentation</a><span class="free">free</span><p>Alert ingestion, correlation patterns, enrichment maps, and the incident lifecycle — the primary source.</p></div></li>
+          <li><span class="tag mono">Course</span><div><a href="https://www.bigpanda.io/bigpanda-university/" rel="noopener">BigPanda University</a><span class="free">free</span><p>Vendor training for operators and admins, from console basics to correlation-pattern design.</p></div></li>
+          <li><span class="tag mono">Book</span><div><a href="https://sre.google/sre-book/monitoring-distributed-systems/" rel="noopener">Google SRE Book — Monitoring Distributed Systems</a><span class="free">free</span><p>The four golden signals and symptom-vs-cause alerting — the theory BigPanda operationalizes.</p></div></li>
+          <li><span class="tag mono">Guide</span><div><a href="https://www.bigpanda.io/blog/" rel="noopener">BigPanda Blog — AIOps practices</a><span class="free">free</span><p>Alert-fatigue reduction, correlation strategy, and incident-management maturity models.</p></div></li>
+          <li><span class="tag mono">Adjacent</span><div><a href="https://sre.google/sre-book/being-on-call/" rel="noopener">Google SRE Book — Being On-Call</a><span class="free">free</span><p>How healthy on-call works; useful context for any DE who owns production pipelines.</p></div></li>
+        </ul>
+      </section>
+
+      <section class="topic" id="ml-for-de">
+        <div class="topic-head">
+          <span class="mono">15 · Advanced</span>
+          <h2>ML for Data Engineers</h2>
+          <p>You won't design models, but you will build what they run on: feature pipelines, training data, feature stores, model serving inputs, and monitoring. Learn just enough ML to speak the language, then go deep on the data side of MLOps.</p>
+        </div>
+        <div class="skills">
+          <span>feature pipelines</span><span>feature stores</span><span>training/serving skew</span><span>MLflow</span><span>data drift</span><span>batch vs online serving</span><span>vector stores</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Book</span><div><a href="https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/" rel="noopener">Designing Machine Learning Systems — Chip Huyen</a><p>The best systems-level ML book, and most of it is data engineering: pipelines, features, drift, serving.</p></div></li>
+          <li><span class="tag mono">Course</span><div><a href="https://madewithml.com/" rel="noopener">Made With ML — Goku Mohandas</a><span class="free">free</span><p>Open-source, code-first MLOps curriculum from data pipelines through deployment and testing.</p></div></li>
+          <li><span class="tag mono">Course</span><div><a href="https://www.coursera.org/specializations/machine-learning-introduction" rel="noopener">Andrew Ng — Machine Learning Specialization</a><span class="free">audit free</span><p>The classic conceptual grounding — enough ML literacy to collaborate with data scientists credibly.</p></div></li>
+          <li><span class="tag mono">Docs</span><div><a href="https://mlflow.org/docs/latest/" rel="noopener">MLflow Documentation</a><span class="free">free</span><p>Experiment tracking, model registry, and serving — the tool DEs most often operate for ML teams.</p></div></li>
+          <li><span class="tag mono">Docs</span><div><a href="https://docs.feast.dev/" rel="noopener">Feast — Feature Store docs</a><span class="free">free</span><p>The open-source reference for feature-store concepts: offline/online stores, materialization, point-in-time joins.</p></div></li>
+          <li><span class="tag mono">Paper</span><div><a href="https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning" rel="noopener">Google — MLOps: Continuous delivery in ML</a><span class="free">free</span><p>The whitepaper that defined MLOps maturity levels; short and heavily cited.</p></div></li>
+        </ul>
+      </section>
+
+      <section class="topic" id="system-design">
+        <div class="topic-head">
+          <span class="mono">16 · Advanced</span>
+          <h2>Data Engineering System Design</h2>
+          <p>Where senior offers are won. Master the trade-off vocabulary — batch vs streaming, lambda vs kappa, exactly-once semantics, partitioning, idempotency, backfills, schema evolution — and practice narrating end-to-end designs out loud.</p>
+        </div>
+        <div class="skills">
+          <span>batch vs streaming</span><span>lambda / kappa</span><span>exactly-once</span><span>partitioning</span><span>idempotency &amp; retries</span><span>schema evolution</span><span>data quality &amp; SLAs</span>
+        </div>
+        <ul class="res">
+          <li><span class="tag mono">Book</span><div><a href="https://dataintensive.net/" rel="noopener">Designing Data-Intensive Applications — Martin Kleppmann</a><p>The book for this field. Read it twice: once for concepts, once before interviews. Chapters 3, 5–9, 10–12 especially.</p></div></li>
+          <li><span class="tag mono">Book</span><div><a href="https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/" rel="noopener">Fundamentals of Data Engineering — Reis &amp; Housley</a><p>The lifecycle view: generation → ingestion → storage → serving, with technology-agnostic decision frameworks.</p></div></li>
+          <li><span class="tag mono">Essay</span><div><a href="https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying" rel="noopener">The Log — Jay Kreps</a><span class="free">free</span><p>The essay behind Kafka and kappa architecture; the single most influential piece of DE writing.</p></div></li>
+          <li><span class="tag mono">Practice</span><div><a href="https://github.com/donnemartin/system-design-primer" rel="noopener">System Design Primer (GitHub)</a><span class="free">free</span><p>General distributed-systems interview prep — pair its patterns with data-specific scenarios below.</p></div></li>
+          <li><span class="tag mono">Book</span><div><a href="https://www.oreilly.com/library/view/streaming-systems/9781491983867/" rel="noopener">Streaming Systems — Akidau, Chernyak &amp; Lax</a><p>Event time vs processing time, watermarks, triggers, exactly-once — the streaming theory canon.</p></div></li>
+          <li><span class="tag mono">Blog</span><div><a href="https://netflixtechblog.com/tagged/big-data" rel="noopener">Netflix Tech Blog — Data</a> · <a href="https://www.uber.com/blog/engineering/" rel="noopener">Uber Engineering</a><span class="free">free</span><p>Real architectures at scale — mine them for "how would you design X" answers with named precedents.</p></div></li>
+          <li><span class="tag mono">Practice</span><div><a href="https://www.youtube.com/results?search_query=data+engineering+system+design+interview" rel="noopener">Mock DE system-design interviews (YouTube)</a><span class="free">free</span><p>Watch a few full mocks, then practice out loud: design a clickstream pipeline, a CDC replication flow, a daily-to-streaming migration.</p></div></li>
+        </ul>
+      </section>
+
+      <footer>
+        <p>Curated for working and aspiring data engineers · Every <span class="free" style="margin-left:0">free</span> tag marks a no-cost resource · Suggest additions via a pull request.</p>
+      </footer>
+    </main>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var input = document.getElementById('q');
+    var count = document.getElementById('count');
+    var rows = Array.prototype.slice.call(document.querySelectorAll('.res li'));
+    var sections = Array.prototype.slice.call(document.querySelectorAll('section.topic'));
+    var total = rows.length;
+    count.textContent = total + ' resources listed';
+
+    input.addEventListener('input', function () {
+      var q = input.value.trim().toLowerCase();
+      var visible = 0;
+      rows.forEach(function (row) {
+        var hit = !q || row.textContent.toLowerCase().indexOf(q) !== -1;
+        row.classList.toggle('hidden', !hit);
+        if (hit) visible++;
+      });
+      sections.forEach(function (sec) {
+        if (sec.id === 'roadmap') { sec.classList.toggle('hidden', !!q); return; }
+        var any = sec.querySelectorAll('.res li:not(.hidden)').length > 0;
+        sec.classList.toggle('hidden', q && !any);
+      });
+      count.textContent = q ? (visible + ' of ' + total + ' resources match "' + input.value.trim() + '"')
+                            : total + ' resources listed';
+    });
+
+    // highlight the active topic in the rail
+    var links = Array.prototype.slice.call(document.querySelectorAll('.rail a'));
+    var byId = {};
+    links.forEach(function (a) { byId[a.getAttribute('href').slice(1)] = a; });
+    if ('IntersectionObserver' in window) {
+      var current = null;
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            if (current) current.classList.remove('active');
+            current = byId[e.target.id];
+            if (current) current.classList.add('active');
+          }
+        });
+      }, { rootMargin: '-20% 0px -70% 0px' });
+      sections.forEach(function (s) { io.observe(s); });
+    }
+  })();
+</script>
+</body>
+</html>
