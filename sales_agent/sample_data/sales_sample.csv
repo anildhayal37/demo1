@@ -1,0 +1,1698 @@
+order_id,order_date,product,category,region,sales_rep,channel,quantity,unit_price,sales
+1000,2024-01-01,Mechanical Keyboard,Electronics,South,Bob Chen,Online,1,70.55,61.73
+1001,2024-01-01,Mechanical Keyboard,Electronics,North,Eve Torres,Retail Store,6,70.54,370.34
+1002,2024-01-01,Wireless Mouse,Electronics,South,Eve Torres,Partner,1,23.09,20.2
+1003,2024-01-01,Wireless Mouse,Electronics,West,Bob Chen,Retail Store,5,23.74,103.86
+1004,2024-01-01,Monitor 27in,Electronics,North,Bob Chen,Partner,3,242.52,636.62
+1005,2024-01-02,Notebook Set,Stationery,East,Alice Kim,Online,3,11.27,29.58
+1006,2024-01-02,Pen Pack,Stationery,East,Eve Torres,Retail Store,1,7.92,6.93
+1007,2024-01-02,Wireless Mouse,Electronics,North,David Lee,Online,6,25.37,133.19
+1008,2024-01-03,Standing Desk,Furniture,East,Eve Torres,Online,6,442.94,2325.43
+1009,2024-01-03,Mechanical Keyboard,Electronics,East,Alice Kim,Online,1,69.25,60.59
+1010,2024-01-03,Mechanical Keyboard,Electronics,East,Bob Chen,Retail Store,4,63.02,220.57
+1011,2024-01-03,Notebook Set,Stationery,North,Eve Torres,Partner,2,12.81,22.42
+1012,2024-01-04,Webcam HD,Electronics,West,David Lee,Retail Store,6,52.87,277.57
+1013,2024-01-05,Webcam HD,Electronics,North,Bob Chen,Online,2,58.91,103.09
+1014,2024-01-05,Notebook Set,Stationery,South,Eve Torres,Partner,4,11.6,40.6
+1015,2024-01-05,Notebook Set,Stationery,West,David Lee,Online,2,12.77,22.35
+1016,2024-01-05,Standing Desk,Furniture,East,Eve Torres,Retail Store,2,403.9,706.82
+1017,2024-01-05,Monitor 27in,Electronics,South,Eve Torres,Retail Store,4,217.91,762.68
+1018,2024-01-07,Wireless Mouse,Electronics,South,David Lee,Partner,1,23.46,20.53
+1019,2024-01-07,Mechanical Keyboard,Electronics,West,Eve Torres,Retail Store,4,64.7,226.45
+1020,2024-01-07,Webcam HD,Electronics,North,Eve Torres,Retail Store,1,58.85,51.49
+1021,2024-01-07,Notebook Set,Stationery,South,David Lee,Online,1,11.68,10.22
+1022,2024-01-07,Standing Desk,Furniture,North,Carla Diaz,Partner,5,458.01,2003.79
+1023,2024-01-07,Webcam HD,Electronics,East,Bob Chen,Partner,5,52.24,228.55
+1024,2024-01-08,Webcam HD,Electronics,West,Alice Kim,Online,1,57.74,50.52
+1025,2024-01-08,Notebook Set,Stationery,South,Eve Torres,Online,3,11.52,30.24
+1026,2024-01-08,Mechanical Keyboard,Electronics,North,Eve Torres,Online,6,66.4,348.6
+1027,2024-01-08,USB-C Hub,Electronics,South,Carla Diaz,Partner,6,35.66,187.21
+1028,2024-01-08,Monitor 27in,Electronics,South,Carla Diaz,Retail Store,4,251.04,878.64
+1029,2024-01-08,Notebook Set,Stationery,West,Alice Kim,Online,4,13.5,47.25
+1030,2024-01-09,Mechanical Keyboard,Electronics,South,Eve Torres,Online,3,58.84,154.46
+1031,2024-01-12,Wireless Mouse,Electronics,North,Carla Diaz,Online,2,22.92,40.11
+1032,2024-01-12,Webcam HD,Electronics,West,Bob Chen,Partner,2,53.33,93.33
+1033,2024-01-12,USB-C Hub,Electronics,West,Bob Chen,Retail Store,6,39.69,208.37
+1034,2024-01-12,Pen Pack,Stationery,West,Carla Diaz,Retail Store,2,7.39,12.93
+1035,2024-01-12,Pen Pack,Stationery,North,Alice Kim,Online,4,8.93,31.25
+1036,2024-01-13,Notebook Set,Stationery,South,Eve Torres,Retail Store,1,11.55,10.11
+1037,2024-01-13,USB-C Hub,Electronics,West,Bob Chen,Online,4,33.11,115.88
+1038,2024-01-13,Desk Lamp,Furniture,North,Alice Kim,Online,5,36.98,161.79
+1039,2024-01-14,Pen Pack,Stationery,West,Alice Kim,Online,4,8.16,28.56
+1040,2024-01-15,Wireless Mouse,Electronics,West,Carla Diaz,Retail Store,4,24.16,84.56
+1041,2024-01-15,Webcam HD,Electronics,South,Bob Chen,Retail Store,6,59.38,311.75
+1042,2024-01-15,Office Chair,Furniture,North,Carla Diaz,Online,1,188.06,164.55
+1043,2024-01-17,Desk Lamp,Furniture,South,Alice Kim,Partner,5,45.19,197.71
+1044,2024-01-17,Mechanical Keyboard,Electronics,North,Bob Chen,Retail Store,2,59.61,104.32
+1045,2024-01-17,Mechanical Keyboard,Electronics,North,Eve Torres,Online,5,62.5,273.44
+1046,2024-01-17,Pen Pack,Stationery,East,Carla Diaz,Online,6,8.37,43.94
+1047,2024-01-18,Notebook Set,Stationery,South,Carla Diaz,Retail Store,2,11.6,20.3
+1048,2024-01-18,Notebook Set,Stationery,North,Alice Kim,Partner,1,10.83,9.48
+1049,2024-01-18,Office Chair,Furniture,East,Alice Kim,Online,5,173.93,760.94
+1050,2024-01-18,Notebook Set,Stationery,East,Eve Torres,Partner,3,11.27,29.58
+1051,2024-01-18,Webcam HD,Electronics,East,Alice Kim,Online,1,58.68,51.34
+1052,2024-01-19,Mechanical Keyboard,Electronics,South,Carla Diaz,Retail Store,1,70.56,61.74
+1053,2024-01-19,Monitor 27in,Electronics,South,Carla Diaz,Partner,2,237.47,415.57
+1054,2024-01-20,Standing Desk,Furniture,West,Carla Diaz,Online,1,387.69,339.23
+1055,2024-01-20,Wireless Mouse,Electronics,East,Bob Chen,Partner,3,27.32,71.72
+1056,2024-01-20,Desk Lamp,Furniture,North,Alice Kim,Online,5,43.06,188.39
+1057,2024-01-21,USB-C Hub,Electronics,East,Eve Torres,Partner,5,31.82,139.21
+1058,2024-01-21,USB-C Hub,Electronics,East,Carla Diaz,Online,4,32.62,114.17
+1059,2024-01-21,Notebook Set,Stationery,North,Carla Diaz,Partner,2,12.85,22.49
+1060,2024-01-21,Pen Pack,Stationery,South,Bob Chen,Online,5,8.7,38.06
+1061,2024-01-21,Pen Pack,Stationery,East,David Lee,Partner,1,7.56,6.61
+1062,2024-01-22,Office Chair,Furniture,North,David Lee,Online,3,169.16,444.05
+1063,2024-01-22,Desk Lamp,Furniture,West,Carla Diaz,Retail Store,2,38.0,66.5
+1064,2024-01-22,Office Chair,Furniture,South,David Lee,Retail Store,2,163.06,285.36
+1065,2024-01-22,Standing Desk,Furniture,East,Carla Diaz,Partner,1,479.52,419.58
+1066,2024-01-22,Webcam HD,Electronics,East,Alice Kim,Online,4,58.84,205.94
+1067,2024-01-22,Standing Desk,Furniture,East,Alice Kim,Online,2,438.96,768.18
+1068,2024-01-23,Pen Pack,Stationery,East,David Lee,Partner,3,8.66,22.73
+1069,2024-01-23,Webcam HD,Electronics,South,Carla Diaz,Online,1,54.8,47.95
+1070,2024-01-23,Pen Pack,Stationery,South,Carla Diaz,Retail Store,1,8.24,7.21
+1071,2024-01-23,Mechanical Keyboard,Electronics,East,Alice Kim,Partner,6,73.46,385.66
+1072,2024-01-24,Webcam HD,Electronics,East,David Lee,Partner,3,58.67,154.01
+1073,2024-01-24,Standing Desk,Furniture,West,David Lee,Partner,5,391.37,1712.24
+1074,2024-01-25,USB-C Hub,Electronics,West,Eve Torres,Online,5,36.48,159.6
+1075,2024-01-25,Standing Desk,Furniture,East,David Lee,Retail Store,3,400.07,1050.18
+1076,2024-01-25,Desk Lamp,Furniture,West,Bob Chen,Partner,6,38.14,200.24
+1077,2024-01-25,Mechanical Keyboard,Electronics,East,Alice Kim,Online,3,66.88,175.56
+1078,2024-01-25,Standing Desk,Furniture,South,Alice Kim,Online,2,462.69,809.71
+1079,2024-01-26,Desk Lamp,Furniture,North,David Lee,Retail Store,5,44.5,194.69
+1080,2024-01-27,Monitor 27in,Electronics,West,David Lee,Retail Store,2,237.51,415.64
+1081,2024-01-27,Office Chair,Furniture,North,Alice Kim,Retail Store,2,191.52,335.16
+1082,2024-01-27,Office Chair,Furniture,West,Alice Kim,Partner,2,198.18,346.81
+1083,2024-01-27,Office Chair,Furniture,West,Eve Torres,Partner,1,182.54,159.72
+1084,2024-01-27,Monitor 27in,Electronics,West,Eve Torres,Partner,3,250.25,656.91
+1085,2024-01-28,Pen Pack,Stationery,South,David Lee,Retail Store,5,8.09,35.39
+1086,2024-01-28,Standing Desk,Furniture,East,Eve Torres,Retail Store,2,466.19,815.83
+1087,2024-01-28,Office Chair,Furniture,East,Bob Chen,Retail Store,3,181.79,477.2
+1088,2024-01-28,Notebook Set,Stationery,North,Bob Chen,Online,3,13.48,35.38
+1089,2024-01-29,Pen Pack,Stationery,South,Alice Kim,Retail Store,6,7.51,39.43
+1090,2024-01-30,Notebook Set,Stationery,North,Bob Chen,Retail Store,5,12.2,53.38
+1091,2024-01-30,Pen Pack,Stationery,North,Eve Torres,Retail Store,5,9.09,39.77
+1092,2024-01-30,Desk Lamp,Furniture,East,David Lee,Retail Store,1,45.43,39.75
+1093,2024-01-31,Webcam HD,Electronics,West,Bob Chen,Retail Store,5,61.84,270.55
+1094,2024-01-31,Pen Pack,Stationery,East,David Lee,Partner,4,7.26,25.41
+1095,2024-01-31,USB-C Hub,Electronics,North,David Lee,Partner,4,39.55,138.42
+1096,2024-01-31,Monitor 27in,Electronics,West,Bob Chen,Retail Store,6,199.49,1047.32
+1097,2024-02-01,Wireless Mouse,Electronics,South,David Lee,Retail Store,3,24.87,67.15
+1098,2024-02-02,Pen Pack,Stationery,West,Carla Diaz,Online,3,8.7,23.49
+1099,2024-02-02,Desk Lamp,Furniture,North,Carla Diaz,Online,1,43.49,39.14
+1100,2024-02-03,Mechanical Keyboard,Electronics,North,Bob Chen,Online,6,59.15,319.41
+1101,2024-02-03,Wireless Mouse,Electronics,South,David Lee,Partner,5,23.45,105.53
+1102,2024-02-03,Mechanical Keyboard,Electronics,West,Carla Diaz,Retail Store,5,73.9,332.55
+1103,2024-02-03,USB-C Hub,Electronics,North,Bob Chen,Retail Store,5,36.81,165.65
+1104,2024-02-03,Mechanical Keyboard,Electronics,East,Eve Torres,Partner,5,58.92,265.14
+1105,2024-02-04,Pen Pack,Stationery,South,Alice Kim,Partner,6,7.6,41.04
+1106,2024-02-04,Standing Desk,Furniture,North,Eve Torres,Online,6,441.04,2381.62
+1107,2024-02-04,Notebook Set,Stationery,East,Alice Kim,Partner,5,12.09,54.41
+1108,2024-02-05,Notebook Set,Stationery,West,Alice Kim,Retail Store,1,13.35,12.02
+1109,2024-02-05,Notebook Set,Stationery,West,Bob Chen,Retail Store,6,13.47,72.74
+1110,2024-02-05,USB-C Hub,Electronics,East,Eve Torres,Partner,6,36.07,194.78
+1111,2024-02-05,Desk Lamp,Furniture,East,Carla Diaz,Online,4,40.36,145.3
+1112,2024-02-05,Mechanical Keyboard,Electronics,South,David Lee,Partner,3,72.83,196.64
+1113,2024-02-06,Pen Pack,Stationery,East,Bob Chen,Retail Store,3,7.26,19.6
+1114,2024-02-06,Office Chair,Furniture,East,Carla Diaz,Partner,3,197.9,534.33
+1115,2024-02-06,Standing Desk,Furniture,South,Alice Kim,Online,5,379.07,1705.82
+1116,2024-02-06,Pen Pack,Stationery,South,David Lee,Partner,4,8.31,29.92
+1117,2024-02-07,Desk Lamp,Furniture,North,Carla Diaz,Online,4,43.93,158.15
+1118,2024-02-07,Pen Pack,Stationery,East,David Lee,Partner,6,7.69,41.53
+1119,2024-02-07,Webcam HD,Electronics,East,Carla Diaz,Partner,3,55.35,149.45
+1120,2024-02-07,Desk Lamp,Furniture,South,Alice Kim,Partner,3,39.07,105.49
+1121,2024-02-07,Office Chair,Furniture,South,Bob Chen,Online,3,167.38,451.93
+1122,2024-02-08,Desk Lamp,Furniture,East,Alice Kim,Online,3,43.25,116.78
+1123,2024-02-08,Standing Desk,Furniture,East,Alice Kim,Partner,2,415.89,748.6
+1124,2024-02-08,Webcam HD,Electronics,North,Eve Torres,Retail Store,2,53.27,95.89
+1125,2024-02-08,USB-C Hub,Electronics,West,Alice Kim,Online,6,39.1,211.14
+1126,2024-02-08,Monitor 27in,Electronics,West,Carla Diaz,Online,3,223.82,604.31
+1127,2024-02-10,Desk Lamp,Furniture,West,David Lee,Online,1,44.22,39.8
+1128,2024-02-10,Monitor 27in,Electronics,South,Bob Chen,Partner,6,235.75,1273.05
+1129,2024-02-11,Mechanical Keyboard,Electronics,West,Eve Torres,Partner,2,60.42,108.76
+1130,2024-02-11,Monitor 27in,Electronics,West,David Lee,Retail Store,2,240.66,433.19
+1131,2024-02-12,Monitor 27in,Electronics,North,Eve Torres,Partner,4,214.8,773.28
+1132,2024-02-12,Mechanical Keyboard,Electronics,East,Alice Kim,Online,2,68.66,123.59
+1133,2024-02-13,USB-C Hub,Electronics,North,David Lee,Retail Store,5,32.16,144.72
+1134,2024-02-14,Monitor 27in,Electronics,South,Carla Diaz,Partner,4,214.02,770.47
+1135,2024-02-14,Standing Desk,Furniture,North,Bob Chen,Retail Store,6,468.26,2528.6
+1136,2024-02-14,Monitor 27in,Electronics,South,David Lee,Online,6,242.21,1307.93
+1137,2024-02-14,Webcam HD,Electronics,East,Bob Chen,Online,2,58.4,105.12
+1138,2024-02-14,Wireless Mouse,Electronics,East,David Lee,Online,2,27.45,49.41
+1139,2024-02-15,Standing Desk,Furniture,East,Eve Torres,Partner,6,420.26,2269.4
+1140,2024-02-15,Desk Lamp,Furniture,North,David Lee,Partner,4,36.8,132.48
+1141,2024-02-15,Notebook Set,Stationery,North,Bob Chen,Partner,5,11.55,51.98
+1142,2024-02-16,Monitor 27in,Electronics,East,Eve Torres,Online,5,250.29,1126.31
+1143,2024-02-16,USB-C Hub,Electronics,West,Carla Diaz,Online,4,36.04,129.74
+1144,2024-02-16,Monitor 27in,Electronics,West,Alice Kim,Retail Store,4,232.91,838.48
+1145,2024-02-16,Notebook Set,Stationery,North,Bob Chen,Retail Store,4,11.8,42.48
+1146,2024-02-16,Pen Pack,Stationery,West,Eve Torres,Online,6,8.19,44.23
+1147,2024-02-16,Desk Lamp,Furniture,East,Alice Kim,Retail Store,1,39.15,35.23
+1148,2024-02-17,Webcam HD,Electronics,West,David Lee,Online,1,58.54,52.69
+1149,2024-02-17,Office Chair,Furniture,West,David Lee,Online,5,178.28,802.26
+1150,2024-02-17,Office Chair,Furniture,East,David Lee,Partner,3,186.71,504.12
+1151,2024-02-17,Desk Lamp,Furniture,South,Bob Chen,Retail Store,1,36.29,32.66
+1152,2024-02-17,Webcam HD,Electronics,North,Bob Chen,Online,1,57.09,51.38
+1153,2024-02-17,Desk Lamp,Furniture,South,David Lee,Partner,1,42.48,38.23
+1154,2024-02-18,Webcam HD,Electronics,West,David Lee,Online,6,53.26,287.6
+1155,2024-02-18,Desk Lamp,Furniture,South,Eve Torres,Partner,5,37.45,168.53
+1156,2024-02-19,USB-C Hub,Electronics,West,Carla Diaz,Partner,1,33.92,30.53
+1157,2024-02-19,Standing Desk,Furniture,East,Eve Torres,Partner,1,407.7,366.93
+1158,2024-02-19,Desk Lamp,Furniture,West,Carla Diaz,Retail Store,2,40.47,72.85
+1159,2024-02-19,Webcam HD,Electronics,East,Bob Chen,Partner,5,54.69,246.1
+1160,2024-02-19,Office Chair,Furniture,West,Alice Kim,Retail Store,5,179.23,806.53
+1161,2024-02-20,Desk Lamp,Furniture,West,David Lee,Partner,6,45.13,243.7
+1162,2024-02-20,USB-C Hub,Electronics,South,Eve Torres,Partner,4,39.94,143.78
+1163,2024-02-20,Notebook Set,Stationery,West,Alice Kim,Partner,1,13.42,12.08
+1164,2024-02-20,Desk Lamp,Furniture,West,Bob Chen,Online,1,43.22,38.9
+1165,2024-02-20,Desk Lamp,Furniture,West,Alice Kim,Retail Store,3,39.39,106.35
+1166,2024-02-21,Webcam HD,Electronics,West,Eve Torres,Online,4,62.62,225.43
+1167,2024-02-21,Monitor 27in,Electronics,East,Bob Chen,Partner,1,210.91,189.82
+1168,2024-02-21,Mechanical Keyboard,Electronics,North,David Lee,Online,4,74.4,267.84
+1169,2024-02-21,Standing Desk,Furniture,North,Carla Diaz,Retail Store,1,382.83,344.55
+1170,2024-02-21,Notebook Set,Stationery,West,Eve Torres,Partner,4,11.24,40.46
+1171,2024-02-21,USB-C Hub,Electronics,West,Eve Torres,Partner,2,33.03,59.45
+1172,2024-02-22,Desk Lamp,Furniture,West,Carla Diaz,Retail Store,5,37.43,168.44
+1173,2024-02-23,Wireless Mouse,Electronics,South,Alice Kim,Retail Store,4,28.13,101.27
+1174,2024-02-23,Notebook Set,Stationery,West,Carla Diaz,Retail Store,5,11.7,52.65
+1175,2024-02-24,Standing Desk,Furniture,West,Alice Kim,Online,2,482.93,869.27
+1176,2024-02-24,Pen Pack,Stationery,East,Carla Diaz,Online,5,7.92,35.64
+1177,2024-02-24,Pen Pack,Stationery,North,Eve Torres,Partner,3,7.22,19.49
+1178,2024-02-24,Desk Lamp,Furniture,South,Eve Torres,Retail Store,3,43.76,118.15
+1179,2024-02-24,Office Chair,Furniture,East,Bob Chen,Partner,6,170.56,921.02
+1180,2024-02-24,Mechanical Keyboard,Electronics,East,David Lee,Online,6,69.0,372.6
+1181,2024-02-25,Notebook Set,Stationery,East,Carla Diaz,Partner,6,11.19,60.43
+1182,2024-02-25,Pen Pack,Stationery,East,Eve Torres,Partner,2,7.6,13.68
+1183,2024-02-25,Standing Desk,Furniture,West,Carla Diaz,Partner,2,404.98,728.96
+1184,2024-02-25,Notebook Set,Stationery,North,Bob Chen,Online,1,12.2,10.98
+1185,2024-02-26,Pen Pack,Stationery,West,Alice Kim,Retail Store,5,7.93,35.69
+1186,2024-02-26,Webcam HD,Electronics,East,Eve Torres,Retail Store,1,55.75,50.18
+1187,2024-02-26,Notebook Set,Stationery,West,Alice Kim,Partner,1,12.82,11.54
+1188,2024-02-26,Webcam HD,Electronics,South,Alice Kim,Partner,3,62.08,167.62
+1189,2024-02-26,Desk Lamp,Furniture,West,Alice Kim,Online,6,39.02,210.71
+1190,2024-02-26,Wireless Mouse,Electronics,West,Alice Kim,Online,1,24.4,21.96
+1191,2024-02-27,Webcam HD,Electronics,East,Eve Torres,Retail Store,2,54.84,98.71
+1192,2024-02-28,USB-C Hub,Electronics,West,Eve Torres,Retail Store,4,37.23,134.03
+1193,2024-02-28,Standing Desk,Furniture,South,David Lee,Retail Store,1,450.48,405.43
+1194,2024-02-28,Office Chair,Furniture,East,Eve Torres,Partner,3,166.47,449.47
+1195,2024-02-28,Notebook Set,Stationery,South,Alice Kim,Retail Store,1,11.99,10.79
+1196,2024-03-01,Office Chair,Furniture,North,Alice Kim,Retail Store,6,190.78,1058.83
+1197,2024-03-01,Office Chair,Furniture,South,Alice Kim,Partner,2,197.41,365.21
+1198,2024-03-01,Office Chair,Furniture,South,Carla Diaz,Online,5,171.72,794.21
+1199,2024-03-01,Monitor 27in,Electronics,South,Bob Chen,Partner,1,213.25,197.26
+1200,2024-03-01,Standing Desk,Furniture,North,Bob Chen,Online,2,389.54,720.65
+1201,2024-03-02,Office Chair,Furniture,South,Carla Diaz,Online,5,176.57,816.64
+1202,2024-03-02,USB-C Hub,Electronics,North,Alice Kim,Retail Store,6,35.18,195.25
+1203,2024-03-03,Notebook Set,Stationery,West,Eve Torres,Online,5,12.58,58.18
+1204,2024-03-03,Monitor 27in,Electronics,East,David Lee,Partner,1,238.0,220.15
+1205,2024-03-03,Wireless Mouse,Electronics,West,David Lee,Partner,1,28.74,26.58
+1206,2024-03-05,Desk Lamp,Furniture,East,Eve Torres,Online,1,44.99,41.62
+1207,2024-03-05,Mechanical Keyboard,Electronics,East,David Lee,Partner,2,62.97,116.49
+1208,2024-03-05,Webcam HD,Electronics,West,Alice Kim,Partner,3,55.74,154.68
+1209,2024-03-07,Webcam HD,Electronics,West,David Lee,Online,6,61.4,340.77
+1210,2024-03-07,Pen Pack,Stationery,West,David Lee,Partner,3,8.85,24.56
+1211,2024-03-07,Mechanical Keyboard,Electronics,East,Carla Diaz,Online,3,65.43,181.57
+1212,2024-03-07,Desk Lamp,Furniture,North,Alice Kim,Retail Store,1,36.91,34.14
+1213,2024-03-07,Mechanical Keyboard,Electronics,South,Eve Torres,Online,6,70.51,391.33
+1214,2024-03-07,Monitor 27in,Electronics,North,David Lee,Retail Store,5,228.89,1058.62
+1215,2024-03-08,Pen Pack,Stationery,East,Eve Torres,Retail Store,6,7.3,40.52
+1216,2024-03-08,Notebook Set,Stationery,South,Bob Chen,Partner,1,12.53,11.59
+1217,2024-03-08,Desk Lamp,Furniture,East,Eve Torres,Retail Store,2,44.47,82.27
+1218,2024-03-08,Mechanical Keyboard,Electronics,West,Eve Torres,Partner,3,67.83,188.23
+1219,2024-03-08,Monitor 27in,Electronics,North,Eve Torres,Partner,6,233.35,1295.09
+1220,2024-03-08,Standing Desk,Furniture,East,Carla Diaz,Retail Store,1,396.94,367.17
+1221,2024-03-10,USB-C Hub,Electronics,North,Bob Chen,Partner,5,37.25,172.28
+1222,2024-03-11,Wireless Mouse,Electronics,South,David Lee,Retail Store,1,27.16,25.12
+1223,2024-03-11,Desk Lamp,Furniture,East,Carla Diaz,Partner,3,37.57,104.26
+1224,2024-03-11,Monitor 27in,Electronics,South,Bob Chen,Partner,1,246.58,228.09
+1225,2024-03-11,Wireless Mouse,Electronics,West,David Lee,Retail Store,6,23.01,127.71
+1226,2024-03-11,Monitor 27in,Electronics,South,Eve Torres,Online,4,220.78,816.89
+1227,2024-03-12,Pen Pack,Stationery,West,Eve Torres,Partner,1,7.77,7.19
+1228,2024-03-12,Standing Desk,Furniture,North,Alice Kim,Online,1,401.15,371.06
+1229,2024-03-13,Office Chair,Furniture,East,Carla Diaz,Online,2,196.39,363.32
+1230,2024-03-13,Wireless Mouse,Electronics,South,Bob Chen,Retail Store,4,27.17,100.53
+1231,2024-03-14,Office Chair,Furniture,East,Alice Kim,Retail Store,5,187.14,865.52
+1232,2024-03-14,Wireless Mouse,Electronics,North,Carla Diaz,Partner,4,22.62,83.69
+1233,2024-03-14,Pen Pack,Stationery,West,Carla Diaz,Online,5,8.01,37.05
+1234,2024-03-14,Pen Pack,Stationery,South,Eve Torres,Retail Store,1,9.13,8.45
+1235,2024-03-15,Notebook Set,Stationery,North,Bob Chen,Retail Store,1,12.11,11.2
+1236,2024-03-15,Monitor 27in,Electronics,West,Carla Diaz,Partner,4,226.82,839.23
+1237,2024-03-15,Notebook Set,Stationery,South,Alice Kim,Partner,2,11.8,21.83
+1238,2024-03-15,Mechanical Keyboard,Electronics,East,Carla Diaz,Partner,5,66.79,308.9
+1239,2024-03-15,USB-C Hub,Electronics,East,Bob Chen,Online,2,32.4,59.94
+1240,2024-03-15,Monitor 27in,Electronics,North,Bob Chen,Partner,2,239.81,443.65
+1241,2024-03-16,Desk Lamp,Furniture,West,Eve Torres,Partner,5,43.6,201.65
+1242,2024-03-16,Monitor 27in,Electronics,East,Bob Chen,Retail Store,3,245.53,681.35
+1243,2024-03-16,Mechanical Keyboard,Electronics,East,Carla Diaz,Partner,4,65.69,243.05
+1244,2024-03-18,Webcam HD,Electronics,West,Alice Kim,Online,1,53.77,49.74
+1245,2024-03-18,Notebook Set,Stationery,North,Eve Torres,Partner,3,11.03,30.61
+1246,2024-03-19,Pen Pack,Stationery,North,David Lee,Partner,4,8.36,30.93
+1247,2024-03-19,Office Chair,Furniture,South,Alice Kim,Retail Store,3,189.23,525.11
+1248,2024-03-19,Mechanical Keyboard,Electronics,North,Eve Torres,Partner,3,74.46,206.63
+1249,2024-03-19,USB-C Hub,Electronics,West,David Lee,Partner,1,33.67,31.14
+1250,2024-03-20,Monitor 27in,Electronics,East,David Lee,Retail Store,2,218.01,403.32
+1251,2024-03-20,Notebook Set,Stationery,East,Alice Kim,Retail Store,6,12.59,69.87
+1252,2024-03-20,Mechanical Keyboard,Electronics,East,Carla Diaz,Partner,5,69.52,321.53
+1253,2024-03-20,Monitor 27in,Electronics,South,Carla Diaz,Retail Store,2,216.33,400.21
+1254,2024-03-21,Pen Pack,Stationery,North,Carla Diaz,Partner,2,8.39,15.52
+1255,2024-03-21,Pen Pack,Stationery,South,Eve Torres,Online,6,8.78,48.73
+1256,2024-03-21,Pen Pack,Stationery,East,Carla Diaz,Online,5,7.92,36.63
+1257,2024-03-21,Office Chair,Furniture,West,Bob Chen,Online,3,204.65,567.9
+1258,2024-03-21,USB-C Hub,Electronics,North,Eve Torres,Partner,2,32.18,59.53
+1259,2024-03-22,Webcam HD,Electronics,South,Eve Torres,Retail Store,1,58.6,54.21
+1260,2024-03-22,USB-C Hub,Electronics,South,David Lee,Online,2,33.08,61.2
+1261,2024-03-22,Pen Pack,Stationery,South,David Lee,Partner,3,8.55,23.73
+1262,2024-03-22,Standing Desk,Furniture,South,Eve Torres,Online,6,460.3,2554.67
+1263,2024-03-22,Standing Desk,Furniture,South,Carla Diaz,Partner,4,472.92,1749.8
+1264,2024-03-22,Monitor 27in,Electronics,East,David Lee,Partner,4,223.39,826.54
+1265,2024-03-23,Pen Pack,Stationery,South,Carla Diaz,Online,2,8.83,16.34
+1266,2024-03-23,Desk Lamp,Furniture,North,Eve Torres,Online,3,41.55,115.3
+1267,2024-03-23,Standing Desk,Furniture,East,David Lee,Partner,1,458.13,423.77
+1268,2024-03-23,USB-C Hub,Electronics,South,David Lee,Retail Store,4,32.3,119.51
+1269,2024-03-25,Wireless Mouse,Electronics,South,David Lee,Online,4,25.64,94.87
+1270,2024-03-25,Notebook Set,Stationery,North,Carla Diaz,Online,2,10.88,20.13
+1271,2024-03-25,USB-C Hub,Electronics,West,Bob Chen,Partner,1,34.01,31.46
+1272,2024-03-26,Desk Lamp,Furniture,North,Alice Kim,Retail Store,5,36.05,166.73
+1273,2024-03-26,Office Chair,Furniture,West,Alice Kim,Retail Store,2,186.7,345.39
+1274,2024-03-26,Office Chair,Furniture,South,David Lee,Partner,3,167.48,464.76
+1275,2024-03-27,Monitor 27in,Electronics,West,Eve Torres,Partner,4,201.45,745.37
+1276,2024-03-27,Wireless Mouse,Electronics,South,Bob Chen,Retail Store,6,25.72,142.75
+1277,2024-03-27,Pen Pack,Stationery,South,Eve Torres,Retail Store,1,8.43,7.8
+1278,2024-03-27,USB-C Hub,Electronics,East,Alice Kim,Partner,6,37.35,207.29
+1279,2024-03-27,Webcam HD,Electronics,North,David Lee,Retail Store,5,60.31,278.93
+1280,2024-03-27,Wireless Mouse,Electronics,East,Carla Diaz,Partner,6,24.92,138.31
+1281,2024-03-29,Mechanical Keyboard,Electronics,North,Eve Torres,Partner,3,62.42,173.22
+1282,2024-03-29,Notebook Set,Stationery,East,Bob Chen,Partner,2,10.93,20.22
+1283,2024-03-30,Desk Lamp,Furniture,South,Alice Kim,Partner,6,37.82,209.9
+1284,2024-03-30,Desk Lamp,Furniture,North,Bob Chen,Online,1,38.93,36.01
+1285,2024-03-30,Notebook Set,Stationery,West,Carla Diaz,Online,3,12.35,34.27
+1286,2024-03-31,Office Chair,Furniture,North,Carla Diaz,Retail Store,3,178.06,494.12
+1287,2024-03-31,Mechanical Keyboard,Electronics,West,David Lee,Retail Store,3,65.6,182.04
+1288,2024-03-31,Notebook Set,Stationery,West,Carla Diaz,Partner,2,12.29,22.74
+1289,2024-03-31,Standing Desk,Furniture,North,David Lee,Partner,1,454.34,420.26
+1290,2024-03-31,USB-C Hub,Electronics,North,Alice Kim,Retail Store,5,34.07,157.57
+1291,2024-03-31,Standing Desk,Furniture,West,Bob Chen,Partner,3,424.82,1178.88
+1292,2024-04-01,Notebook Set,Stationery,East,Eve Torres,Retail Store,4,10.93,41.53
+1293,2024-04-01,Standing Desk,Furniture,North,Alice Kim,Partner,6,480.9,2741.13
+1294,2024-04-01,Pen Pack,Stationery,South,Alice Kim,Online,3,8.23,23.46
+1295,2024-04-02,Monitor 27in,Electronics,North,Bob Chen,Online,6,240.97,1373.53
+1296,2024-04-02,Office Chair,Furniture,West,Eve Torres,Online,6,178.48,1017.34
+1297,2024-04-02,Monitor 27in,Electronics,East,Carla Diaz,Retail Store,2,235.35,447.16
+1298,2024-04-02,Mechanical Keyboard,Electronics,East,David Lee,Retail Store,5,60.74,288.51
+1299,2024-04-02,Standing Desk,Furniture,North,Bob Chen,Retail Store,2,478.85,909.82
+1300,2024-04-02,Webcam HD,Electronics,North,Carla Diaz,Retail Store,4,62.06,235.83
+1301,2024-04-03,Desk Lamp,Furniture,East,David Lee,Online,2,45.96,87.32
+1302,2024-04-03,Mechanical Keyboard,Electronics,West,Bob Chen,Partner,2,72.36,137.48
+1303,2024-04-03,Desk Lamp,Furniture,East,Carla Diaz,Partner,1,44.11,41.9
+1304,2024-04-03,Mechanical Keyboard,Electronics,East,Bob Chen,Partner,5,67.31,319.72
+1305,2024-04-03,USB-C Hub,Electronics,North,Bob Chen,Online,3,35.95,102.46
+1306,2024-04-04,Desk Lamp,Furniture,East,David Lee,Partner,1,39.61,37.63
+1307,2024-04-05,Monitor 27in,Electronics,West,David Lee,Partner,1,201.62,191.54
+1308,2024-04-06,Pen Pack,Stationery,East,Alice Kim,Retail Store,5,7.35,34.91
+1309,2024-04-06,Desk Lamp,Furniture,South,Eve Torres,Partner,6,41.17,234.67
+1310,2024-04-06,Monitor 27in,Electronics,South,David Lee,Partner,2,240.23,456.44
+1311,2024-04-07,Wireless Mouse,Electronics,East,Bob Chen,Online,1,25.74,24.45
+1312,2024-04-07,Notebook Set,Stationery,East,Alice Kim,Retail Store,6,11.48,65.44
+1313,2024-04-07,Office Chair,Furniture,East,Bob Chen,Partner,6,205.04,1168.73
+1314,2024-04-07,Standing Desk,Furniture,South,Eve Torres,Partner,5,434.02,2061.59
+1315,2024-04-07,USB-C Hub,Electronics,East,Eve Torres,Online,2,37.26,70.79
+1316,2024-04-07,Wireless Mouse,Electronics,East,Bob Chen,Partner,1,22.78,21.64
+1317,2024-04-08,Monitor 27in,Electronics,East,Carla Diaz,Retail Store,6,199.67,1138.12
+1318,2024-04-08,Office Chair,Furniture,West,Alice Kim,Partner,6,180.27,1027.54
+1319,2024-04-08,Wireless Mouse,Electronics,West,David Lee,Online,2,25.25,47.97
+1320,2024-04-09,Monitor 27in,Electronics,East,Carla Diaz,Retail Store,2,215.19,408.86
+1321,2024-04-09,USB-C Hub,Electronics,North,Carla Diaz,Online,3,36.01,102.63
+1322,2024-04-10,Mechanical Keyboard,Electronics,South,Alice Kim,Online,3,65.81,187.56
+1323,2024-04-10,Standing Desk,Furniture,West,Bob Chen,Online,4,468.74,1781.21
+1324,2024-04-10,Notebook Set,Stationery,South,Bob Chen,Retail Store,5,12.96,61.56
+1325,2024-04-11,Desk Lamp,Furniture,West,Alice Kim,Online,4,44.79,170.2
+1326,2024-04-11,Pen Pack,Stationery,South,Bob Chen,Partner,5,8.11,38.52
+1327,2024-04-11,Notebook Set,Stationery,West,Eve Torres,Partner,1,10.95,10.4
+1328,2024-04-11,Desk Lamp,Furniture,North,David Lee,Online,3,41.37,117.9
+1329,2024-04-12,Notebook Set,Stationery,West,Alice Kim,Partner,4,11.9,45.22
+1330,2024-04-12,Webcam HD,Electronics,East,Alice Kim,Retail Store,2,54.48,103.51
+1331,2024-04-13,Desk Lamp,Furniture,North,Bob Chen,Online,5,38.8,184.3
+1332,2024-04-13,Pen Pack,Stationery,East,Eve Torres,Retail Store,3,8.79,25.05
+1333,2024-04-13,USB-C Hub,Electronics,West,Eve Torres,Online,2,36.77,69.86
+1334,2024-04-13,Wireless Mouse,Electronics,East,David Lee,Partner,1,23.36,22.19
+1335,2024-04-14,USB-C Hub,Electronics,South,Carla Diaz,Partner,5,39.31,186.72
+1336,2024-04-14,Notebook Set,Stationery,East,Eve Torres,Retail Store,2,11.98,22.76
+1337,2024-04-14,Webcam HD,Electronics,East,David Lee,Online,5,56.82,269.89
+1338,2024-04-15,Notebook Set,Stationery,West,Eve Torres,Retail Store,6,11.13,63.44
+1339,2024-04-15,Wireless Mouse,Electronics,South,Alice Kim,Partner,5,25.47,120.98
+1340,2024-04-16,USB-C Hub,Electronics,West,Bob Chen,Partner,5,37.0,175.75
+1341,2024-04-16,Office Chair,Furniture,North,Bob Chen,Online,1,187.77,178.38
+1342,2024-04-16,Desk Lamp,Furniture,West,Bob Chen,Retail Store,3,40.19,114.54
+1343,2024-04-17,Monitor 27in,Electronics,North,Bob Chen,Partner,4,246.0,934.8
+1344,2024-04-17,Office Chair,Furniture,West,Eve Torres,Retail Store,5,176.63,838.99
+1345,2024-04-17,Notebook Set,Stationery,East,Eve Torres,Retail Store,2,12.18,23.14
+1346,2024-04-17,Standing Desk,Furniture,South,Carla Diaz,Partner,5,428.84,2036.99
+1347,2024-04-18,Office Chair,Furniture,South,David Lee,Retail Store,3,196.7,560.59
+1348,2024-04-18,Desk Lamp,Furniture,East,Carla Diaz,Online,3,41.6,118.56
+1349,2024-04-19,Webcam HD,Electronics,West,Carla Diaz,Online,4,61.82,234.92
+1350,2024-04-19,Standing Desk,Furniture,North,Carla Diaz,Retail Store,1,408.2,387.79
+1351,2024-04-19,Standing Desk,Furniture,South,Eve Torres,Retail Store,6,428.3,2441.31
+1352,2024-04-19,Webcam HD,Electronics,North,Eve Torres,Partner,6,53.23,303.41
+1353,2024-04-20,Office Chair,Furniture,South,Bob Chen,Online,2,164.28,312.13
+1354,2024-04-20,Mechanical Keyboard,Electronics,West,Alice Kim,Partner,4,63.87,242.71
+1355,2024-04-20,USB-C Hub,Electronics,South,David Lee,Partner,1,39.94,37.94
+1356,2024-04-20,Desk Lamp,Furniture,East,Carla Diaz,Retail Store,4,42.51,161.54
+1357,2024-04-21,Wireless Mouse,Electronics,South,Eve Torres,Partner,1,26.58,25.25
+1358,2024-04-21,Wireless Mouse,Electronics,South,Alice Kim,Retail Store,2,25.11,47.71
+1359,2024-04-21,Desk Lamp,Furniture,East,Alice Kim,Online,2,45.37,86.2
+1360,2024-04-21,Standing Desk,Furniture,East,Carla Diaz,Retail Store,5,441.29,2096.13
+1361,2024-04-21,Webcam HD,Electronics,South,Eve Torres,Retail Store,5,56.29,267.38
+1362,2024-04-22,Office Chair,Furniture,West,Carla Diaz,Partner,1,176.88,168.04
+1363,2024-04-22,USB-C Hub,Electronics,East,Eve Torres,Partner,1,37.95,36.05
+1364,2024-04-23,Office Chair,Furniture,West,David Lee,Partner,2,189.49,360.03
+1365,2024-04-23,Notebook Set,Stationery,North,Bob Chen,Online,1,12.0,11.4
+1366,2024-04-23,Desk Lamp,Furniture,North,Carla Diaz,Retail Store,3,45.36,129.28
+1367,2024-04-23,Office Chair,Furniture,East,Carla Diaz,Partner,4,195.92,744.5
+1368,2024-04-23,Monitor 27in,Electronics,East,Bob Chen,Online,1,212.39,201.77
+1369,2024-04-23,Mechanical Keyboard,Electronics,West,Eve Torres,Partner,4,63.49,241.26
+1370,2024-04-24,Standing Desk,Furniture,East,Carla Diaz,Partner,6,390.33,2224.88
+1371,2024-04-24,Office Chair,Furniture,West,Bob Chen,Retail Store,2,205.08,389.65
+1372,2024-04-24,Monitor 27in,Electronics,West,Eve Torres,Partner,3,220.87,629.48
+1373,2024-04-24,Office Chair,Furniture,North,Eve Torres,Retail Store,2,192.62,365.98
+1374,2024-04-24,Webcam HD,Electronics,North,Alice Kim,Partner,6,54.47,310.48
+1375,2024-04-24,Webcam HD,Electronics,South,Bob Chen,Retail Store,2,57.37,109.0
+1376,2024-04-25,Webcam HD,Electronics,South,Eve Torres,Retail Store,4,51.1,194.18
+1377,2024-04-25,Mechanical Keyboard,Electronics,North,David Lee,Online,5,65.74,312.26
+1378,2024-04-25,Webcam HD,Electronics,North,Eve Torres,Retail Store,4,55.78,211.96
+1379,2024-04-25,Standing Desk,Furniture,East,Alice Kim,Partner,6,380.29,2167.65
+1380,2024-04-25,Office Chair,Furniture,West,Carla Diaz,Partner,5,165.29,785.13
+1381,2024-04-25,Mechanical Keyboard,Electronics,North,David Lee,Online,5,74.65,354.59
+1382,2024-04-26,Pen Pack,Stationery,West,Carla Diaz,Retail Store,2,8.74,16.61
+1383,2024-04-26,Desk Lamp,Furniture,South,Carla Diaz,Online,4,39.76,151.09
+1384,2024-04-27,Webcam HD,Electronics,South,Alice Kim,Online,4,56.77,215.73
+1385,2024-04-28,Desk Lamp,Furniture,West,Eve Torres,Retail Store,6,43.19,246.18
+1386,2024-04-28,Office Chair,Furniture,South,Carla Diaz,Online,2,182.73,347.19
+1387,2024-04-29,Mechanical Keyboard,Electronics,West,Eve Torres,Online,1,71.65,68.07
+1388,2024-04-29,Office Chair,Furniture,North,David Lee,Partner,2,165.03,313.56
+1389,2024-04-29,Wireless Mouse,Electronics,West,David Lee,Online,2,27.13,51.55
+1390,2024-04-29,Webcam HD,Electronics,North,Bob Chen,Partner,2,59.87,113.75
+1391,2024-04-29,Standing Desk,Furniture,East,Eve Torres,Partner,2,463.66,880.95
+1392,2024-04-30,Notebook Set,Stationery,South,Eve Torres,Online,2,11.71,22.25
+1393,2024-04-30,Pen Pack,Stationery,South,David Lee,Partner,3,7.75,22.09
+1394,2024-04-30,Desk Lamp,Furniture,West,Eve Torres,Retail Store,1,45.72,43.43
+1395,2024-04-30,Pen Pack,Stationery,West,Bob Chen,Partner,4,7.5,28.5
+1396,2024-04-30,Desk Lamp,Furniture,East,Bob Chen,Retail Store,2,44.49,84.53
+1397,2024-04-30,Wireless Mouse,Electronics,West,Eve Torres,Partner,5,25.08,119.13
+1398,2024-05-01,Pen Pack,Stationery,East,Alice Kim,Retail Store,2,7.71,15.03
+1399,2024-05-02,Notebook Set,Stationery,South,Alice Kim,Retail Store,1,12.41,12.1
+1400,2024-05-02,Pen Pack,Stationery,North,Alice Kim,Online,6,8.41,49.2
+1401,2024-05-02,Monitor 27in,Electronics,South,David Lee,Online,6,234.93,1374.34
+1402,2024-05-02,Notebook Set,Stationery,North,Bob Chen,Online,3,13.67,39.98
+1403,2024-05-02,Mechanical Keyboard,Electronics,West,Bob Chen,Partner,6,74.74,437.23
+1404,2024-05-02,Monitor 27in,Electronics,South,Eve Torres,Retail Store,6,209.25,1224.11
+1405,2024-05-03,Standing Desk,Furniture,East,Carla Diaz,Retail Store,4,426.96,1665.14
+1406,2024-05-03,Notebook Set,Stationery,West,Alice Kim,Partner,5,13.45,65.57
+1407,2024-05-03,Desk Lamp,Furniture,East,Carla Diaz,Retail Store,3,45.14,132.03
+1408,2024-05-03,Wireless Mouse,Electronics,South,Alice Kim,Retail Store,5,27.9,136.01
+1409,2024-05-03,Webcam HD,Electronics,West,Carla Diaz,Online,5,57.46,280.12
+1410,2024-05-03,Office Chair,Furniture,South,David Lee,Partner,3,172.35,504.12
+1411,2024-05-04,Notebook Set,Stationery,West,David Lee,Retail Store,3,13.09,38.29
+1412,2024-05-04,USB-C Hub,Electronics,South,Bob Chen,Partner,6,38.46,224.99
+1413,2024-05-04,Webcam HD,Electronics,North,Eve Torres,Online,4,52.03,202.92
+1414,2024-05-04,Mechanical Keyboard,Electronics,North,David Lee,Online,6,59.29,346.85
+1415,2024-05-04,Office Chair,Furniture,North,Bob Chen,Partner,1,193.82,188.97
+1416,2024-05-05,Notebook Set,Stationery,West,David Lee,Online,1,12.65,12.33
+1417,2024-05-05,Wireless Mouse,Electronics,North,Alice Kim,Partner,5,25.95,126.51
+1418,2024-05-05,Standing Desk,Furniture,North,Eve Torres,Partner,5,480.64,2343.12
+1419,2024-05-06,Pen Pack,Stationery,North,Eve Torres,Online,2,7.41,14.45
+1420,2024-05-06,Office Chair,Furniture,East,Carla Diaz,Retail Store,2,189.89,370.29
+1421,2024-05-06,Pen Pack,Stationery,West,David Lee,Partner,1,7.95,7.75
+1422,2024-05-06,Office Chair,Furniture,North,Alice Kim,Online,6,172.16,1007.14
+1423,2024-05-06,Pen Pack,Stationery,West,Alice Kim,Partner,4,7.95,31.0
+1424,2024-05-08,USB-C Hub,Electronics,West,Carla Diaz,Partner,1,35.87,34.97
+1425,2024-05-08,Mechanical Keyboard,Electronics,South,Bob Chen,Partner,5,73.44,358.02
+1426,2024-05-08,Monitor 27in,Electronics,North,Carla Diaz,Partner,4,212.91,830.35
+1427,2024-05-08,Monitor 27in,Electronics,East,Alice Kim,Online,6,199.81,1168.89
+1428,2024-05-08,Monitor 27in,Electronics,West,Alice Kim,Retail Store,2,239.37,466.77
+1429,2024-05-09,Monitor 27in,Electronics,West,Eve Torres,Retail Store,2,229.17,446.88
+1430,2024-05-10,USB-C Hub,Electronics,East,Alice Kim,Online,6,37.84,221.36
+1431,2024-05-10,Pen Pack,Stationery,East,Eve Torres,Partner,2,8.88,17.32
+1432,2024-05-10,Monitor 27in,Electronics,East,Alice Kim,Partner,4,251.29,980.03
+1433,2024-05-11,Desk Lamp,Furniture,West,David Lee,Online,4,38.28,149.29
+1434,2024-05-11,Monitor 27in,Electronics,East,Bob Chen,Partner,6,218.9,1280.57
+1435,2024-05-14,USB-C Hub,Electronics,South,David Lee,Retail Store,4,37.73,147.15
+1436,2024-05-14,Notebook Set,Stationery,East,David Lee,Retail Store,1,11.07,10.79
+1437,2024-05-15,Standing Desk,Furniture,South,David Lee,Retail Store,1,391.91,382.11
+1438,2024-05-15,Webcam HD,Electronics,North,Alice Kim,Online,5,56.55,275.68
+1439,2024-05-15,Notebook Set,Stationery,East,David Lee,Online,5,11.08,54.02
+1440,2024-05-15,Standing Desk,Furniture,North,Eve Torres,Online,4,418.72,1633.01
+1441,2024-05-15,Monitor 27in,Electronics,West,Bob Chen,Online,5,207.33,1010.73
+1442,2024-05-15,Standing Desk,Furniture,South,Alice Kim,Online,3,406.18,1188.08
+1443,2024-05-16,Standing Desk,Furniture,North,Carla Diaz,Retail Store,4,409.47,1596.93
+1444,2024-05-16,Office Chair,Furniture,South,David Lee,Online,6,190.13,1112.26
+1445,2024-05-16,USB-C Hub,Electronics,West,Carla Diaz,Partner,3,31.56,92.31
+1446,2024-05-17,Notebook Set,Stationery,South,Carla Diaz,Retail Store,4,11.8,46.02
+1447,2024-05-17,Monitor 27in,Electronics,East,Bob Chen,Retail Store,6,209.05,1222.94
+1448,2024-05-17,Notebook Set,Stationery,West,Eve Torres,Online,3,13.0,38.02
+1449,2024-05-18,Pen Pack,Stationery,West,Carla Diaz,Online,3,8.83,25.83
+1450,2024-05-18,Monitor 27in,Electronics,South,Eve Torres,Online,2,230.57,449.61
+1451,2024-05-19,Desk Lamp,Furniture,East,Alice Kim,Retail Store,6,38.1,222.89
+1452,2024-05-19,Desk Lamp,Furniture,South,Carla Diaz,Partner,2,42.33,82.54
+1453,2024-05-19,USB-C Hub,Electronics,West,Alice Kim,Retail Store,6,35.2,205.92
+1454,2024-05-19,Monitor 27in,Electronics,West,Eve Torres,Online,4,230.02,897.08
+1455,2024-05-19,Notebook Set,Stationery,North,Alice Kim,Online,6,13.49,78.92
+1456,2024-05-20,Notebook Set,Stationery,North,Eve Torres,Partner,2,12.74,24.84
+1457,2024-05-20,Pen Pack,Stationery,West,Alice Kim,Online,3,9.13,26.71
+1458,2024-05-20,Mechanical Keyboard,Electronics,South,David Lee,Retail Store,3,62.11,181.67
+1459,2024-05-20,Pen Pack,Stationery,South,Carla Diaz,Online,4,8.74,34.09
+1460,2024-05-20,Desk Lamp,Furniture,North,Alice Kim,Partner,1,38.95,37.98
+1461,2024-05-21,Notebook Set,Stationery,South,Eve Torres,Retail Store,3,11.83,34.6
+1462,2024-05-22,Desk Lamp,Furniture,West,Carla Diaz,Online,1,40.38,39.37
+1463,2024-05-22,Standing Desk,Furniture,North,Alice Kim,Retail Store,1,463.07,451.49
+1464,2024-05-23,Mechanical Keyboard,Electronics,South,Eve Torres,Online,6,71.5,418.27
+1465,2024-05-23,Webcam HD,Electronics,West,David Lee,Online,2,54.05,105.4
+1466,2024-05-23,Pen Pack,Stationery,West,David Lee,Online,6,7.57,44.28
+1467,2024-05-23,Monitor 27in,Electronics,West,David Lee,Online,2,222.73,434.32
+1468,2024-05-23,Office Chair,Furniture,North,Eve Torres,Online,2,174.53,340.33
+1469,2024-05-24,Webcam HD,Electronics,South,David Lee,Online,2,54.53,106.33
+1470,2024-05-24,Standing Desk,Furniture,East,Eve Torres,Retail Store,6,468.58,2741.19
+1471,2024-05-24,Monitor 27in,Electronics,East,Carla Diaz,Retail Store,4,230.29,898.13
+1472,2024-05-24,Monitor 27in,Electronics,East,Eve Torres,Partner,2,242.76,473.38
+1473,2024-05-24,Mechanical Keyboard,Electronics,North,Bob Chen,Retail Store,6,60.68,354.98
+1474,2024-05-24,Mechanical Keyboard,Electronics,South,Eve Torres,Retail Store,2,64.57,125.91
+1475,2024-05-25,Monitor 27in,Electronics,West,Bob Chen,Retail Store,2,229.61,447.74
+1476,2024-05-25,Webcam HD,Electronics,South,Eve Torres,Online,6,62.14,363.52
+1477,2024-05-25,Desk Lamp,Furniture,East,David Lee,Partner,3,37.4,109.39
+1478,2024-05-27,Notebook Set,Stationery,South,David Lee,Partner,1,12.25,11.94
+1479,2024-05-27,Webcam HD,Electronics,West,David Lee,Partner,6,56.31,329.41
+1480,2024-05-27,Desk Lamp,Furniture,North,Bob Chen,Retail Store,4,37.67,146.91
+1481,2024-05-27,Wireless Mouse,Electronics,East,Bob Chen,Retail Store,3,23.91,69.94
+1482,2024-05-27,Monitor 27in,Electronics,West,Eve Torres,Partner,6,240.49,1406.87
+1483,2024-05-27,Mechanical Keyboard,Electronics,East,Eve Torres,Online,5,60.36,294.25
+1484,2024-05-28,Desk Lamp,Furniture,West,Alice Kim,Partner,5,38.19,186.18
+1485,2024-05-28,Office Chair,Furniture,North,David Lee,Retail Store,3,201.37,589.01
+1486,2024-05-28,Notebook Set,Stationery,North,Bob Chen,Online,1,12.12,11.82
+1487,2024-05-28,Monitor 27in,Electronics,West,Bob Chen,Partner,6,217.28,1271.09
+1488,2024-05-28,USB-C Hub,Electronics,North,Eve Torres,Retail Store,2,38.62,75.31
+1489,2024-05-28,Webcam HD,Electronics,South,Carla Diaz,Partner,3,57.71,168.8
+1490,2024-05-29,Standing Desk,Furniture,North,Bob Chen,Retail Store,5,406.07,1979.59
+1491,2024-05-29,Wireless Mouse,Electronics,South,Bob Chen,Online,3,27.92,81.67
+1492,2024-05-30,Notebook Set,Stationery,West,David Lee,Online,2,13.08,25.51
+1493,2024-05-31,Standing Desk,Furniture,West,Alice Kim,Partner,6,421.49,2465.72
+1494,2024-05-31,Mechanical Keyboard,Electronics,East,Carla Diaz,Retail Store,4,66.88,260.83
+1495,2024-05-31,Desk Lamp,Furniture,North,David Lee,Partner,3,41.82,122.32
+1496,2024-05-31,Notebook Set,Stationery,West,Bob Chen,Retail Store,1,13.19,12.86
+1497,2024-06-01,Office Chair,Furniture,East,Carla Diaz,Partner,4,174.08,696.32
+1498,2024-06-01,Monitor 27in,Electronics,West,Carla Diaz,Partner,2,229.14,458.28
+1499,2024-06-01,Wireless Mouse,Electronics,West,Alice Kim,Online,1,23.12,23.12
+1500,2024-06-01,USB-C Hub,Electronics,West,Bob Chen,Partner,4,35.49,141.96
+1501,2024-06-01,USB-C Hub,Electronics,East,Alice Kim,Partner,6,34.14,204.84
+1502,2024-06-01,Notebook Set,Stationery,South,Alice Kim,Retail Store,3,11.05,33.15
+1503,2024-06-02,Standing Desk,Furniture,South,David Lee,Partner,6,451.44,2708.64
+1504,2024-06-02,Mechanical Keyboard,Electronics,South,David Lee,Online,6,60.05,360.3
+1505,2024-06-02,USB-C Hub,Electronics,West,Alice Kim,Online,5,33.48,167.4
+1506,2024-06-02,Notebook Set,Stationery,West,Bob Chen,Retail Store,1,13.76,13.76
+1507,2024-06-02,Mechanical Keyboard,Electronics,North,Alice Kim,Retail Store,2,64.72,129.44
+1508,2024-06-03,Standing Desk,Furniture,South,Bob Chen,Online,2,418.19,836.38
+1509,2024-06-03,Webcam HD,Electronics,South,David Lee,Retail Store,5,49.62,248.1
+1510,2024-06-04,Office Chair,Furniture,West,Eve Torres,Partner,6,195.67,1174.02
+1511,2024-06-04,Desk Lamp,Furniture,North,Bob Chen,Online,2,36.87,73.74
+1512,2024-06-04,Monitor 27in,Electronics,West,Carla Diaz,Online,6,219.12,1314.72
+1513,2024-06-04,Office Chair,Furniture,South,Eve Torres,Partner,3,191.01,573.03
+1514,2024-06-04,Monitor 27in,Electronics,North,Carla Diaz,Online,6,231.42,1388.52
+1515,2024-06-05,Monitor 27in,Electronics,West,Carla Diaz,Partner,5,208.38,1041.9
+1516,2024-06-05,Wireless Mouse,Electronics,North,Bob Chen,Retail Store,2,25.59,51.18
+1517,2024-06-05,Monitor 27in,Electronics,North,Carla Diaz,Retail Store,1,227.06,227.06
+1518,2024-06-05,USB-C Hub,Electronics,West,Carla Diaz,Partner,4,39.03,156.12
+1519,2024-06-06,USB-C Hub,Electronics,North,Alice Kim,Partner,4,39.85,159.4
+1520,2024-06-06,Mechanical Keyboard,Electronics,North,Alice Kim,Retail Store,1,62.76,62.76
+1521,2024-06-06,Webcam HD,Electronics,West,David Lee,Partner,3,58.14,174.42
+1522,2024-06-06,Pen Pack,Stationery,South,Carla Diaz,Online,1,8.48,8.48
+1523,2024-06-06,Standing Desk,Furniture,South,Bob Chen,Partner,1,431.69,431.69
+1524,2024-06-07,Pen Pack,Stationery,North,Carla Diaz,Partner,5,8.47,42.35
+1525,2024-06-07,Pen Pack,Stationery,South,Alice Kim,Online,6,9.11,54.66
+1526,2024-06-09,Mechanical Keyboard,Electronics,North,Carla Diaz,Partner,4,68.45,273.8
+1527,2024-06-09,USB-C Hub,Electronics,South,Alice Kim,Online,1,31.61,31.61
+1528,2024-06-09,Desk Lamp,Furniture,East,Bob Chen,Retail Store,3,41.23,123.69
+1529,2024-06-10,Standing Desk,Furniture,North,Carla Diaz,Retail Store,6,471.07,2826.42
+1530,2024-06-11,Webcam HD,Electronics,North,David Lee,Retail Store,1,53.12,53.12
+1531,2024-06-11,Webcam HD,Electronics,South,Carla Diaz,Online,3,50.26,150.78
+1532,2024-06-12,Mechanical Keyboard,Electronics,North,Bob Chen,Partner,5,69.45,347.25
+1533,2024-06-12,Webcam HD,Electronics,North,Bob Chen,Online,1,50.11,50.11
+1534,2024-06-13,Notebook Set,Stationery,South,Alice Kim,Partner,4,13.56,54.24
+1535,2024-06-13,Pen Pack,Stationery,West,Carla Diaz,Retail Store,2,7.84,15.68
+1536,2024-06-13,Mechanical Keyboard,Electronics,North,Bob Chen,Online,5,64.56,322.8
+1537,2024-06-14,Webcam HD,Electronics,North,David Lee,Retail Store,1,62.62,62.62
+1538,2024-06-14,Standing Desk,Furniture,West,Alice Kim,Retail Store,3,387.07,1161.21
+1539,2024-06-14,Office Chair,Furniture,East,Eve Torres,Online,3,187.37,562.11
+1540,2024-06-14,Desk Lamp,Furniture,West,Bob Chen,Partner,3,41.92,125.76
+1541,2024-06-14,Webcam HD,Electronics,West,Alice Kim,Online,2,51.57,103.14
+1542,2024-06-14,Webcam HD,Electronics,North,Carla Diaz,Online,3,58.24,174.72
+1543,2024-06-15,Pen Pack,Stationery,North,Bob Chen,Partner,6,8.65,51.9
+1544,2024-06-15,Office Chair,Furniture,North,Bob Chen,Partner,4,184.14,736.56
+1545,2024-06-15,Standing Desk,Furniture,South,Eve Torres,Retail Store,1,382.61,382.61
+1546,2024-06-15,Notebook Set,Stationery,North,Eve Torres,Online,4,13.72,54.88
+1547,2024-06-15,Webcam HD,Electronics,West,Alice Kim,Partner,2,58.26,116.52
+1548,2024-06-15,Monitor 27in,Electronics,South,Bob Chen,Retail Store,1,221.92,221.92
+1549,2024-06-16,Notebook Set,Stationery,East,Carla Diaz,Retail Store,4,12.9,51.6
+1550,2024-06-16,Standing Desk,Furniture,South,Bob Chen,Partner,2,385.84,771.68
+1551,2024-06-18,Mechanical Keyboard,Electronics,East,David Lee,Online,2,65.81,131.62
+1552,2024-06-19,Notebook Set,Stationery,West,Carla Diaz,Online,2,12.16,24.32
+1553,2024-06-19,Mechanical Keyboard,Electronics,East,Eve Torres,Online,2,71.62,143.24
+1554,2024-06-19,Office Chair,Furniture,South,Carla Diaz,Retail Store,3,168.67,506.01
+1555,2024-06-19,Webcam HD,Electronics,East,Bob Chen,Online,1,58.81,58.81
+1556,2024-06-20,Desk Lamp,Furniture,South,Alice Kim,Retail Store,5,43.48,217.4
+1557,2024-06-20,Mechanical Keyboard,Electronics,North,Bob Chen,Online,2,60.47,120.94
+1558,2024-06-20,Office Chair,Furniture,North,Eve Torres,Partner,4,178.75,715.0
+1559,2024-06-21,Mechanical Keyboard,Electronics,South,David Lee,Online,1,74.7,74.7
+1560,2024-06-21,Mechanical Keyboard,Electronics,West,Alice Kim,Online,3,60.49,181.47
+1561,2024-06-22,Pen Pack,Stationery,North,David Lee,Partner,6,7.99,47.94
+1562,2024-06-22,Pen Pack,Stationery,South,Carla Diaz,Retail Store,2,7.91,15.82
+1563,2024-06-22,Desk Lamp,Furniture,South,Carla Diaz,Retail Store,2,36.35,72.7
+1564,2024-06-22,Pen Pack,Stationery,North,Carla Diaz,Retail Store,5,8.16,40.8
+1565,2024-06-23,Pen Pack,Stationery,South,Eve Torres,Online,2,8.49,16.98
+1566,2024-06-24,Notebook Set,Stationery,West,Carla Diaz,Partner,4,12.43,49.72
+1567,2024-06-24,Webcam HD,Electronics,South,Alice Kim,Retail Store,3,54.84,164.52
+1568,2024-06-24,Monitor 27in,Electronics,East,Alice Kim,Retail Store,2,199.61,399.22
+1569,2024-06-25,Notebook Set,Stationery,South,Alice Kim,Online,5,13.8,69.0
+1570,2024-06-25,Office Chair,Furniture,North,Bob Chen,Partner,3,186.02,558.06
+1571,2024-06-25,Pen Pack,Stationery,South,Bob Chen,Online,3,9.07,27.21
+1572,2024-06-25,Monitor 27in,Electronics,East,Eve Torres,Online,3,242.34,727.02
+1573,2024-06-26,Notebook Set,Stationery,South,David Lee,Partner,5,12.49,62.45
+1574,2024-06-26,Standing Desk,Furniture,North,Alice Kim,Online,2,429.5,859.0
+1575,2024-06-26,Monitor 27in,Electronics,West,Alice Kim,Retail Store,2,199.1,398.2
+1576,2024-06-26,Monitor 27in,Electronics,East,Bob Chen,Retail Store,2,242.35,484.7
+1577,2024-06-26,Wireless Mouse,Electronics,South,Alice Kim,Partner,1,23.42,23.42
+1578,2024-06-27,Notebook Set,Stationery,West,Eve Torres,Online,1,11.92,11.92
+1579,2024-06-27,Notebook Set,Stationery,South,David Lee,Partner,3,11.77,35.31
+1580,2024-06-27,Desk Lamp,Furniture,East,Bob Chen,Partner,6,39.17,235.02
+1581,2024-06-27,Monitor 27in,Electronics,East,Bob Chen,Online,2,218.81,437.62
+1582,2024-06-27,Wireless Mouse,Electronics,West,Eve Torres,Online,6,28.43,170.58
+1583,2024-06-27,USB-C Hub,Electronics,South,Eve Torres,Online,5,34.28,171.4
+1584,2024-06-28,USB-C Hub,Electronics,South,Carla Diaz,Retail Store,3,38.02,114.06
+1585,2024-06-28,USB-C Hub,Electronics,North,Carla Diaz,Retail Store,6,39.25,235.5
+1586,2024-06-28,Wireless Mouse,Electronics,North,Carla Diaz,Retail Store,3,23.81,71.43
+1587,2024-06-29,Mechanical Keyboard,Electronics,West,David Lee,Partner,6,58.52,351.12
+1588,2024-06-29,Pen Pack,Stationery,West,David Lee,Retail Store,2,8.97,17.94
+1589,2024-06-29,Webcam HD,Electronics,West,Eve Torres,Partner,4,50.89,203.56
+1590,2024-06-29,Office Chair,Furniture,North,Carla Diaz,Online,2,182.31,364.62
+1591,2024-06-29,Notebook Set,Stationery,North,Carla Diaz,Online,3,13.65,40.95
+1592,2024-06-29,Pen Pack,Stationery,North,Carla Diaz,Partner,2,8.66,17.32
+1593,2024-06-30,Desk Lamp,Furniture,South,Eve Torres,Retail Store,6,36.31,217.86
+1594,2024-06-30,USB-C Hub,Electronics,South,Bob Chen,Retail Store,1,32.39,32.39
+1595,2024-06-30,Webcam HD,Electronics,East,Carla Diaz,Retail Store,6,62.23,373.38
+1596,2024-06-30,Office Chair,Furniture,West,Bob Chen,Online,1,164.23,164.23
+1597,2024-07-01,Wireless Mouse,Electronics,West,Bob Chen,Online,4,23.05,94.5
+1598,2024-07-01,Wireless Mouse,Electronics,East,Alice Kim,Retail Store,2,23.57,48.32
+1599,2024-07-02,Mechanical Keyboard,Electronics,West,David Lee,Partner,3,71.25,219.09
+1600,2024-07-02,Standing Desk,Furniture,West,Bob Chen,Retail Store,1,445.4,456.53
+1601,2024-07-02,Pen Pack,Stationery,North,Carla Diaz,Retail Store,3,7.57,23.28
+1602,2024-07-02,Desk Lamp,Furniture,East,Eve Torres,Online,3,38.26,117.65
+1603,2024-07-02,USB-C Hub,Electronics,North,Carla Diaz,Partner,6,37.34,229.64
+1604,2024-07-02,Pen Pack,Stationery,North,David Lee,Partner,5,7.66,39.26
+1605,2024-07-03,Webcam HD,Electronics,West,Eve Torres,Online,6,61.42,377.73
+1606,2024-07-03,Desk Lamp,Furniture,North,Eve Torres,Partner,3,36.79,113.13
+1607,2024-07-03,Webcam HD,Electronics,South,Alice Kim,Retail Store,5,58.82,301.45
+1608,2024-07-04,USB-C Hub,Electronics,South,Alice Kim,Retail Store,2,38.57,79.07
+1609,2024-07-06,Pen Pack,Stationery,South,Eve Torres,Retail Store,2,9.19,18.84
+1610,2024-07-06,Notebook Set,Stationery,North,Alice Kim,Retail Store,6,13.54,83.27
+1611,2024-07-06,Webcam HD,Electronics,East,Eve Torres,Retail Store,4,57.09,234.07
+1612,2024-07-06,Wireless Mouse,Electronics,West,Alice Kim,Retail Store,6,26.39,162.3
+1613,2024-07-06,USB-C Hub,Electronics,North,Alice Kim,Partner,2,36.46,74.74
+1614,2024-07-07,Mechanical Keyboard,Electronics,East,David Lee,Retail Store,3,72.6,223.24
+1615,2024-07-07,Pen Pack,Stationery,West,Alice Kim,Online,6,8.17,50.25
+1616,2024-07-07,Standing Desk,Furniture,West,Alice Kim,Retail Store,4,393.1,1611.71
+1617,2024-07-07,Notebook Set,Stationery,West,Carla Diaz,Retail Store,6,11.51,70.79
+1618,2024-07-07,Wireless Mouse,Electronics,East,Carla Diaz,Retail Store,3,27.61,84.9
+1619,2024-07-07,Desk Lamp,Furniture,South,Bob Chen,Retail Store,6,42.85,263.53
+1620,2024-07-08,Desk Lamp,Furniture,West,Eve Torres,Partner,3,38.69,118.97
+1621,2024-07-08,Mechanical Keyboard,Electronics,West,David Lee,Partner,2,65.68,134.64
+1622,2024-07-08,Notebook Set,Stationery,South,Alice Kim,Retail Store,1,12.35,12.66
+1623,2024-07-08,Webcam HD,Electronics,North,Bob Chen,Online,4,51.37,210.62
+1624,2024-07-08,Office Chair,Furniture,West,Alice Kim,Retail Store,1,173.23,177.56
+1625,2024-07-09,Office Chair,Furniture,West,Eve Torres,Retail Store,3,178.58,549.13
+1626,2024-07-09,Mechanical Keyboard,Electronics,East,David Lee,Partner,6,59.0,362.85
+1627,2024-07-09,Desk Lamp,Furniture,West,Eve Torres,Partner,2,45.61,93.5
+1628,2024-07-09,Notebook Set,Stationery,East,Alice Kim,Retail Store,3,11.29,34.72
+1629,2024-07-09,Wireless Mouse,Electronics,South,Bob Chen,Partner,4,22.81,93.52
+1630,2024-07-10,Office Chair,Furniture,North,Alice Kim,Retail Store,3,191.32,588.31
+1631,2024-07-11,USB-C Hub,Electronics,South,Carla Diaz,Partner,5,38.51,197.36
+1632,2024-07-12,Standing Desk,Furniture,East,David Lee,Retail Store,6,479.54,2949.17
+1633,2024-07-12,Notebook Set,Stationery,West,Carla Diaz,Partner,4,11.56,47.4
+1634,2024-07-12,Webcam HD,Electronics,North,Alice Kim,Partner,5,54.96,281.67
+1635,2024-07-12,Notebook Set,Stationery,East,Carla Diaz,Partner,5,12.74,65.29
+1636,2024-07-12,Mechanical Keyboard,Electronics,East,Carla Diaz,Retail Store,4,59.54,244.11
+1637,2024-07-12,Standing Desk,Furniture,East,Bob Chen,Online,6,452.66,2783.86
+1638,2024-07-13,Office Chair,Furniture,West,Carla Diaz,Partner,1,198.24,203.2
+1639,2024-07-13,USB-C Hub,Electronics,West,Carla Diaz,Retail Store,6,31.72,195.08
+1640,2024-07-13,Pen Pack,Stationery,North,Eve Torres,Partner,4,7.98,32.72
+1641,2024-07-13,Monitor 27in,Electronics,South,Eve Torres,Partner,2,216.87,444.58
+1642,2024-07-14,Desk Lamp,Furniture,East,Bob Chen,Partner,6,39.58,243.42
+1643,2024-07-14,Webcam HD,Electronics,West,Bob Chen,Partner,2,53.54,109.76
+1644,2024-07-14,Standing Desk,Furniture,South,Carla Diaz,Partner,6,462.88,2846.71
+1645,2024-07-14,Mechanical Keyboard,Electronics,East,David Lee,Retail Store,2,64.27,131.75
+1646,2024-07-14,Notebook Set,Stationery,West,Alice Kim,Retail Store,3,12.56,38.62
+1647,2024-07-14,Wireless Mouse,Electronics,North,David Lee,Online,6,26.15,160.82
+1648,2024-07-15,Mechanical Keyboard,Electronics,East,David Lee,Online,6,64.7,397.91
+1649,2024-07-15,USB-C Hub,Electronics,East,David Lee,Partner,2,40.18,82.37
+1650,2024-07-15,Desk Lamp,Furniture,South,Alice Kim,Retail Store,2,39.16,80.28
+1651,2024-07-15,Notebook Set,Stationery,East,Alice Kim,Online,6,13.76,84.62
+1652,2024-07-16,Standing Desk,Furniture,South,Eve Torres,Online,2,457.93,938.76
+1653,2024-07-16,Desk Lamp,Furniture,West,David Lee,Retail Store,1,37.29,38.22
+1654,2024-07-16,Pen Pack,Stationery,North,Eve Torres,Online,4,7.97,32.68
+1655,2024-07-17,Notebook Set,Stationery,South,Alice Kim,Partner,1,13.48,13.82
+1656,2024-07-17,Wireless Mouse,Electronics,South,Carla Diaz,Retail Store,6,27.09,166.6
+1657,2024-07-17,USB-C Hub,Electronics,East,Bob Chen,Online,1,34.86,35.73
+1658,2024-07-17,Wireless Mouse,Electronics,West,Eve Torres,Partner,3,28.43,87.42
+1659,2024-07-17,Webcam HD,Electronics,South,Carla Diaz,Retail Store,3,55.46,170.54
+1660,2024-07-18,Office Chair,Furniture,West,Alice Kim,Online,2,204.66,419.55
+1661,2024-07-18,Office Chair,Furniture,South,Alice Kim,Partner,6,206.32,1268.87
+1662,2024-07-19,USB-C Hub,Electronics,North,David Lee,Partner,1,34.71,35.58
+1663,2024-07-19,Standing Desk,Furniture,North,Alice Kim,Partner,5,443.43,2272.58
+1664,2024-07-19,Wireless Mouse,Electronics,West,David Lee,Retail Store,1,26.81,27.48
+1665,2024-07-19,Mechanical Keyboard,Electronics,South,Bob Chen,Partner,5,62.61,320.88
+1666,2024-07-20,Wireless Mouse,Electronics,North,Eve Torres,Retail Store,3,25.13,77.27
+1667,2024-07-20,Monitor 27in,Electronics,West,Alice Kim,Partner,5,236.54,1212.27
+1668,2024-07-20,Monitor 27in,Electronics,North,David Lee,Online,1,213.55,218.89
+1669,2024-07-20,Monitor 27in,Electronics,South,Carla Diaz,Partner,2,240.79,493.62
+1670,2024-07-20,Pen Pack,Stationery,West,Bob Chen,Partner,3,7.52,23.12
+1671,2024-07-21,Notebook Set,Stationery,North,Alice Kim,Partner,2,10.81,22.16
+1672,2024-07-21,Desk Lamp,Furniture,North,Alice Kim,Retail Store,2,45.49,93.25
+1673,2024-07-21,Office Chair,Furniture,East,Carla Diaz,Retail Store,4,206.49,846.61
+1674,2024-07-24,USB-C Hub,Electronics,East,Carla Diaz,Retail Store,1,38.96,39.93
+1675,2024-07-24,Mechanical Keyboard,Electronics,North,Alice Kim,Online,1,72.33,74.14
+1676,2024-07-24,USB-C Hub,Electronics,West,Eve Torres,Retail Store,3,34.63,106.49
+1677,2024-07-24,Mechanical Keyboard,Electronics,South,Alice Kim,Retail Store,3,71.74,220.6
+1678,2024-07-24,Pen Pack,Stationery,West,David Lee,Retail Store,4,7.74,31.73
+1679,2024-07-24,USB-C Hub,Electronics,North,Bob Chen,Online,1,32.66,33.48
+1680,2024-07-25,Monitor 27in,Electronics,West,Bob Chen,Partner,4,242.12,992.69
+1681,2024-07-25,Pen Pack,Stationery,South,David Lee,Retail Store,3,8.42,25.89
+1682,2024-07-25,Mechanical Keyboard,Electronics,North,Carla Diaz,Partner,4,65.66,269.21
+1683,2024-07-26,Wireless Mouse,Electronics,South,Carla Diaz,Partner,6,27.93,171.77
+1684,2024-07-26,Webcam HD,Electronics,North,David Lee,Partner,6,59.13,363.65
+1685,2024-07-27,Office Chair,Furniture,West,Bob Chen,Partner,4,177.56,728.0
+1686,2024-07-27,Monitor 27in,Electronics,South,Eve Torres,Retail Store,1,198.64,203.61
+1687,2024-07-27,Desk Lamp,Furniture,West,Carla Diaz,Online,2,36.75,75.34
+1688,2024-07-27,Notebook Set,Stationery,South,Eve Torres,Partner,3,10.95,33.67
+1689,2024-07-27,Pen Pack,Stationery,North,David Lee,Retail Store,4,8.83,36.2
+1690,2024-07-28,Monitor 27in,Electronics,West,David Lee,Retail Store,4,202.84,831.64
+1691,2024-07-28,Mechanical Keyboard,Electronics,North,Alice Kim,Retail Store,4,70.61,289.5
+1692,2024-07-28,Pen Pack,Stationery,North,Alice Kim,Partner,1,8.31,8.52
+1693,2024-07-28,Monitor 27in,Electronics,South,David Lee,Retail Store,6,214.75,1320.71
+1694,2024-07-28,Notebook Set,Stationery,West,Carla Diaz,Partner,1,13.25,13.58
+1695,2024-07-28,Monitor 27in,Electronics,East,David Lee,Online,5,224.02,1148.1
+1696,2024-07-30,Office Chair,Furniture,East,Eve Torres,Partner,1,177.36,181.79
+1697,2024-07-30,Notebook Set,Stationery,South,David Lee,Online,6,11.12,68.39
+1698,2024-07-30,Pen Pack,Stationery,South,Bob Chen,Online,1,7.71,7.9
+1699,2024-07-30,Pen Pack,Stationery,South,Carla Diaz,Online,2,8.11,16.63
+1700,2024-07-30,Pen Pack,Stationery,North,David Lee,Retail Store,1,9.05,9.28
+1701,2024-07-30,Monitor 27in,Electronics,West,Alice Kim,Partner,5,205.4,1052.67
+1702,2024-07-31,Wireless Mouse,Electronics,West,Eve Torres,Online,5,28.35,145.29
+1703,2024-07-31,Monitor 27in,Electronics,South,Alice Kim,Retail Store,2,238.18,488.27
+1704,2024-07-31,Monitor 27in,Electronics,West,David Lee,Partner,5,246.55,1263.57
+1705,2024-07-31,Office Chair,Furniture,East,Carla Diaz,Retail Store,3,179.9,553.19
+1706,2024-07-31,USB-C Hub,Electronics,East,Eve Torres,Retail Store,2,35.11,71.98
+1707,2024-08-01,Webcam HD,Electronics,South,Eve Torres,Partner,6,52.49,330.69
+1708,2024-08-01,Standing Desk,Furniture,South,Bob Chen,Partner,6,414.26,2609.84
+1709,2024-08-01,Webcam HD,Electronics,North,Carla Diaz,Partner,6,58.26,367.04
+1710,2024-08-01,Desk Lamp,Furniture,West,Eve Torres,Retail Store,5,41.71,218.98
+1711,2024-08-01,Pen Pack,Stationery,North,David Lee,Online,1,8.25,8.66
+1712,2024-08-03,Wireless Mouse,Electronics,South,Carla Diaz,Partner,2,24.17,50.76
+1713,2024-08-03,Standing Desk,Furniture,East,Bob Chen,Partner,2,466.14,978.89
+1714,2024-08-03,Wireless Mouse,Electronics,North,Eve Torres,Partner,3,27.59,86.91
+1715,2024-08-03,Webcam HD,Electronics,West,Bob Chen,Partner,2,59.71,125.39
+1716,2024-08-03,Standing Desk,Furniture,West,David Lee,Retail Store,6,447.77,2820.95
+1717,2024-08-04,Notebook Set,Stationery,East,Bob Chen,Partner,5,10.96,57.54
+1718,2024-08-04,Desk Lamp,Furniture,East,Eve Torres,Partner,2,45.11,94.73
+1719,2024-08-04,Monitor 27in,Electronics,South,Carla Diaz,Retail Store,2,240.69,505.45
+1720,2024-08-04,USB-C Hub,Electronics,South,Eve Torres,Online,6,32.15,202.54
+1721,2024-08-04,Pen Pack,Stationery,East,Bob Chen,Online,1,8.06,8.46
+1722,2024-08-04,Monitor 27in,Electronics,West,Bob Chen,Online,3,198.31,624.68
+1723,2024-08-05,Notebook Set,Stationery,East,David Lee,Partner,5,10.95,57.49
+1724,2024-08-06,Notebook Set,Stationery,East,Eve Torres,Online,1,13.15,13.81
+1725,2024-08-06,USB-C Hub,Electronics,South,David Lee,Partner,5,32.1,168.53
+1726,2024-08-06,Webcam HD,Electronics,South,Bob Chen,Partner,4,50.76,213.19
+1727,2024-08-06,Notebook Set,Stationery,South,Eve Torres,Partner,3,11.88,37.42
+1728,2024-08-07,Webcam HD,Electronics,East,David Lee,Online,6,49.62,312.61
+1729,2024-08-07,Monitor 27in,Electronics,North,Carla Diaz,Retail Store,5,211.41,1109.9
+1730,2024-08-07,Mechanical Keyboard,Electronics,East,Alice Kim,Partner,4,62.67,263.21
+1731,2024-08-08,Notebook Set,Stationery,West,David Lee,Online,5,13.21,69.35
+1732,2024-08-08,Standing Desk,Furniture,North,Alice Kim,Online,6,398.21,2508.72
+1733,2024-08-08,Webcam HD,Electronics,North,Bob Chen,Partner,5,49.6,260.4
+1734,2024-08-08,Office Chair,Furniture,North,Bob Chen,Partner,6,181.09,1140.87
+1735,2024-08-08,Pen Pack,Stationery,North,Bob Chen,Online,6,8.83,55.63
+1736,2024-08-08,Desk Lamp,Furniture,North,Alice Kim,Online,6,39.32,247.72
+1737,2024-08-09,Standing Desk,Furniture,South,Carla Diaz,Retail Store,5,385.4,2023.35
+1738,2024-08-10,Desk Lamp,Furniture,East,Alice Kim,Retail Store,6,40.04,252.25
+1739,2024-08-10,Mechanical Keyboard,Electronics,North,Eve Torres,Online,5,58.6,307.65
+1740,2024-08-10,Mechanical Keyboard,Electronics,North,Carla Diaz,Partner,3,73.58,231.78
+1741,2024-08-11,Monitor 27in,Electronics,West,David Lee,Retail Store,1,213.48,224.15
+1742,2024-08-11,Wireless Mouse,Electronics,South,Bob Chen,Partner,4,23.48,98.62
+1743,2024-08-12,Webcam HD,Electronics,South,Carla Diaz,Partner,3,62.7,197.51
+1744,2024-08-12,Notebook Set,Stationery,South,Alice Kim,Online,1,12.46,13.08
+1745,2024-08-12,Wireless Mouse,Electronics,North,Carla Diaz,Online,5,26.23,137.71
+1746,2024-08-13,Notebook Set,Stationery,South,Bob Chen,Online,2,12.04,25.28
+1747,2024-08-13,Office Chair,Furniture,South,Alice Kim,Online,5,199.56,1047.69
+1748,2024-08-13,Monitor 27in,Electronics,West,Eve Torres,Online,1,244.83,257.07
+1749,2024-08-13,Standing Desk,Furniture,North,Bob Chen,Partner,6,385.07,2425.94
+1750,2024-08-13,Monitor 27in,Electronics,East,Bob Chen,Partner,4,250.33,1051.39
+1751,2024-08-14,Office Chair,Furniture,North,Bob Chen,Retail Store,1,174.83,183.57
+1752,2024-08-14,Desk Lamp,Furniture,East,Eve Torres,Online,4,39.28,164.98
+1753,2024-08-14,Monitor 27in,Electronics,East,David Lee,Online,5,218.05,1144.76
+1754,2024-08-14,Wireless Mouse,Electronics,South,David Lee,Retail Store,3,24.04,75.73
+1755,2024-08-14,Notebook Set,Stationery,East,David Lee,Retail Store,2,12.84,26.96
+1756,2024-08-15,Notebook Set,Stationery,North,Bob Chen,Partner,3,12.26,38.62
+1757,2024-08-15,Monitor 27in,Electronics,South,Eve Torres,Online,1,244.3,256.52
+1758,2024-08-15,Standing Desk,Furniture,North,Alice Kim,Online,6,471.07,2967.74
+1759,2024-08-16,Webcam HD,Electronics,West,Eve Torres,Online,6,49.93,314.56
+1760,2024-08-16,Wireless Mouse,Electronics,West,Bob Chen,Retail Store,5,24.13,126.68
+1761,2024-08-16,Pen Pack,Stationery,East,Bob Chen,Retail Store,2,8.98,18.86
+1762,2024-08-16,Webcam HD,Electronics,East,Eve Torres,Online,5,50.75,266.44
+1763,2024-08-16,Office Chair,Furniture,South,David Lee,Online,5,192.79,1012.15
+1764,2024-08-16,USB-C Hub,Electronics,South,David Lee,Retail Store,5,39.8,208.95
+1765,2024-08-18,Desk Lamp,Furniture,East,Bob Chen,Online,2,36.63,76.92
+1766,2024-08-19,Office Chair,Furniture,East,David Lee,Retail Store,5,202.85,1064.96
+1767,2024-08-19,Desk Lamp,Furniture,East,Alice Kim,Partner,1,36.4,38.22
+1768,2024-08-19,Webcam HD,Electronics,East,Eve Torres,Partner,6,60.91,383.73
+1769,2024-08-19,Monitor 27in,Electronics,West,Carla Diaz,Partner,2,218.72,459.31
+1770,2024-08-19,Mechanical Keyboard,Electronics,South,Eve Torres,Retail Store,5,62.59,328.6
+1771,2024-08-20,Notebook Set,Stationery,North,Eve Torres,Online,4,13.18,55.36
+1772,2024-08-20,Desk Lamp,Furniture,East,Bob Chen,Online,2,38.3,80.43
+1773,2024-08-21,USB-C Hub,Electronics,North,Bob Chen,Retail Store,3,36.77,115.83
+1774,2024-08-22,Notebook Set,Stationery,West,David Lee,Online,6,11.14,70.18
+1775,2024-08-22,Monitor 27in,Electronics,West,Alice Kim,Online,2,233.6,490.56
+1776,2024-08-22,Wireless Mouse,Electronics,South,Bob Chen,Partner,2,26.08,54.77
+1777,2024-08-22,Webcam HD,Electronics,South,Alice Kim,Online,1,61.75,64.84
+1778,2024-08-22,Standing Desk,Furniture,West,Eve Torres,Partner,2,432.25,907.73
+1779,2024-08-22,Wireless Mouse,Electronics,East,Alice Kim,Online,6,27.05,170.42
+1780,2024-08-23,Monitor 27in,Electronics,South,Bob Chen,Retail Store,4,245.7,1031.94
+1781,2024-08-23,Monitor 27in,Electronics,South,Eve Torres,Partner,2,241.7,507.57
+1782,2024-08-23,Webcam HD,Electronics,East,David Lee,Partner,3,51.81,163.2
+1783,2024-08-24,Mechanical Keyboard,Electronics,South,Alice Kim,Online,2,64.65,135.77
+1784,2024-08-24,Office Chair,Furniture,West,Bob Chen,Partner,5,200.68,1053.57
+1785,2024-08-24,Mechanical Keyboard,Electronics,North,Eve Torres,Partner,2,66.23,139.08
+1786,2024-08-24,Mechanical Keyboard,Electronics,South,Eve Torres,Partner,1,66.34,69.66
+1787,2024-08-25,Wireless Mouse,Electronics,West,Carla Diaz,Online,6,26.56,167.33
+1788,2024-08-25,Webcam HD,Electronics,West,David Lee,Retail Store,4,52.66,221.17
+1789,2024-08-25,Monitor 27in,Electronics,North,David Lee,Online,6,247.93,1561.96
+1790,2024-08-25,Standing Desk,Furniture,North,Carla Diaz,Partner,4,458.42,1925.36
+1791,2024-08-25,Webcam HD,Electronics,North,Alice Kim,Partner,4,53.04,222.77
+1792,2024-08-25,Webcam HD,Electronics,West,Bob Chen,Partner,1,56.65,59.48
+1793,2024-08-26,Notebook Set,Stationery,South,David Lee,Partner,4,11.89,49.94
+1794,2024-08-26,Monitor 27in,Electronics,West,Eve Torres,Retail Store,3,212.37,668.97
+1795,2024-08-26,Monitor 27in,Electronics,West,Bob Chen,Retail Store,3,252.55,795.53
+1796,2024-08-26,Webcam HD,Electronics,East,Eve Torres,Partner,5,56.13,294.68
+1797,2024-08-26,Desk Lamp,Furniture,East,David Lee,Partner,3,45.89,144.55
+1798,2024-08-26,USB-C Hub,Electronics,South,David Lee,Partner,6,32.54,205.0
+1799,2024-08-27,Mechanical Keyboard,Electronics,East,Eve Torres,Partner,2,66.76,140.2
+1800,2024-08-28,Wireless Mouse,Electronics,North,Alice Kim,Online,2,24.93,52.35
+1801,2024-08-28,Desk Lamp,Furniture,North,Carla Diaz,Online,5,40.35,211.84
+1802,2024-08-28,Notebook Set,Stationery,West,David Lee,Partner,1,12.63,13.26
+1803,2024-08-28,Webcam HD,Electronics,North,Bob Chen,Partner,3,59.28,186.73
+1804,2024-08-28,Desk Lamp,Furniture,East,Bob Chen,Online,4,36.11,151.66
+1805,2024-08-29,Monitor 27in,Electronics,South,Eve Torres,Online,5,226.37,1188.44
+1806,2024-08-29,Wireless Mouse,Electronics,North,Bob Chen,Online,3,24.0,75.6
+1807,2024-08-29,Standing Desk,Furniture,West,David Lee,Partner,4,415.08,1743.34
+1808,2024-08-29,Office Chair,Furniture,North,Alice Kim,Partner,5,162.69,854.12
+1809,2024-08-29,Standing Desk,Furniture,East,Carla Diaz,Retail Store,6,465.13,2930.32
+1810,2024-08-29,Office Chair,Furniture,West,David Lee,Partner,5,205.34,1078.04
+1811,2024-08-31,USB-C Hub,Electronics,North,Eve Torres,Retail Store,4,35.93,150.91
+1812,2024-08-31,Notebook Set,Stationery,East,Eve Torres,Partner,1,13.21,13.87
+1813,2024-09-01,Desk Lamp,Furniture,South,Carla Diaz,Retail Store,4,41.63,179.01
+1814,2024-09-01,Desk Lamp,Furniture,West,Alice Kim,Retail Store,5,44.62,239.83
+1815,2024-09-03,Office Chair,Furniture,East,David Lee,Retail Store,6,193.55,1248.4
+1816,2024-09-03,Webcam HD,Electronics,East,Bob Chen,Retail Store,5,49.63,266.76
+1817,2024-09-03,Mechanical Keyboard,Electronics,East,Alice Kim,Partner,4,69.45,298.63
+1818,2024-09-04,Desk Lamp,Furniture,East,Bob Chen,Partner,3,39.54,127.52
+1819,2024-09-05,Office Chair,Furniture,South,Bob Chen,Retail Store,4,195.17,839.23
+1820,2024-09-05,Office Chair,Furniture,South,Eve Torres,Retail Store,2,171.12,367.91
+1821,2024-09-05,USB-C Hub,Electronics,North,David Lee,Partner,1,32.55,34.99
+1822,2024-09-05,Wireless Mouse,Electronics,West,Carla Diaz,Partner,5,28.49,153.13
+1823,2024-09-05,Notebook Set,Stationery,East,David Lee,Online,4,13.49,58.01
+1824,2024-09-06,Webcam HD,Electronics,South,Alice Kim,Partner,3,54.97,177.28
+1825,2024-09-06,Pen Pack,Stationery,North,Eve Torres,Retail Store,4,9.08,39.04
+1826,2024-09-06,Pen Pack,Stationery,West,Alice Kim,Partner,6,8.75,56.44
+1827,2024-09-06,Webcam HD,Electronics,North,Alice Kim,Partner,4,53.84,231.51
+1828,2024-09-06,Office Chair,Furniture,East,Carla Diaz,Partner,4,188.15,809.04
+1829,2024-09-06,Standing Desk,Furniture,South,Carla Diaz,Retail Store,2,435.6,936.54
+1830,2024-09-07,Notebook Set,Stationery,West,Bob Chen,Retail Store,3,11.35,36.6
+1831,2024-09-07,Notebook Set,Stationery,East,David Lee,Online,3,13.36,43.09
+1832,2024-09-07,Monitor 27in,Electronics,South,Alice Kim,Partner,2,251.86,541.5
+1833,2024-09-07,Standing Desk,Furniture,West,Bob Chen,Online,2,436.31,938.07
+1834,2024-09-08,USB-C Hub,Electronics,South,David Lee,Retail Store,4,38.55,165.76
+1835,2024-09-08,USB-C Hub,Electronics,East,David Lee,Retail Store,6,36.02,232.33
+1836,2024-09-08,Standing Desk,Furniture,North,David Lee,Online,5,468.14,2516.25
+1837,2024-09-08,USB-C Hub,Electronics,East,David Lee,Partner,1,33.39,35.89
+1838,2024-09-08,Mechanical Keyboard,Electronics,East,Carla Diaz,Retail Store,4,70.6,303.58
+1839,2024-09-08,Webcam HD,Electronics,East,Carla Diaz,Online,5,62.31,334.92
+1840,2024-09-09,Mechanical Keyboard,Electronics,South,Eve Torres,Partner,3,72.59,234.1
+1841,2024-09-09,Webcam HD,Electronics,East,Carla Diaz,Retail Store,2,62.97,135.39
+1842,2024-09-09,Webcam HD,Electronics,West,Alice Kim,Retail Store,4,60.15,258.64
+1843,2024-09-10,Standing Desk,Furniture,South,Bob Chen,Partner,4,444.33,1910.62
+1844,2024-09-10,Notebook Set,Stationery,West,Alice Kim,Online,4,12.69,54.57
+1845,2024-09-10,USB-C Hub,Electronics,East,Carla Diaz,Partner,3,33.5,108.04
+1846,2024-09-10,Standing Desk,Furniture,East,David Lee,Retail Store,5,445.69,2395.58
+1847,2024-09-11,Monitor 27in,Electronics,West,Bob Chen,Online,5,251.1,1349.66
+1848,2024-09-11,Wireless Mouse,Electronics,East,Alice Kim,Online,2,27.05,58.16
+1849,2024-09-11,USB-C Hub,Electronics,North,David Lee,Partner,4,32.4,139.32
+1850,2024-09-11,Wireless Mouse,Electronics,North,Alice Kim,Retail Store,1,27.32,29.37
+1851,2024-09-11,Monitor 27in,Electronics,West,Carla Diaz,Online,2,202.64,435.68
+1852,2024-09-12,Standing Desk,Furniture,South,Eve Torres,Online,4,443.78,1908.25
+1853,2024-09-15,Notebook Set,Stationery,West,Eve Torres,Retail Store,3,13.39,43.18
+1854,2024-09-15,Webcam HD,Electronics,South,Eve Torres,Partner,4,51.36,220.85
+1855,2024-09-15,Desk Lamp,Furniture,West,Eve Torres,Partner,6,43.49,280.51
+1856,2024-09-15,Webcam HD,Electronics,West,Eve Torres,Online,3,62.0,199.95
+1857,2024-09-15,Mechanical Keyboard,Electronics,West,Carla Diaz,Online,4,63.5,273.05
+1858,2024-09-16,Wireless Mouse,Electronics,South,Carla Diaz,Retail Store,1,25.77,27.7
+1859,2024-09-16,Desk Lamp,Furniture,West,David Lee,Retail Store,5,36.08,193.93
+1860,2024-09-18,Pen Pack,Stationery,North,Eve Torres,Retail Store,3,8.39,27.06
+1861,2024-09-18,Office Chair,Furniture,West,David Lee,Online,4,201.7,867.31
+1862,2024-09-18,USB-C Hub,Electronics,West,David Lee,Online,6,37.95,244.78
+1863,2024-09-18,Standing Desk,Furniture,South,Eve Torres,Partner,1,422.34,454.02
+1864,2024-09-18,Standing Desk,Furniture,East,David Lee,Online,3,446.09,1438.64
+1865,2024-09-18,Mechanical Keyboard,Electronics,North,David Lee,Partner,2,60.72,130.55
+1866,2024-09-19,Standing Desk,Furniture,South,Carla Diaz,Online,6,443.39,2859.87
+1867,2024-09-19,USB-C Hub,Electronics,North,Bob Chen,Online,1,39.99,42.99
+1868,2024-09-19,Standing Desk,Furniture,West,Alice Kim,Online,3,391.13,1261.39
+1869,2024-09-21,Wireless Mouse,Electronics,West,Carla Diaz,Retail Store,4,23.86,102.6
+1870,2024-09-22,Desk Lamp,Furniture,East,Alice Kim,Online,6,43.91,283.22
+1871,2024-09-22,Wireless Mouse,Electronics,North,Eve Torres,Retail Store,3,27.35,88.2
+1872,2024-09-23,Office Chair,Furniture,North,Alice Kim,Partner,3,198.78,641.07
+1873,2024-09-24,Pen Pack,Stationery,North,Bob Chen,Retail Store,4,7.69,33.07
+1874,2024-09-25,Mechanical Keyboard,Electronics,South,David Lee,Retail Store,5,69.32,372.59
+1875,2024-09-25,Standing Desk,Furniture,North,Eve Torres,Partner,3,394.65,1272.75
+1876,2024-09-25,Mechanical Keyboard,Electronics,East,Bob Chen,Retail Store,3,66.32,213.88
+1877,2024-09-25,Wireless Mouse,Electronics,North,Bob Chen,Partner,6,23.86,153.9
+1878,2024-09-25,Pen Pack,Stationery,East,Eve Torres,Online,3,7.23,23.32
+1879,2024-09-26,Office Chair,Furniture,West,Eve Torres,Online,1,205.6,221.02
+1880,2024-09-26,Notebook Set,Stationery,West,Alice Kim,Partner,1,11.55,12.42
+1881,2024-09-26,Monitor 27in,Electronics,North,Alice Kim,Retail Store,3,249.2,803.67
+1882,2024-09-27,USB-C Hub,Electronics,North,Bob Chen,Retail Store,6,36.19,233.43
+1883,2024-09-27,Office Chair,Furniture,East,David Lee,Partner,3,206.18,664.93
+1884,2024-09-27,Office Chair,Furniture,East,Bob Chen,Retail Store,1,193.02,207.5
+1885,2024-09-27,Wireless Mouse,Electronics,East,Eve Torres,Partner,4,26.92,115.76
+1886,2024-09-27,Desk Lamp,Furniture,East,Carla Diaz,Partner,2,41.67,89.59
+1887,2024-09-28,Standing Desk,Furniture,South,Alice Kim,Partner,5,474.02,2547.86
+1888,2024-09-28,USB-C Hub,Electronics,East,Eve Torres,Retail Store,4,34.09,146.59
+1889,2024-09-28,Desk Lamp,Furniture,West,Bob Chen,Online,1,43.76,47.04
+1890,2024-09-29,Notebook Set,Stationery,North,Eve Torres,Retail Store,5,11.52,61.92
+1891,2024-09-29,Office Chair,Furniture,South,Eve Torres,Retail Store,5,192.75,1036.03
+1892,2024-09-29,Notebook Set,Stationery,North,Alice Kim,Partner,4,12.72,54.7
+1893,2024-09-29,Mechanical Keyboard,Electronics,South,Bob Chen,Online,1,72.07,77.48
+1894,2024-09-30,Mechanical Keyboard,Electronics,North,Eve Torres,Partner,4,61.61,264.92
+1895,2024-10-01,Pen Pack,Stationery,East,Alice Kim,Retail Store,6,8.18,53.99
+1896,2024-10-01,Office Chair,Furniture,North,Bob Chen,Partner,5,194.3,1068.65
+1897,2024-10-01,Desk Lamp,Furniture,North,Carla Diaz,Partner,1,40.68,44.75
+1898,2024-10-01,Pen Pack,Stationery,North,Eve Torres,Retail Store,3,8.79,29.01
+1899,2024-10-01,Webcam HD,Electronics,East,Alice Kim,Online,1,59.6,65.56
+1900,2024-10-01,Webcam HD,Electronics,South,Eve Torres,Retail Store,1,50.89,55.98
+1901,2024-10-02,Office Chair,Furniture,South,Eve Torres,Partner,5,191.56,1053.58
+1902,2024-10-03,Pen Pack,Stationery,East,David Lee,Partner,6,7.41,48.91
+1903,2024-10-03,Pen Pack,Stationery,South,Eve Torres,Retail Store,1,7.53,8.28
+1904,2024-10-03,Webcam HD,Electronics,West,Carla Diaz,Retail Store,3,58.54,193.18
+1905,2024-10-03,Webcam HD,Electronics,West,David Lee,Partner,3,61.12,201.7
+1906,2024-10-04,Monitor 27in,Electronics,South,David Lee,Partner,2,228.97,503.73
+1907,2024-10-04,Standing Desk,Furniture,West,David Lee,Online,3,478.97,1580.6
+1908,2024-10-05,Wireless Mouse,Electronics,South,Carla Diaz,Online,3,26.22,86.53
+1909,2024-10-05,Standing Desk,Furniture,East,Alice Kim,Partner,2,400.56,881.23
+1910,2024-10-05,Standing Desk,Furniture,South,Alice Kim,Online,5,431.68,2374.24
+1911,2024-10-05,Desk Lamp,Furniture,East,Carla Diaz,Partner,3,37.56,123.95
+1912,2024-10-05,Office Chair,Furniture,East,Alice Kim,Partner,2,173.53,381.77
+1913,2024-10-06,Monitor 27in,Electronics,East,David Lee,Online,2,238.38,524.44
+1914,2024-10-06,Desk Lamp,Furniture,North,Eve Torres,Partner,6,43.03,284.0
+1915,2024-10-06,Standing Desk,Furniture,West,Alice Kim,Online,1,454.73,500.2
+1916,2024-10-07,Notebook Set,Stationery,West,David Lee,Online,3,13.44,44.35
+1917,2024-10-07,Office Chair,Furniture,North,David Lee,Online,6,191.38,1263.11
+1918,2024-10-07,Standing Desk,Furniture,South,Carla Diaz,Partner,5,382.32,2102.76
+1919,2024-10-07,Office Chair,Furniture,West,David Lee,Partner,2,164.27,361.39
+1920,2024-10-07,Monitor 27in,Electronics,West,Carla Diaz,Retail Store,5,202.95,1116.23
+1921,2024-10-07,USB-C Hub,Electronics,West,Eve Torres,Partner,2,34.44,75.77
+1922,2024-10-09,Pen Pack,Stationery,West,Bob Chen,Online,3,7.37,24.32
+1923,2024-10-09,Desk Lamp,Furniture,West,Eve Torres,Online,5,37.98,208.89
+1924,2024-10-09,Webcam HD,Electronics,South,Bob Chen,Online,5,63.21,347.66
+1925,2024-10-09,Standing Desk,Furniture,North,Alice Kim,Partner,4,411.96,1812.62
+1926,2024-10-10,Pen Pack,Stationery,East,Carla Diaz,Partner,3,7.9,26.07
+1927,2024-10-10,Wireless Mouse,Electronics,East,Eve Torres,Retail Store,3,23.56,77.75
+1928,2024-10-10,Monitor 27in,Electronics,South,Bob Chen,Partner,2,222.23,488.91
+1929,2024-10-11,USB-C Hub,Electronics,North,Alice Kim,Online,6,38.96,257.14
+1930,2024-10-11,Monitor 27in,Electronics,East,Alice Kim,Retail Store,2,245.78,540.72
+1931,2024-10-12,Mechanical Keyboard,Electronics,North,Carla Diaz,Online,3,65.81,217.17
+1932,2024-10-12,Webcam HD,Electronics,East,Eve Torres,Retail Store,2,52.3,115.06
+1933,2024-10-12,Monitor 27in,Electronics,North,David Lee,Partner,6,252.58,1667.03
+1934,2024-10-12,Webcam HD,Electronics,North,Carla Diaz,Online,1,53.01,58.31
+1935,2024-10-12,Monitor 27in,Electronics,North,Alice Kim,Retail Store,3,200.92,663.04
+1936,2024-10-13,Standing Desk,Furniture,East,Alice Kim,Online,6,467.47,3085.3
+1937,2024-10-13,Standing Desk,Furniture,West,Eve Torres,Partner,6,418.58,2762.63
+1938,2024-10-13,Mechanical Keyboard,Electronics,North,Bob Chen,Online,3,66.38,219.05
+1939,2024-10-13,Webcam HD,Electronics,North,Alice Kim,Online,4,57.21,251.72
+1940,2024-10-13,Webcam HD,Electronics,West,Bob Chen,Online,3,54.09,178.5
+1941,2024-10-14,Notebook Set,Stationery,South,Eve Torres,Retail Store,3,12.68,41.84
+1942,2024-10-14,Wireless Mouse,Electronics,West,Alice Kim,Partner,6,24.11,159.13
+1943,2024-10-15,Office Chair,Furniture,West,Bob Chen,Online,2,177.38,390.24
+1944,2024-10-15,Pen Pack,Stationery,South,David Lee,Online,5,9.12,50.16
+1945,2024-10-16,USB-C Hub,Electronics,East,David Lee,Partner,4,39.99,175.96
+1946,2024-10-16,USB-C Hub,Electronics,South,Bob Chen,Retail Store,2,37.21,81.86
+1947,2024-10-16,Webcam HD,Electronics,South,Eve Torres,Online,2,55.41,121.9
+1948,2024-10-16,Notebook Set,Stationery,North,Bob Chen,Retail Store,1,12.47,13.72
+1949,2024-10-17,USB-C Hub,Electronics,East,David Lee,Retail Store,6,31.76,209.62
+1950,2024-10-17,Standing Desk,Furniture,East,Bob Chen,Online,4,456.29,2007.68
+1951,2024-10-17,Mechanical Keyboard,Electronics,East,Eve Torres,Partner,2,61.5,135.3
+1952,2024-10-17,Monitor 27in,Electronics,South,Alice Kim,Retail Store,2,230.8,507.76
+1953,2024-10-17,Mechanical Keyboard,Electronics,South,Eve Torres,Partner,6,71.17,469.72
+1954,2024-10-17,Desk Lamp,Furniture,South,David Lee,Retail Store,6,42.5,280.5
+1955,2024-10-18,USB-C Hub,Electronics,North,David Lee,Online,2,33.19,73.02
+1956,2024-10-18,Standing Desk,Furniture,South,Bob Chen,Online,4,401.37,1766.03
+1957,2024-10-18,USB-C Hub,Electronics,West,Carla Diaz,Retail Store,4,39.09,172.0
+1958,2024-10-19,Pen Pack,Stationery,West,Carla Diaz,Retail Store,4,8.75,38.5
+1959,2024-10-20,Monitor 27in,Electronics,North,Eve Torres,Online,5,227.49,1251.2
+1960,2024-10-20,Desk Lamp,Furniture,North,Bob Chen,Partner,4,44.27,194.79
+1961,2024-10-20,Webcam HD,Electronics,North,Eve Torres,Retail Store,4,63.03,277.33
+1962,2024-10-20,Webcam HD,Electronics,South,Carla Diaz,Retail Store,6,62.74,414.08
+1963,2024-10-21,Standing Desk,Furniture,West,Carla Diaz,Partner,3,426.44,1407.25
+1964,2024-10-21,Wireless Mouse,Electronics,South,David Lee,Partner,6,25.73,169.82
+1965,2024-10-21,Desk Lamp,Furniture,North,Bob Chen,Partner,1,43.23,47.55
+1966,2024-10-22,Webcam HD,Electronics,East,David Lee,Online,2,54.9,120.78
+1967,2024-10-22,USB-C Hub,Electronics,South,David Lee,Online,4,36.67,161.35
+1968,2024-10-22,Standing Desk,Furniture,South,Alice Kim,Online,3,450.63,1487.08
+1969,2024-10-22,Mechanical Keyboard,Electronics,East,Alice Kim,Partner,6,65.8,434.28
+1970,2024-10-22,Pen Pack,Stationery,South,David Lee,Partner,6,8.78,57.95
+1971,2024-10-23,Wireless Mouse,Electronics,South,Bob Chen,Online,2,28.2,62.04
+1972,2024-10-23,USB-C Hub,Electronics,East,Carla Diaz,Partner,6,31.95,210.87
+1973,2024-10-23,Desk Lamp,Furniture,North,Bob Chen,Online,3,42.26,139.46
+1974,2024-10-25,Standing Desk,Furniture,West,Eve Torres,Online,1,426.16,468.78
+1975,2024-10-25,Monitor 27in,Electronics,West,David Lee,Retail Store,4,211.08,928.75
+1976,2024-10-25,Desk Lamp,Furniture,North,Bob Chen,Partner,1,42.01,46.21
+1977,2024-10-25,Standing Desk,Furniture,South,Alice Kim,Online,5,444.01,2442.06
+1978,2024-10-26,Wireless Mouse,Electronics,South,Alice Kim,Partner,6,24.68,162.89
+1979,2024-10-27,Monitor 27in,Electronics,North,Alice Kim,Online,3,216.21,713.49
+1980,2024-10-27,Pen Pack,Stationery,East,Eve Torres,Partner,2,7.52,16.54
+1981,2024-10-27,Monitor 27in,Electronics,South,David Lee,Partner,5,241.3,1327.15
+1982,2024-10-27,Monitor 27in,Electronics,North,Carla Diaz,Retail Store,3,249.23,822.46
+1983,2024-10-28,Pen Pack,Stationery,North,Carla Diaz,Retail Store,1,8.72,9.59
+1984,2024-10-28,USB-C Hub,Electronics,East,Carla Diaz,Partner,1,37.58,41.34
+1985,2024-10-29,Webcam HD,Electronics,North,Alice Kim,Partner,2,59.07,129.95
+1986,2024-10-29,Webcam HD,Electronics,East,David Lee,Partner,1,56.15,61.77
+1987,2024-10-29,Notebook Set,Stationery,East,Bob Chen,Partner,3,12.38,40.85
+1988,2024-10-30,Desk Lamp,Furniture,West,David Lee,Online,5,43.29,238.09
+1989,2024-10-30,Monitor 27in,Electronics,South,Alice Kim,Online,2,236.97,521.33
+1990,2024-10-30,Wireless Mouse,Electronics,North,Bob Chen,Partner,4,26.41,116.2
+1991,2024-10-30,Pen Pack,Stationery,East,Eve Torres,Partner,4,7.29,32.08
+1992,2024-10-31,Wireless Mouse,Electronics,East,Carla Diaz,Online,6,23.76,156.82
+1993,2024-11-01,Standing Desk,Furniture,North,Alice Kim,Partner,5,435.75,2451.09
+1994,2024-11-01,Notebook Set,Stationery,North,Bob Chen,Online,3,11.99,40.47
+1995,2024-11-02,Notebook Set,Stationery,West,Alice Kim,Partner,6,12.24,82.62
+1996,2024-11-02,USB-C Hub,Electronics,West,Eve Torres,Retail Store,4,32.86,147.87
+1997,2024-11-03,Pen Pack,Stationery,East,Eve Torres,Partner,6,7.31,49.34
+1998,2024-11-03,Notebook Set,Stationery,South,Eve Torres,Partner,5,12.41,69.81
+1999,2024-11-03,Notebook Set,Stationery,South,Carla Diaz,Online,3,11.0,37.12
+2000,2024-11-04,Pen Pack,Stationery,South,Eve Torres,Partner,6,8.27,55.82
+2001,2024-11-04,Pen Pack,Stationery,East,Carla Diaz,Partner,2,8.39,18.88
+2002,2024-11-06,Pen Pack,Stationery,South,Carla Diaz,Retail Store,1,8.19,9.21
+2003,2024-11-06,Standing Desk,Furniture,South,Alice Kim,Retail Store,2,433.14,974.56
+2004,2024-11-07,Wireless Mouse,Electronics,West,Eve Torres,Online,2,28.21,63.47
+2005,2024-11-07,Desk Lamp,Furniture,East,David Lee,Partner,5,37.54,211.16
+2006,2024-11-07,Webcam HD,Electronics,South,Alice Kim,Partner,3,60.16,203.04
+2007,2024-11-07,USB-C Hub,Electronics,West,David Lee,Partner,2,37.84,85.14
+2008,2024-11-07,Webcam HD,Electronics,North,Eve Torres,Online,1,49.56,55.76
+2009,2024-11-07,Notebook Set,Stationery,North,Eve Torres,Partner,4,13.47,60.62
+2010,2024-11-08,Standing Desk,Furniture,East,Bob Chen,Retail Store,1,438.64,493.47
+2011,2024-11-08,Office Chair,Furniture,East,David Lee,Partner,2,174.9,393.53
+2012,2024-11-08,Mechanical Keyboard,Electronics,East,Alice Kim,Online,3,60.93,205.64
+2013,2024-11-08,Monitor 27in,Electronics,South,Eve Torres,Retail Store,5,226.27,1272.77
+2014,2024-11-08,Webcam HD,Electronics,East,Eve Torres,Online,3,53.23,179.65
+2015,2024-11-09,Mechanical Keyboard,Electronics,East,Eve Torres,Retail Store,3,68.47,231.09
+2016,2024-11-11,Wireless Mouse,Electronics,North,Alice Kim,Retail Store,4,28.15,126.67
+2017,2024-11-14,Pen Pack,Stationery,West,Eve Torres,Retail Store,2,8.61,19.37
+2018,2024-11-14,Standing Desk,Furniture,North,David Lee,Partner,3,463.83,1565.43
+2019,2024-11-14,USB-C Hub,Electronics,West,Alice Kim,Retail Store,1,38.61,43.44
+2020,2024-11-15,Desk Lamp,Furniture,South,Bob Chen,Partner,4,38.32,172.44
+2021,2024-11-15,Standing Desk,Furniture,East,Carla Diaz,Retail Store,3,419.17,1414.7
+2022,2024-11-16,Wireless Mouse,Electronics,East,David Lee,Retail Store,1,25.47,28.65
+2023,2024-11-16,USB-C Hub,Electronics,South,Eve Torres,Online,3,38.22,128.99
+2024,2024-11-16,Pen Pack,Stationery,East,Eve Torres,Partner,6,8.79,59.33
+2025,2024-11-18,Standing Desk,Furniture,West,Bob Chen,Partner,5,426.4,2398.5
+2026,2024-11-18,Office Chair,Furniture,West,David Lee,Online,5,169.16,951.52
+2027,2024-11-18,Notebook Set,Stationery,West,David Lee,Partner,2,13.24,29.79
+2028,2024-11-18,Notebook Set,Stationery,South,Alice Kim,Partner,5,12.88,72.45
+2029,2024-11-18,Monitor 27in,Electronics,West,Carla Diaz,Partner,4,204.29,919.3
+2030,2024-11-18,Mechanical Keyboard,Electronics,West,Alice Kim,Partner,4,61.36,276.12
+2031,2024-11-20,Monitor 27in,Electronics,North,Alice Kim,Online,4,216.01,972.04
+2032,2024-11-20,USB-C Hub,Electronics,North,Bob Chen,Partner,5,39.4,221.62
+2033,2024-11-20,USB-C Hub,Electronics,West,Eve Torres,Partner,4,36.15,162.67
+2034,2024-11-20,Desk Lamp,Furniture,East,Carla Diaz,Partner,2,38.06,85.64
+2035,2024-11-20,Standing Desk,Furniture,East,Alice Kim,Partner,4,453.37,2040.16
+2036,2024-11-22,Webcam HD,Electronics,East,Alice Kim,Retail Store,4,61.16,275.22
+2037,2024-11-22,Webcam HD,Electronics,East,Alice Kim,Retail Store,1,49.51,55.7
+2038,2024-11-22,Wireless Mouse,Electronics,West,Carla Diaz,Partner,2,25.2,56.7
+2039,2024-11-22,Pen Pack,Stationery,South,Bob Chen,Retail Store,4,7.96,35.82
+2040,2024-11-23,Office Chair,Furniture,East,David Lee,Online,5,179.31,1008.62
+2041,2024-11-24,USB-C Hub,Electronics,North,Bob Chen,Partner,2,31.6,71.1
+2042,2024-11-24,Desk Lamp,Furniture,South,Alice Kim,Online,6,40.37,272.5
+2043,2024-11-25,Pen Pack,Stationery,West,Eve Torres,Online,4,8.99,40.45
+2044,2024-11-25,Desk Lamp,Furniture,West,David Lee,Retail Store,5,40.24,226.35
+2045,2024-11-25,Office Chair,Furniture,North,Eve Torres,Retail Store,2,181.11,407.5
+2046,2024-11-25,Office Chair,Furniture,West,Eve Torres,Partner,6,184.58,1245.91
+2047,2024-11-25,Notebook Set,Stationery,West,Carla Diaz,Online,1,13.73,15.45
+2048,2024-11-26,Desk Lamp,Furniture,East,David Lee,Partner,6,36.8,248.4
+2049,2024-11-26,Mechanical Keyboard,Electronics,North,Bob Chen,Retail Store,5,72.96,410.4
+2050,2024-11-26,Mechanical Keyboard,Electronics,East,Eve Torres,Online,6,68.8,464.4
+2051,2024-11-26,Notebook Set,Stationery,West,David Lee,Partner,5,13.14,73.91
+2052,2024-11-27,Monitor 27in,Electronics,East,Carla Diaz,Retail Store,6,216.23,1459.55
+2053,2024-11-27,USB-C Hub,Electronics,East,Eve Torres,Retail Store,1,37.58,42.28
+2054,2024-11-27,Wireless Mouse,Electronics,South,Eve Torres,Online,6,25.46,171.85
+2055,2024-11-28,Standing Desk,Furniture,East,David Lee,Online,6,443.55,2993.96
+2056,2024-11-28,USB-C Hub,Electronics,East,Carla Diaz,Online,5,32.17,180.96
+2057,2024-11-28,Monitor 27in,Electronics,East,Alice Kim,Partner,3,213.14,719.35
+2058,2024-11-28,Mechanical Keyboard,Electronics,South,David Lee,Retail Store,5,61.34,345.04
+2059,2024-11-28,USB-C Hub,Electronics,South,David Lee,Online,3,38.35,129.43
+2060,2024-11-29,Webcam HD,Electronics,North,Bob Chen,Partner,1,54.21,60.99
+2061,2024-11-29,USB-C Hub,Electronics,West,David Lee,Online,4,38.09,171.41
+2062,2024-11-29,Desk Lamp,Furniture,South,Eve Torres,Partner,6,42.38,286.07
+2063,2024-11-29,Notebook Set,Stationery,North,Alice Kim,Online,1,12.73,14.32
+2064,2024-11-29,Desk Lamp,Furniture,West,Eve Torres,Online,4,40.76,183.42
+2065,2024-11-29,Pen Pack,Stationery,West,Carla Diaz,Online,6,8.61,58.12
+2066,2024-11-30,Pen Pack,Stationery,West,David Lee,Partner,1,7.78,8.75
+2067,2024-11-30,Notebook Set,Stationery,North,Alice Kim,Partner,5,12.85,72.28
+2068,2024-11-30,Notebook Set,Stationery,East,Carla Diaz,Retail Store,4,12.63,56.84
+2069,2024-11-30,Standing Desk,Furniture,West,David Lee,Partner,1,404.81,455.41
+2070,2024-12-01,Office Chair,Furniture,South,Eve Torres,Retail Store,6,192.24,980.42
+2071,2024-12-01,USB-C Hub,Electronics,North,Alice Kim,Online,3,36.29,92.54
+2072,2024-12-01,Pen Pack,Stationery,West,Carla Diaz,Online,1,8.25,7.01
+2073,2024-12-01,Standing Desk,Furniture,North,Eve Torres,Online,3,398.27,1015.59
+2074,2024-12-01,Wireless Mouse,Electronics,South,Eve Torres,Partner,5,26.6,113.05
+2075,2024-12-03,Mechanical Keyboard,Electronics,South,David Lee,Partner,1,72.42,61.56
+2076,2024-12-03,Monitor 27in,Electronics,South,Carla Diaz,Retail Store,2,247.28,420.38
+2077,2024-12-03,Desk Lamp,Furniture,West,Carla Diaz,Retail Store,6,45.36,231.34
+2078,2024-12-03,Notebook Set,Stationery,North,Carla Diaz,Online,3,11.29,28.79
+2079,2024-12-03,Pen Pack,Stationery,North,Carla Diaz,Retail Store,4,7.87,26.76
+2080,2024-12-04,Desk Lamp,Furniture,South,Eve Torres,Retail Store,1,40.92,34.78
+2081,2024-12-05,Desk Lamp,Furniture,West,Bob Chen,Partner,1,37.44,31.82
+2082,2024-12-06,Mechanical Keyboard,Electronics,North,Alice Kim,Online,4,70.13,238.44
+2083,2024-12-06,Mechanical Keyboard,Electronics,West,Alice Kim,Retail Store,5,70.32,298.86
+2084,2024-12-06,USB-C Hub,Electronics,North,David Lee,Retail Store,6,37.1,189.21
+2085,2024-12-06,USB-C Hub,Electronics,West,Eve Torres,Online,6,34.39,175.39
+2086,2024-12-06,Webcam HD,Electronics,West,David Lee,Retail Store,6,62.42,318.34
+2087,2024-12-07,Mechanical Keyboard,Electronics,West,David Lee,Online,5,62.17,264.22
+2088,2024-12-07,Monitor 27in,Electronics,East,Carla Diaz,Partner,5,249.43,1060.08
+2089,2024-12-07,Standing Desk,Furniture,North,Carla Diaz,Partner,4,383.8,1304.92
+2090,2024-12-08,Notebook Set,Stationery,East,Bob Chen,Online,1,13.32,11.32
+2091,2024-12-08,Webcam HD,Electronics,South,Carla Diaz,Partner,1,62.8,53.38
+2092,2024-12-08,Pen Pack,Stationery,East,David Lee,Online,1,8.46,7.19
+2093,2024-12-08,Desk Lamp,Furniture,North,Bob Chen,Online,6,37.89,193.24
+2094,2024-12-08,Monitor 27in,Electronics,North,Eve Torres,Partner,2,224.91,382.35
+2095,2024-12-08,Standing Desk,Furniture,West,Alice Kim,Online,4,434.06,1475.8
+2096,2024-12-09,Wireless Mouse,Electronics,North,David Lee,Online,3,27.42,69.92
+2097,2024-12-09,Office Chair,Furniture,West,Eve Torres,Online,6,192.03,979.35
+2098,2024-12-10,Monitor 27in,Electronics,North,Bob Chen,Retail Store,2,248.86,423.06
+2099,2024-12-10,Wireless Mouse,Electronics,North,Bob Chen,Partner,4,28.17,95.78
+2100,2024-12-10,USB-C Hub,Electronics,North,Carla Diaz,Online,1,33.01,28.06
+2101,2024-12-10,Desk Lamp,Furniture,North,Alice Kim,Online,5,37.71,160.27
+2102,2024-12-10,Desk Lamp,Furniture,South,Alice Kim,Online,5,43.99,186.96
+2103,2024-12-11,Notebook Set,Stationery,East,Alice Kim,Partner,6,12.84,65.48
+2104,2024-12-11,Monitor 27in,Electronics,South,Alice Kim,Partner,5,205.55,873.59
+2105,2024-12-11,USB-C Hub,Electronics,East,Bob Chen,Retail Store,3,32.05,81.73
+2106,2024-12-12,Notebook Set,Stationery,South,Eve Torres,Online,5,11.3,48.02
+2107,2024-12-13,Mechanical Keyboard,Electronics,South,Alice Kim,Retail Store,6,68.45,349.1
+2108,2024-12-17,Mechanical Keyboard,Electronics,East,David Lee,Partner,6,69.09,352.36
+2109,2024-12-18,Desk Lamp,Furniture,South,Carla Diaz,Partner,6,37.27,190.08
+2110,2024-12-18,Desk Lamp,Furniture,South,Eve Torres,Partner,4,38.39,130.53
+2111,2024-12-18,Wireless Mouse,Electronics,West,Eve Torres,Online,5,23.63,100.43
+2112,2024-12-18,Standing Desk,Furniture,South,Bob Chen,Online,3,421.97,1076.02
+2113,2024-12-18,Webcam HD,Electronics,South,David Lee,Partner,1,58.01,49.31
+2114,2024-12-18,Office Chair,Furniture,North,Bob Chen,Partner,3,164.39,419.19
+2115,2024-12-19,Desk Lamp,Furniture,North,Alice Kim,Partner,4,37.76,128.38
+2116,2024-12-19,Notebook Set,Stationery,East,Carla Diaz,Partner,3,11.43,29.15
+2117,2024-12-19,Desk Lamp,Furniture,North,Eve Torres,Online,1,37.04,31.48
+2118,2024-12-19,USB-C Hub,Electronics,North,Alice Kim,Online,1,35.74,30.38
+2119,2024-12-19,Desk Lamp,Furniture,West,Bob Chen,Partner,5,41.8,177.65
+2120,2024-12-19,Notebook Set,Stationery,East,Bob Chen,Online,2,13.14,22.34
+2121,2024-12-20,Pen Pack,Stationery,South,Alice Kim,Retail Store,2,7.95,13.52
+2122,2024-12-21,Desk Lamp,Furniture,South,Bob Chen,Partner,1,44.9,38.16
+2123,2024-12-21,Desk Lamp,Furniture,South,David Lee,Partner,2,39.87,67.78
+2124,2024-12-21,Office Chair,Furniture,East,Bob Chen,Retail Store,6,178.14,908.51
+2125,2024-12-21,USB-C Hub,Electronics,North,Carla Diaz,Online,1,37.56,31.93
+2126,2024-12-23,Desk Lamp,Furniture,East,Bob Chen,Retail Store,4,40.18,136.61
+2127,2024-12-23,Monitor 27in,Electronics,South,Eve Torres,Partner,2,241.43,410.43
+2128,2024-12-23,Office Chair,Furniture,West,Bob Chen,Partner,1,180.53,153.45
+2129,2024-12-23,Desk Lamp,Furniture,West,Bob Chen,Online,4,38.79,131.89
+2130,2024-12-23,Notebook Set,Stationery,South,Eve Torres,Online,4,12.54,42.64
+2131,2024-12-23,Pen Pack,Stationery,West,Eve Torres,Online,1,7.28,6.19
+2132,2024-12-24,Webcam HD,Electronics,North,David Lee,Retail Store,4,56.09,190.71
+2133,2024-12-24,Office Chair,Furniture,North,David Lee,Online,1,187.13,159.06
+2134,2024-12-24,USB-C Hub,Electronics,North,Alice Kim,Retail Store,3,34.09,86.93
+2135,2024-12-25,Standing Desk,Furniture,North,David Lee,Retail Store,2,451.85,768.14
+2136,2024-12-25,USB-C Hub,Electronics,East,David Lee,Partner,6,35.05,178.75
+2137,2024-12-25,Wireless Mouse,Electronics,East,Eve Torres,Online,6,22.94,116.99
+2138,2024-12-25,Standing Desk,Furniture,South,Alice Kim,Partner,4,457.05,1553.97
+2139,2024-12-25,Notebook Set,Stationery,East,Alice Kim,Online,6,13.6,69.36
+2140,2024-12-26,Notebook Set,Stationery,East,Carla Diaz,Online,4,12.66,43.04
+2141,2024-12-26,Webcam HD,Electronics,South,Bob Chen,Retail Store,6,50.42,257.14
+2142,2024-12-26,Office Chair,Furniture,West,Eve Torres,Partner,5,167.11,710.22
+2143,2024-12-27,Office Chair,Furniture,East,Eve Torres,Partner,3,177.87,453.57
+2144,2024-12-28,Standing Desk,Furniture,East,David Lee,Retail Store,1,384.65,326.95
+2145,2024-12-28,Webcam HD,Electronics,West,Eve Torres,Partner,5,60.91,258.87
+2146,2024-12-28,Webcam HD,Electronics,East,Alice Kim,Online,3,55.71,142.06
+2147,2024-12-29,Mechanical Keyboard,Electronics,South,Carla Diaz,Online,1,64.85,55.12
+2148,2024-12-29,Mechanical Keyboard,Electronics,South,David Lee,Online,2,62.98,107.07
+2149,2024-12-29,Office Chair,Furniture,North,Carla Diaz,Retail Store,5,204.84,870.57
+2150,2024-12-30,Webcam HD,Electronics,West,David Lee,Partner,2,56.02,95.23
+2151,2024-12-30,Wireless Mouse,Electronics,North,Bob Chen,Partner,3,23.68,60.38
+2152,2024-12-30,Notebook Set,Stationery,East,David Lee,Partner,4,12.54,42.64
+2153,2024-12-30,Webcam HD,Electronics,East,Eve Torres,Online,5,55.62,236.38
+2154,2024-12-30,Standing Desk,Furniture,South,David Lee,Retail Store,2,460.87,783.48
+2155,2024-12-31,Wireless Mouse,Electronics,West,Bob Chen,Partner,2,24.71,42.01
+2156,2024-12-31,USB-C Hub,Electronics,South,Bob Chen,Partner,6,36.18,184.52
+2157,2025-01-01,USB-C Hub,Electronics,North,Carla Diaz,Partner,2,33.58,58.77
+2158,2025-01-01,USB-C Hub,Electronics,South,Bob Chen,Partner,4,33.78,118.23
+2159,2025-01-01,Wireless Mouse,Electronics,East,Bob Chen,Retail Store,6,24.48,128.52
+2160,2025-01-01,Desk Lamp,Furniture,East,Alice Kim,Online,5,45.75,200.16
+2161,2025-01-01,Pen Pack,Stationery,West,Carla Diaz,Online,4,8.74,30.59
+2162,2025-01-03,Webcam HD,Electronics,East,David Lee,Retail Store,5,54.06,236.51
+2163,2025-01-03,Monitor 27in,Electronics,West,Carla Diaz,Partner,6,206.09,1081.97
+2164,2025-01-03,Mechanical Keyboard,Electronics,North,Bob Chen,Partner,6,66.28,347.97
+2165,2025-01-03,Webcam HD,Electronics,West,Eve Torres,Online,1,53.74,47.02
+2166,2025-01-03,Desk Lamp,Furniture,North,Eve Torres,Partner,3,36.92,96.92
+2167,2025-01-04,Monitor 27in,Electronics,East,Bob Chen,Online,5,210.22,919.71
+2168,2025-01-06,Desk Lamp,Furniture,North,Eve Torres,Retail Store,6,42.72,224.28
+2169,2025-01-06,Office Chair,Furniture,North,Carla Diaz,Retail Store,4,176.3,617.05
+2170,2025-01-06,USB-C Hub,Electronics,East,David Lee,Retail Store,6,38.97,204.59
+2171,2025-01-06,Wireless Mouse,Electronics,East,David Lee,Partner,3,24.66,64.73
+2172,2025-01-08,Desk Lamp,Furniture,West,Carla Diaz,Online,6,45.93,241.13
+2173,2025-01-09,Pen Pack,Stationery,South,Eve Torres,Partner,6,8.99,47.2
+2174,2025-01-09,Mechanical Keyboard,Electronics,West,Eve Torres,Retail Store,2,61.88,108.29
+2175,2025-01-09,Mechanical Keyboard,Electronics,North,Alice Kim,Retail Store,5,70.79,309.71
+2176,2025-01-09,Standing Desk,Furniture,West,Eve Torres,Online,4,396.36,1387.26
+2177,2025-01-09,Office Chair,Furniture,East,Eve Torres,Retail Store,2,199.45,349.04
+2178,2025-01-09,Wireless Mouse,Electronics,East,David Lee,Partner,3,27.72,72.77
+2179,2025-01-10,Desk Lamp,Furniture,North,Bob Chen,Retail Store,2,36.27,63.47
+2180,2025-01-10,Standing Desk,Furniture,West,Alice Kim,Partner,6,465.6,2444.4
+2181,2025-01-10,Standing Desk,Furniture,South,Alice Kim,Online,4,396.83,1388.9
+2182,2025-01-10,Standing Desk,Furniture,North,Eve Torres,Partner,4,482.4,1688.4
+2183,2025-01-10,Notebook Set,Stationery,West,Carla Diaz,Partner,5,12.24,53.55
+2184,2025-01-11,Desk Lamp,Furniture,East,Eve Torres,Partner,6,44.18,231.94
+2185,2025-01-11,Monitor 27in,Electronics,South,Eve Torres,Online,1,244.49,213.93
+2186,2025-01-11,USB-C Hub,Electronics,South,Carla Diaz,Online,3,35.53,93.27
+2187,2025-01-11,Wireless Mouse,Electronics,East,Alice Kim,Retail Store,3,24.76,65.0
+2188,2025-01-11,Standing Desk,Furniture,North,Eve Torres,Online,5,445.09,1947.27
+2189,2025-01-12,USB-C Hub,Electronics,South,Eve Torres,Retail Store,1,36.74,32.15
+2190,2025-01-12,Notebook Set,Stationery,East,Carla Diaz,Online,6,13.2,69.3
+2191,2025-01-12,Webcam HD,Electronics,South,Alice Kim,Online,5,54.33,237.69
+2192,2025-01-12,Webcam HD,Electronics,West,David Lee,Retail Store,3,54.63,143.4
+2193,2025-01-12,USB-C Hub,Electronics,South,Bob Chen,Partner,1,33.41,29.23
+2194,2025-01-12,Monitor 27in,Electronics,North,David Lee,Retail Store,6,243.73,1279.58
+2195,2025-01-15,USB-C Hub,Electronics,East,Carla Diaz,Online,1,35.7,31.24
+2196,2025-01-15,Desk Lamp,Furniture,East,Bob Chen,Partner,5,41.23,180.38
+2197,2025-01-15,Standing Desk,Furniture,North,Bob Chen,Online,1,456.17,399.15
+2198,2025-01-15,USB-C Hub,Electronics,South,Bob Chen,Online,6,33.48,175.77
+2199,2025-01-15,Mechanical Keyboard,Electronics,North,Alice Kim,Online,4,69.73,244.06
+2200,2025-01-15,Desk Lamp,Furniture,North,Alice Kim,Partner,4,36.43,127.5
+2201,2025-01-16,Monitor 27in,Electronics,East,Alice Kim,Online,1,223.8,195.83
+2202,2025-01-16,Standing Desk,Furniture,North,Alice Kim,Partner,6,379.08,1990.17
+2203,2025-01-16,Office Chair,Furniture,South,Carla Diaz,Online,5,202.55,886.16
+2204,2025-01-16,Mechanical Keyboard,Electronics,East,Eve Torres,Retail Store,2,72.25,126.44
+2205,2025-01-17,USB-C Hub,Electronics,South,Eve Torres,Partner,5,38.33,167.69
+2206,2025-01-17,Mechanical Keyboard,Electronics,North,Eve Torres,Online,1,71.82,62.84
+2207,2025-01-18,Office Chair,Furniture,North,Alice Kim,Online,3,169.73,445.54
+2208,2025-01-18,Webcam HD,Electronics,South,David Lee,Partner,6,56.03,294.16
+2209,2025-01-18,Mechanical Keyboard,Electronics,West,David Lee,Online,2,72.06,126.11
+2210,2025-01-18,Webcam HD,Electronics,East,Alice Kim,Retail Store,2,55.1,96.42
+2211,2025-01-18,Mechanical Keyboard,Electronics,East,Carla Diaz,Partner,5,60.71,265.61
+2212,2025-01-19,Wireless Mouse,Electronics,North,David Lee,Retail Store,1,24.55,21.48
+2213,2025-01-19,Desk Lamp,Furniture,West,Bob Chen,Partner,5,43.36,189.7
+2214,2025-01-19,Pen Pack,Stationery,West,Bob Chen,Online,3,9.17,24.07
+2215,2025-01-19,Desk Lamp,Furniture,North,David Lee,Partner,6,39.67,208.27
+2216,2025-01-19,Mechanical Keyboard,Electronics,North,Alice Kim,Online,4,65.62,229.67
+2217,2025-01-20,Pen Pack,Stationery,North,Bob Chen,Online,6,8.38,44.0
+2218,2025-01-20,Notebook Set,Stationery,West,Alice Kim,Online,2,11.82,20.69
+2219,2025-01-20,Pen Pack,Stationery,East,David Lee,Retail Store,6,8.2,43.05
+2220,2025-01-21,Monitor 27in,Electronics,East,Bob Chen,Retail Store,4,252.31,883.09
+2221,2025-01-21,Mechanical Keyboard,Electronics,West,Bob Chen,Partner,1,62.57,54.75
+2222,2025-01-21,USB-C Hub,Electronics,North,Alice Kim,Retail Store,1,32.37,28.32
+2223,2025-01-22,Wireless Mouse,Electronics,East,Bob Chen,Retail Store,2,24.89,43.56
+2224,2025-01-22,Monitor 27in,Electronics,North,Eve Torres,Retail Store,5,203.3,889.44
+2225,2025-01-22,Desk Lamp,Furniture,West,David Lee,Partner,2,38.94,68.14
+2226,2025-01-22,Standing Desk,Furniture,North,Alice Kim,Retail Store,5,414.08,1811.6
+2227,2025-01-22,Mechanical Keyboard,Electronics,West,David Lee,Retail Store,4,65.81,230.34
+2228,2025-01-25,Webcam HD,Electronics,East,Bob Chen,Retail Store,6,61.33,321.98
+2229,2025-01-26,USB-C Hub,Electronics,West,Alice Kim,Partner,3,37.76,99.12
+2230,2025-01-26,Desk Lamp,Furniture,West,David Lee,Partner,6,41.54,218.09
+2231,2025-01-26,USB-C Hub,Electronics,East,David Lee,Partner,5,31.99,139.96
+2232,2025-01-27,Monitor 27in,Electronics,East,Carla Diaz,Online,6,217.4,1141.35
+2233,2025-01-27,Wireless Mouse,Electronics,East,Carla Diaz,Partner,5,22.78,99.66
+2234,2025-01-27,Monitor 27in,Electronics,East,David Lee,Online,1,240.09,210.08
+2235,2025-01-28,Notebook Set,Stationery,North,Bob Chen,Online,3,12.04,31.6
+2236,2025-01-28,Office Chair,Furniture,North,Alice Kim,Retail Store,6,176.04,924.21
+2237,2025-01-28,Mechanical Keyboard,Electronics,East,Alice Kim,Retail Store,3,61.26,160.81
+2238,2025-01-29,Pen Pack,Stationery,West,Carla Diaz,Online,5,8.23,36.01
+2239,2025-01-29,Desk Lamp,Furniture,East,David Lee,Partner,5,36.22,158.46
+2240,2025-01-29,Pen Pack,Stationery,West,Alice Kim,Partner,3,8.35,21.92
+2241,2025-01-29,Office Chair,Furniture,East,Bob Chen,Partner,3,184.35,483.92
+2242,2025-01-29,Standing Desk,Furniture,South,David Lee,Partner,3,479.79,1259.45
+2243,2025-01-30,Mechanical Keyboard,Electronics,East,Alice Kim,Retail Store,5,61.98,271.16
+2244,2025-01-30,Monitor 27in,Electronics,North,Eve Torres,Online,4,242.25,847.88
+2245,2025-01-30,Monitor 27in,Electronics,West,David Lee,Online,3,213.04,559.23
+2246,2025-01-30,Notebook Set,Stationery,East,Eve Torres,Retail Store,1,12.75,11.16
+2247,2025-01-30,Pen Pack,Stationery,South,David Lee,Retail Store,6,8.28,43.47
+2248,2025-01-30,Standing Desk,Furniture,South,Alice Kim,Partner,5,432.11,1890.48
+2249,2025-01-31,Webcam HD,Electronics,South,David Lee,Retail Store,2,57.43,100.5
+2250,2025-01-31,Webcam HD,Electronics,West,Eve Torres,Partner,5,61.23,267.88
+2251,2025-01-31,Wireless Mouse,Electronics,West,Bob Chen,Online,5,23.75,103.91
+2252,2025-01-31,USB-C Hub,Electronics,East,David Lee,Retail Store,6,37.5,196.88
+2253,2025-01-31,Notebook Set,Stationery,West,Carla Diaz,Retail Store,1,12.7,11.11
+2254,2025-02-01,USB-C Hub,Electronics,South,David Lee,Online,3,37.51,101.28
+2255,2025-02-01,Mechanical Keyboard,Electronics,South,Carla Diaz,Retail Store,2,61.62,110.92
+2256,2025-02-01,Desk Lamp,Furniture,West,Alice Kim,Online,5,45.91,206.59
+2257,2025-02-01,USB-C Hub,Electronics,East,Carla Diaz,Partner,3,32.69,88.26
+2258,2025-02-01,Webcam HD,Electronics,North,David Lee,Online,2,58.36,105.05
+2259,2025-02-03,Mechanical Keyboard,Electronics,North,David Lee,Retail Store,3,68.28,184.36
+2260,2025-02-03,Mechanical Keyboard,Electronics,South,Bob Chen,Online,4,73.83,265.79
+2261,2025-02-03,Monitor 27in,Electronics,North,Eve Torres,Partner,6,225.51,1217.75
+2262,2025-02-03,Monitor 27in,Electronics,North,Bob Chen,Partner,5,211.85,953.33
+2263,2025-02-03,Mechanical Keyboard,Electronics,West,Bob Chen,Retail Store,3,63.85,172.4
+2264,2025-02-03,Office Chair,Furniture,South,Carla Diaz,Retail Store,2,166.81,300.26
+2265,2025-02-04,Standing Desk,Furniture,East,Alice Kim,Retail Store,5,383.87,1727.41
+2266,2025-02-04,Webcam HD,Electronics,South,Carla Diaz,Online,4,56.03,201.71
+2267,2025-02-04,Notebook Set,Stationery,East,Alice Kim,Partner,4,12.95,46.62
+2268,2025-02-05,Wireless Mouse,Electronics,North,Bob Chen,Retail Store,6,26.64,143.86
+2269,2025-02-05,Webcam HD,Electronics,East,Alice Kim,Partner,4,53.75,193.5
+2270,2025-02-05,Office Chair,Furniture,West,Carla Diaz,Retail Store,4,179.48,646.13
+2271,2025-02-05,Mechanical Keyboard,Electronics,South,David Lee,Partner,2,63.33,113.99
+2272,2025-02-06,Pen Pack,Stationery,North,David Lee,Retail Store,1,7.75,6.98
+2273,2025-02-06,Pen Pack,Stationery,North,Bob Chen,Partner,3,8.63,23.3
+2274,2025-02-07,Webcam HD,Electronics,East,David Lee,Partner,1,54.34,48.91
+2275,2025-02-07,Wireless Mouse,Electronics,South,David Lee,Partner,1,26.51,23.86
+2276,2025-02-08,Wireless Mouse,Electronics,East,Carla Diaz,Partner,4,23.75,85.5
+2277,2025-02-11,Office Chair,Furniture,South,Eve Torres,Partner,5,194.11,873.5
+2278,2025-02-12,Notebook Set,Stationery,South,Carla Diaz,Online,4,12.24,44.06
+2279,2025-02-12,Monitor 27in,Electronics,South,Alice Kim,Retail Store,3,241.97,653.32
+2280,2025-02-12,Notebook Set,Stationery,West,Eve Torres,Online,2,11.98,21.56
+2281,2025-02-15,Monitor 27in,Electronics,North,David Lee,Online,6,210.58,1137.13
+2282,2025-02-15,Standing Desk,Furniture,North,David Lee,Partner,6,467.44,2524.18
+2283,2025-02-15,Pen Pack,Stationery,North,Carla Diaz,Online,5,7.72,34.74
+2284,2025-02-15,Monitor 27in,Electronics,West,David Lee,Partner,1,198.78,178.9
+2285,2025-02-16,Mechanical Keyboard,Electronics,South,Carla Diaz,Retail Store,2,70.1,126.18
+2286,2025-02-16,Desk Lamp,Furniture,South,Eve Torres,Online,4,37.3,134.28
+2287,2025-02-16,Standing Desk,Furniture,West,Bob Chen,Retail Store,6,449.1,2425.14
+2288,2025-02-17,USB-C Hub,Electronics,East,Bob Chen,Partner,1,34.04,30.64
+2289,2025-02-17,Desk Lamp,Furniture,West,Alice Kim,Online,2,39.7,71.46
+2290,2025-02-17,Desk Lamp,Furniture,West,Bob Chen,Partner,2,44.71,80.48
+2291,2025-02-17,Pen Pack,Stationery,East,Alice Kim,Online,6,8.05,43.47
+2292,2025-02-17,Webcam HD,Electronics,South,David Lee,Retail Store,1,50.22,45.2
+2293,2025-02-17,Monitor 27in,Electronics,North,Alice Kim,Retail Store,6,251.2,1356.48
+2294,2025-02-18,Monitor 27in,Electronics,West,Carla Diaz,Online,4,214.64,772.7
+2295,2025-02-18,Webcam HD,Electronics,East,Bob Chen,Partner,1,57.48,51.73
+2296,2025-02-18,Desk Lamp,Furniture,South,Alice Kim,Retail Store,3,44.78,120.91
+2297,2025-02-18,Webcam HD,Electronics,North,Carla Diaz,Online,4,51.45,185.22
+2298,2025-02-19,Desk Lamp,Furniture,West,Carla Diaz,Retail Store,3,43.48,117.4
+2299,2025-02-20,Standing Desk,Furniture,South,Carla Diaz,Partner,5,410.87,1848.91
+2300,2025-02-20,Desk Lamp,Furniture,West,Alice Kim,Online,2,41.56,74.81
+2301,2025-02-20,USB-C Hub,Electronics,North,David Lee,Retail Store,1,33.51,30.16
+2302,2025-02-20,USB-C Hub,Electronics,North,David Lee,Online,6,35.59,192.19
+2303,2025-02-21,Notebook Set,Stationery,West,David Lee,Online,6,12.48,67.39
+2304,2025-02-21,USB-C Hub,Electronics,South,Carla Diaz,Online,1,34.56,31.1
+2305,2025-02-21,USB-C Hub,Electronics,East,Eve Torres,Partner,6,35.95,194.13
+2306,2025-02-22,Office Chair,Furniture,North,Eve Torres,Partner,5,206.91,931.1
+2307,2025-02-22,USB-C Hub,Electronics,South,David Lee,Partner,4,39.55,142.38
+2308,2025-02-22,Mechanical Keyboard,Electronics,North,David Lee,Retail Store,3,58.92,159.08
+2309,2025-02-22,Monitor 27in,Electronics,South,Alice Kim,Online,1,244.03,219.63
+2310,2025-02-23,Desk Lamp,Furniture,East,Eve Torres,Partner,4,42.28,152.21
+2311,2025-02-23,Wireless Mouse,Electronics,West,Carla Diaz,Partner,3,28.56,77.11
+2312,2025-02-23,Monitor 27in,Electronics,North,Carla Diaz,Retail Store,2,209.63,377.33
+2313,2025-02-24,Wireless Mouse,Electronics,West,Alice Kim,Retail Store,6,22.94,123.88
+2314,2025-02-24,Standing Desk,Furniture,West,Alice Kim,Online,2,403.21,725.78
+2315,2025-02-24,Office Chair,Furniture,West,Carla Diaz,Partner,2,179.48,323.06
+2316,2025-02-24,USB-C Hub,Electronics,West,Carla Diaz,Partner,1,34.11,30.7
+2317,2025-02-24,Monitor 27in,Electronics,North,Carla Diaz,Partner,2,217.75,391.95
+2318,2025-02-24,Office Chair,Furniture,West,David Lee,Retail Store,4,182.04,655.34
+2319,2025-02-25,Monitor 27in,Electronics,West,Carla Diaz,Partner,4,202.96,730.66
+2320,2025-02-25,USB-C Hub,Electronics,North,Alice Kim,Partner,4,37.02,133.27
+2321,2025-02-25,Notebook Set,Stationery,South,David Lee,Partner,4,12.83,46.19
+2322,2025-02-25,Webcam HD,Electronics,West,Alice Kim,Retail Store,1,53.5,48.15
+2323,2025-02-26,USB-C Hub,Electronics,East,Bob Chen,Partner,2,37.49,67.48
+2324,2025-02-26,Pen Pack,Stationery,North,Alice Kim,Partner,3,8.34,22.52
+2325,2025-02-28,Pen Pack,Stationery,East,Carla Diaz,Retail Store,4,7.39,26.6
+2326,2025-02-28,Monitor 27in,Electronics,North,Alice Kim,Partner,1,240.28,216.25
+2327,2025-02-28,Desk Lamp,Furniture,West,Alice Kim,Online,2,43.86,78.95
+2328,2025-02-28,Pen Pack,Stationery,West,David Lee,Partner,6,7.8,42.12
+2329,2025-03-01,Standing Desk,Furniture,South,Bob Chen,Online,3,479.51,1330.64
+2330,2025-03-01,Mechanical Keyboard,Electronics,East,Alice Kim,Retail Store,6,74.46,413.25
+2331,2025-03-01,Webcam HD,Electronics,North,Alice Kim,Online,1,49.58,45.86
+2332,2025-03-01,Desk Lamp,Furniture,West,Carla Diaz,Partner,4,42.92,158.8
+2333,2025-03-01,Monitor 27in,Electronics,West,Carla Diaz,Online,3,235.99,654.87
+2334,2025-03-01,USB-C Hub,Electronics,North,Alice Kim,Partner,2,31.62,58.5
+2335,2025-03-02,Wireless Mouse,Electronics,South,Bob Chen,Retail Store,2,25.51,47.19
+2336,2025-03-03,Webcam HD,Electronics,West,Bob Chen,Retail Store,2,50.68,93.76
+2337,2025-03-03,Pen Pack,Stationery,South,David Lee,Retail Store,1,7.43,6.87
+2338,2025-03-03,Desk Lamp,Furniture,South,Bob Chen,Retail Store,1,44.6,41.26
+2339,2025-03-03,Monitor 27in,Electronics,North,Alice Kim,Partner,4,200.8,742.96
+2340,2025-03-03,Pen Pack,Stationery,East,Alice Kim,Retail Store,4,8.9,32.93
+2341,2025-03-03,Pen Pack,Stationery,West,Bob Chen,Partner,4,8.23,30.45
+2342,2025-03-05,Wireless Mouse,Electronics,North,Carla Diaz,Partner,4,26.1,96.57
+2343,2025-03-05,Pen Pack,Stationery,East,David Lee,Partner,4,7.43,27.49
+2344,2025-03-05,Pen Pack,Stationery,South,David Lee,Retail Store,1,7.52,6.96
+2345,2025-03-05,Desk Lamp,Furniture,East,Eve Torres,Partner,2,41.08,76.0
+2346,2025-03-06,Desk Lamp,Furniture,West,David Lee,Partner,2,44.83,82.94
+2347,2025-03-06,Notebook Set,Stationery,South,Eve Torres,Online,4,13.2,48.84
+2348,2025-03-06,Standing Desk,Furniture,West,Bob Chen,Online,6,456.67,2534.52
+2349,2025-03-06,Office Chair,Furniture,North,David Lee,Retail Store,2,189.26,350.13
+2350,2025-03-06,Standing Desk,Furniture,North,Alice Kim,Retail Store,2,399.99,739.98
+2351,2025-03-07,Notebook Set,Stationery,North,Alice Kim,Retail Store,6,11.28,62.6
+2352,2025-03-07,Pen Pack,Stationery,North,Eve Torres,Online,1,8.44,7.81
+2353,2025-03-08,Standing Desk,Furniture,North,Eve Torres,Retail Store,3,460.41,1277.64
+2354,2025-03-08,USB-C Hub,Electronics,North,Alice Kim,Retail Store,6,39.14,217.23
+2355,2025-03-08,Desk Lamp,Furniture,North,Eve Torres,Online,1,45.75,42.32
+2356,2025-03-09,Mechanical Keyboard,Electronics,South,Carla Diaz,Online,2,68.74,127.17
+2357,2025-03-09,Standing Desk,Furniture,West,Alice Kim,Online,6,424.36,2355.2
+2358,2025-03-09,Notebook Set,Stationery,North,Bob Chen,Retail Store,3,13.26,36.8
+2359,2025-03-09,Pen Pack,Stationery,West,Carla Diaz,Retail Store,1,7.69,7.11
+2360,2025-03-10,USB-C Hub,Electronics,West,Carla Diaz,Partner,1,33.83,31.29
+2361,2025-03-10,Office Chair,Furniture,West,Bob Chen,Online,2,195.89,362.4
+2362,2025-03-10,Pen Pack,Stationery,West,Eve Torres,Partner,4,9.04,33.45
+2363,2025-03-10,Notebook Set,Stationery,North,Eve Torres,Online,1,12.13,11.22
+2364,2025-03-12,Notebook Set,Stationery,South,David Lee,Online,4,13.75,50.88
+2365,2025-03-12,Pen Pack,Stationery,South,Eve Torres,Online,1,8.52,7.88
+2366,2025-03-13,Webcam HD,Electronics,East,Carla Diaz,Retail Store,3,55.27,153.37
+2367,2025-03-13,Wireless Mouse,Electronics,South,David Lee,Retail Store,3,28.13,78.06
+2368,2025-03-13,Office Chair,Furniture,West,Carla Diaz,Partner,5,190.1,879.21
+2369,2025-03-13,Pen Pack,Stationery,North,Alice Kim,Partner,2,8.96,16.58
+2370,2025-03-13,Notebook Set,Stationery,South,Eve Torres,Partner,4,12.98,48.03
+2371,2025-03-14,Office Chair,Furniture,East,Eve Torres,Retail Store,1,185.03,171.15
+2372,2025-03-14,USB-C Hub,Electronics,East,Bob Chen,Retail Store,1,31.74,29.36
+2373,2025-03-15,Pen Pack,Stationery,North,Carla Diaz,Retail Store,5,7.42,34.32
+2374,2025-03-15,Webcam HD,Electronics,North,David Lee,Retail Store,3,51.2,142.08
+2375,2025-03-15,Monitor 27in,Electronics,East,Bob Chen,Partner,6,198.29,1100.51
+2376,2025-03-15,Monitor 27in,Electronics,South,Carla Diaz,Retail Store,5,237.31,1097.56
+2377,2025-03-15,Standing Desk,Furniture,South,David Lee,Partner,6,460.4,2555.22
+2378,2025-03-16,Office Chair,Furniture,South,Carla Diaz,Retail Store,1,176.75,163.49
+2379,2025-03-16,Mechanical Keyboard,Electronics,West,Alice Kim,Online,2,70.06,129.61
+2380,2025-03-16,Wireless Mouse,Electronics,West,Bob Chen,Retail Store,4,28.05,103.79
+2381,2025-03-16,Mechanical Keyboard,Electronics,West,Eve Torres,Partner,3,69.5,192.86
+2382,2025-03-16,Webcam HD,Electronics,West,David Lee,Retail Store,4,61.49,227.51
+2383,2025-03-17,Desk Lamp,Furniture,South,Bob Chen,Partner,6,45.73,253.8
+2384,2025-03-17,USB-C Hub,Electronics,South,Eve Torres,Partner,4,37.72,139.56
+2385,2025-03-17,Mechanical Keyboard,Electronics,West,Alice Kim,Partner,6,61.96,343.88
+2386,2025-03-17,USB-C Hub,Electronics,North,Eve Torres,Retail Store,5,34.73,160.63
+2387,2025-03-17,Mechanical Keyboard,Electronics,East,Alice Kim,Partner,1,64.51,59.67
+2388,2025-03-18,Mechanical Keyboard,Electronics,East,Carla Diaz,Retail Store,3,63.46,176.1
+2389,2025-03-19,Wireless Mouse,Electronics,West,Alice Kim,Retail Store,2,23.39,43.27
+2390,2025-03-19,Standing Desk,Furniture,West,Alice Kim,Online,2,397.22,734.86
+2391,2025-03-19,Webcam HD,Electronics,North,David Lee,Retail Store,3,50.43,139.94
+2392,2025-03-20,Standing Desk,Furniture,East,David Lee,Retail Store,5,425.5,1967.94
+2393,2025-03-20,Monitor 27in,Electronics,West,David Lee,Partner,2,239.91,443.83
+2394,2025-03-20,Desk Lamp,Furniture,East,Alice Kim,Partner,2,44.66,82.62
+2395,2025-03-20,Monitor 27in,Electronics,West,Carla Diaz,Partner,4,219.3,811.41
+2396,2025-03-22,Desk Lamp,Furniture,North,Bob Chen,Partner,6,38.77,215.17
+2397,2025-03-22,Wireless Mouse,Electronics,East,Eve Torres,Partner,5,26.44,122.29
+2398,2025-03-22,Mechanical Keyboard,Electronics,South,Eve Torres,Partner,6,67.59,375.12
+2399,2025-03-22,Monitor 27in,Electronics,South,David Lee,Partner,1,250.65,231.85
+2400,2025-03-22,Wireless Mouse,Electronics,South,Alice Kim,Retail Store,1,26.61,24.61
+2401,2025-03-23,Office Chair,Furniture,West,Alice Kim,Partner,2,199.34,368.78
+2402,2025-03-23,Monitor 27in,Electronics,North,David Lee,Online,3,220.1,610.78
+2403,2025-03-23,Notebook Set,Stationery,North,Eve Torres,Retail Store,4,11.34,41.96
+2404,2025-03-23,Pen Pack,Stationery,North,Eve Torres,Online,3,7.38,20.48
+2405,2025-03-23,Standing Desk,Furniture,North,Bob Chen,Retail Store,2,397.18,734.78
+2406,2025-03-23,Pen Pack,Stationery,East,Bob Chen,Online,6,7.54,41.85
+2407,2025-03-24,Wireless Mouse,Electronics,East,Bob Chen,Retail Store,3,24.94,69.21
+2408,2025-03-24,Notebook Set,Stationery,North,Alice Kim,Online,3,11.93,33.11
+2409,2025-03-24,Office Chair,Furniture,West,Eve Torres,Partner,5,188.37,871.21
+2410,2025-03-24,Pen Pack,Stationery,East,David Lee,Partner,1,7.74,7.16
+2411,2025-03-24,Pen Pack,Stationery,West,Bob Chen,Online,1,8.17,7.56
+2412,2025-03-25,Webcam HD,Electronics,South,Eve Torres,Partner,5,58.78,271.86
+2413,2025-03-25,USB-C Hub,Electronics,West,Alice Kim,Partner,3,36.47,101.2
+2414,2025-03-26,Office Chair,Furniture,South,Bob Chen,Partner,2,178.8,330.78
+2415,2025-03-26,Pen Pack,Stationery,North,David Lee,Partner,5,8.1,37.46
+2416,2025-03-26,Standing Desk,Furniture,North,Alice Kim,Retail Store,6,480.07,2664.39
+2417,2025-03-26,Standing Desk,Furniture,West,Carla Diaz,Partner,5,404.34,1870.07
+2418,2025-03-27,Monitor 27in,Electronics,South,Eve Torres,Partner,5,213.47,987.3
+2419,2025-03-29,Mechanical Keyboard,Electronics,South,Eve Torres,Retail Store,4,69.85,258.44
+2420,2025-03-29,Pen Pack,Stationery,East,Carla Diaz,Partner,2,8.42,15.58
+2421,2025-03-30,Desk Lamp,Furniture,East,Carla Diaz,Online,3,38.46,106.73
+2422,2025-03-30,Desk Lamp,Furniture,South,Alice Kim,Partner,5,39.28,181.67
+2423,2025-03-31,Wireless Mouse,Electronics,West,Eve Torres,Partner,1,26.7,24.7
+2424,2025-03-31,Desk Lamp,Furniture,North,Eve Torres,Online,4,41.38,153.11
+2425,2025-03-31,Desk Lamp,Furniture,West,Eve Torres,Retail Store,6,37.23,206.63
+2426,2025-04-01,USB-C Hub,Electronics,North,David Lee,Retail Store,6,40.11,228.63
+2427,2025-04-01,Office Chair,Furniture,North,Carla Diaz,Partner,4,162.42,617.2
+2428,2025-04-01,Notebook Set,Stationery,East,Bob Chen,Online,2,11.07,21.03
+2429,2025-04-02,Notebook Set,Stationery,South,Alice Kim,Online,1,11.64,11.06
+2430,2025-04-02,Pen Pack,Stationery,West,Bob Chen,Partner,1,8.94,8.49
+2431,2025-04-02,Office Chair,Furniture,South,Alice Kim,Partner,6,195.25,1112.92
+2432,2025-04-03,Mechanical Keyboard,Electronics,South,Eve Torres,Partner,2,62.72,119.17
+2433,2025-04-04,Standing Desk,Furniture,North,Eve Torres,Partner,2,467.01,887.32
+2434,2025-04-04,Standing Desk,Furniture,West,Alice Kim,Retail Store,6,436.81,2489.82
+2435,2025-04-04,Wireless Mouse,Electronics,West,Carla Diaz,Online,3,25.2,71.82
+2436,2025-04-04,Webcam HD,Electronics,North,Bob Chen,Online,4,56.31,213.98
+2437,2025-04-04,Standing Desk,Furniture,East,Alice Kim,Retail Store,4,433.9,1648.82
+2438,2025-04-04,Office Chair,Furniture,North,Bob Chen,Partner,3,165.68,472.19
+2439,2025-04-05,Mechanical Keyboard,Electronics,East,Carla Diaz,Online,2,61.7,117.23
+2440,2025-04-05,Mechanical Keyboard,Electronics,North,Eve Torres,Partner,1,66.3,62.98
+2441,2025-04-05,Notebook Set,Stationery,West,Bob Chen,Retail Store,3,11.54,32.89
+2442,2025-04-06,Wireless Mouse,Electronics,South,Alice Kim,Partner,3,25.75,73.39
+2443,2025-04-06,Monitor 27in,Electronics,West,Eve Torres,Online,4,240.03,912.11
+2444,2025-04-06,Mechanical Keyboard,Electronics,West,Carla Diaz,Partner,1,73.4,69.73
+2445,2025-04-06,Mechanical Keyboard,Electronics,West,Alice Kim,Retail Store,2,59.51,113.07
+2446,2025-04-06,Monitor 27in,Electronics,North,Alice Kim,Partner,6,221.75,1263.97
+2447,2025-04-06,Wireless Mouse,Electronics,West,Alice Kim,Partner,3,27.81,79.26
+2448,2025-04-07,Pen Pack,Stationery,North,David Lee,Retail Store,2,8.93,16.97
+2449,2025-04-07,Desk Lamp,Furniture,North,Carla Diaz,Partner,4,44.8,170.24
+2450,2025-04-07,Wireless Mouse,Electronics,South,Alice Kim,Online,4,25.73,97.77
+2451,2025-04-07,Wireless Mouse,Electronics,South,Eve Torres,Online,5,26.96,128.06
+2452,2025-04-07,Webcam HD,Electronics,West,Eve Torres,Retail Store,3,54.39,155.01
+2453,2025-04-07,USB-C Hub,Electronics,North,Alice Kim,Online,2,32.7,62.13
+2454,2025-04-08,Monitor 27in,Electronics,East,Carla Diaz,Partner,4,226.22,859.64
+2455,2025-04-08,Webcam HD,Electronics,East,Eve Torres,Retail Store,2,51.53,97.91
+2456,2025-04-09,Notebook Set,Stationery,South,Alice Kim,Online,1,12.35,11.73
+2457,2025-04-09,Webcam HD,Electronics,West,Carla Diaz,Online,5,61.31,291.22
+2458,2025-04-10,Office Chair,Furniture,West,David Lee,Partner,1,177.37,168.5
+2459,2025-04-11,Notebook Set,Stationery,East,Eve Torres,Retail Store,5,12.5,59.38
+2460,2025-04-11,Pen Pack,Stationery,West,Alice Kim,Retail Store,3,7.52,21.43
+2461,2025-04-11,Office Chair,Furniture,South,David Lee,Partner,1,190.74,181.2
+2462,2025-04-11,Office Chair,Furniture,East,David Lee,Online,2,183.63,348.9
+2463,2025-04-11,Pen Pack,Stationery,North,Carla Diaz,Online,2,8.85,16.81
+2464,2025-04-13,Wireless Mouse,Electronics,East,David Lee,Online,5,23.22,110.29
+2465,2025-04-13,Monitor 27in,Electronics,North,Bob Chen,Online,3,200.41,571.17
+2466,2025-04-14,USB-C Hub,Electronics,South,Carla Diaz,Partner,2,39.25,74.58
+2467,2025-04-14,Office Chair,Furniture,South,Carla Diaz,Online,2,170.82,324.56
+2468,2025-04-16,USB-C Hub,Electronics,North,Carla Diaz,Online,4,37.23,141.47
+2469,2025-04-16,Standing Desk,Furniture,East,Bob Chen,Partner,4,403.22,1532.24
+2470,2025-04-16,Monitor 27in,Electronics,North,Alice Kim,Online,4,246.31,935.98
+2471,2025-04-16,USB-C Hub,Electronics,West,Carla Diaz,Retail Store,2,33.18,63.04
+2472,2025-04-16,Monitor 27in,Electronics,South,Alice Kim,Partner,4,251.73,956.57
+2473,2025-04-16,Monitor 27in,Electronics,East,Bob Chen,Retail Store,2,244.99,465.48
+2474,2025-04-17,Wireless Mouse,Electronics,South,Eve Torres,Partner,6,27.47,156.58
+2475,2025-04-18,Office Chair,Furniture,West,Eve Torres,Online,6,165.66,944.26
+2476,2025-04-18,USB-C Hub,Electronics,East,David Lee,Partner,5,34.9,165.78
+2477,2025-04-18,Desk Lamp,Furniture,East,Eve Torres,Partner,2,39.22,74.52
+2478,2025-04-19,Desk Lamp,Furniture,West,Eve Torres,Partner,4,38.68,146.98
+2479,2025-04-19,Wireless Mouse,Electronics,South,David Lee,Online,2,23.87,45.35
+2480,2025-04-19,Pen Pack,Stationery,West,Eve Torres,Online,2,7.81,14.84
+2481,2025-04-20,Notebook Set,Stationery,South,Alice Kim,Retail Store,3,12.45,35.48
+2482,2025-04-20,Desk Lamp,Furniture,North,David Lee,Partner,5,39.52,187.72
+2483,2025-04-20,Monitor 27in,Electronics,West,David Lee,Retail Store,3,221.44,631.1
+2484,2025-04-20,Notebook Set,Stationery,West,Alice Kim,Online,4,11.75,44.65
+2485,2025-04-20,Desk Lamp,Furniture,North,Carla Diaz,Online,2,38.66,73.45
+2486,2025-04-20,Standing Desk,Furniture,North,Carla Diaz,Online,5,431.84,2051.24
+2487,2025-04-24,Wireless Mouse,Electronics,South,Carla Diaz,Retail Store,5,23.75,112.81
+2488,2025-04-24,Standing Desk,Furniture,East,Bob Chen,Partner,6,463.63,2642.69
+2489,2025-04-25,USB-C Hub,Electronics,East,Alice Kim,Retail Store,6,37.97,216.43
+2490,2025-04-25,Standing Desk,Furniture,West,David Lee,Partner,3,460.23,1311.66
+2491,2025-04-25,Wireless Mouse,Electronics,South,David Lee,Online,4,26.59,101.04
+2492,2025-04-25,Office Chair,Furniture,West,Bob Chen,Partner,6,195.71,1115.55
+2493,2025-04-26,Webcam HD,Electronics,West,Carla Diaz,Online,4,59.43,225.83
+2494,2025-04-26,Notebook Set,Stationery,West,Bob Chen,Retail Store,2,12.09,22.97
+2495,2025-04-26,Desk Lamp,Furniture,South,Eve Torres,Online,5,36.3,172.42
+2496,2025-04-26,Standing Desk,Furniture,East,Carla Diaz,Online,6,379.02,2160.41
+2497,2025-04-27,Pen Pack,Stationery,East,Carla Diaz,Partner,6,8.71,49.65
+2498,2025-04-27,Wireless Mouse,Electronics,South,Bob Chen,Retail Store,5,27.41,130.2
+2499,2025-04-27,Monitor 27in,Electronics,West,David Lee,Online,6,241.95,1379.11
+2500,2025-04-28,Mechanical Keyboard,Electronics,West,Alice Kim,Retail Store,5,64.78,307.7
+2501,2025-04-28,Monitor 27in,Electronics,East,Alice Kim,Online,4,233.15,885.97
+2502,2025-04-28,Mechanical Keyboard,Electronics,North,Eve Torres,Retail Store,6,67.48,384.64
+2503,2025-04-30,Office Chair,Furniture,West,Carla Diaz,Online,1,203.01,192.86
+2504,2025-05-01,Standing Desk,Furniture,West,Alice Kim,Retail Store,6,433.06,2533.4
+2505,2025-05-02,Wireless Mouse,Electronics,West,David Lee,Online,2,24.54,47.85
+2506,2025-05-02,Mechanical Keyboard,Electronics,West,Alice Kim,Retail Store,2,67.22,131.08
+2507,2025-05-02,Office Chair,Furniture,East,David Lee,Partner,2,201.17,392.28
+2508,2025-05-02,Desk Lamp,Furniture,East,Eve Torres,Online,2,42.04,81.98
+2509,2025-05-03,Desk Lamp,Furniture,South,David Lee,Online,3,38.02,111.21
+2510,2025-05-03,Pen Pack,Stationery,East,Eve Torres,Retail Store,5,8.82,43.0
+2511,2025-05-03,Desk Lamp,Furniture,North,Carla Diaz,Partner,4,41.76,162.86
+2512,2025-05-03,Desk Lamp,Furniture,East,David Lee,Partner,3,43.0,125.77
+2513,2025-05-04,USB-C Hub,Electronics,West,David Lee,Retail Store,4,33.68,131.35
+2514,2025-05-04,USB-C Hub,Electronics,West,Alice Kim,Online,6,36.48,213.41
+2515,2025-05-04,USB-C Hub,Electronics,East,Alice Kim,Partner,3,39.22,114.72
+2516,2025-05-04,Office Chair,Furniture,North,Carla Diaz,Online,4,180.51,703.99
+2517,2025-05-04,Mechanical Keyboard,Electronics,East,David Lee,Retail Store,5,70.96,345.93
+2518,2025-05-04,USB-C Hub,Electronics,North,David Lee,Online,3,33.31,97.43
+2519,2025-05-06,Desk Lamp,Furniture,West,Bob Chen,Retail Store,4,39.44,153.82
+2520,2025-05-06,Wireless Mouse,Electronics,South,Carla Diaz,Partner,1,24.07,23.47
+2521,2025-05-06,Desk Lamp,Furniture,North,Eve Torres,Partner,4,40.61,158.38
+2522,2025-05-06,Office Chair,Furniture,South,David Lee,Retail Store,6,204.75,1197.79
+2523,2025-05-06,USB-C Hub,Electronics,North,Bob Chen,Retail Store,2,38.84,75.74
+2524,2025-05-08,Pen Pack,Stationery,North,Carla Diaz,Online,2,7.36,14.35
+2525,2025-05-08,Desk Lamp,Furniture,North,Eve Torres,Online,3,37.78,110.51
+2526,2025-05-08,Desk Lamp,Furniture,North,David Lee,Partner,6,36.48,213.41
+2527,2025-05-08,Standing Desk,Furniture,North,Alice Kim,Retail Store,4,383.5,1495.65
+2528,2025-05-09,Office Chair,Furniture,South,Bob Chen,Online,2,178.86,348.78
+2529,2025-05-09,Wireless Mouse,Electronics,North,Carla Diaz,Online,4,22.67,88.41
+2530,2025-05-09,Mechanical Keyboard,Electronics,North,Bob Chen,Partner,2,74.08,144.46
+2531,2025-05-09,USB-C Hub,Electronics,North,Carla Diaz,Retail Store,1,35.14,34.26
+2532,2025-05-09,Webcam HD,Electronics,South,Eve Torres,Retail Store,6,52.11,304.84
+2533,2025-05-09,Pen Pack,Stationery,North,Carla Diaz,Retail Store,1,7.66,7.47
+2534,2025-05-10,Wireless Mouse,Electronics,North,David Lee,Online,4,26.59,103.7
+2535,2025-05-11,Office Chair,Furniture,East,Eve Torres,Retail Store,1,191.61,186.82
+2536,2025-05-11,Wireless Mouse,Electronics,West,Carla Diaz,Partner,1,28.03,27.33
+2537,2025-05-11,Desk Lamp,Furniture,South,Carla Diaz,Online,1,43.13,42.05
+2538,2025-05-12,Notebook Set,Stationery,South,Carla Diaz,Online,6,12.89,75.41
+2539,2025-05-12,Notebook Set,Stationery,East,Alice Kim,Partner,6,12.25,71.66
+2540,2025-05-12,Monitor 27in,Electronics,South,Eve Torres,Partner,4,219.03,854.22
+2541,2025-05-12,Wireless Mouse,Electronics,North,Carla Diaz,Online,2,22.63,44.13
+2542,2025-05-13,Pen Pack,Stationery,North,Bob Chen,Retail Store,2,8.44,16.46
+2543,2025-05-13,Desk Lamp,Furniture,West,Bob Chen,Partner,3,38.02,111.21
+2544,2025-05-13,Wireless Mouse,Electronics,West,Carla Diaz,Online,2,28.27,55.13
+2545,2025-05-13,Standing Desk,Furniture,North,Eve Torres,Retail Store,3,445.58,1303.32
+2546,2025-05-13,Standing Desk,Furniture,East,Carla Diaz,Online,1,402.05,392.0
+2547,2025-05-14,Webcam HD,Electronics,South,Bob Chen,Partner,1,61.97,60.42
+2548,2025-05-15,Pen Pack,Stationery,West,Alice Kim,Online,5,7.84,38.22
+2549,2025-05-15,Desk Lamp,Furniture,North,Bob Chen,Online,1,45.54,44.4
+2550,2025-05-15,USB-C Hub,Electronics,South,Bob Chen,Partner,1,33.02,32.19
+2551,2025-05-15,Mechanical Keyboard,Electronics,East,Bob Chen,Partner,4,70.28,274.09
+2552,2025-05-15,Office Chair,Furniture,South,Carla Diaz,Retail Store,2,181.08,353.11
+2553,2025-05-15,Monitor 27in,Electronics,South,Carla Diaz,Retail Store,4,251.22,979.76
+2554,2025-05-17,Pen Pack,Stationery,West,David Lee,Partner,4,7.54,29.41
+2555,2025-05-17,Monitor 27in,Electronics,South,David Lee,Online,6,221.84,1297.76
+2556,2025-05-18,Pen Pack,Stationery,East,Eve Torres,Partner,4,8.91,34.75
+2557,2025-05-18,USB-C Hub,Electronics,East,David Lee,Retail Store,5,37.86,184.57
+2558,2025-05-18,Standing Desk,Furniture,West,Alice Kim,Retail Store,4,407.74,1590.19
+2559,2025-05-18,USB-C Hub,Electronics,South,Bob Chen,Online,6,35.61,208.32
+2560,2025-05-18,Wireless Mouse,Electronics,East,David Lee,Retail Store,5,27.06,131.92
+2561,2025-05-18,Pen Pack,Stationery,East,David Lee,Retail Store,4,9.14,35.65
+2562,2025-05-19,Monitor 27in,Electronics,North,Alice Kim,Retail Store,1,220.48,214.97
+2563,2025-05-19,Monitor 27in,Electronics,West,Carla Diaz,Partner,2,208.68,406.93
+2564,2025-05-20,Webcam HD,Electronics,East,Alice Kim,Partner,6,56.22,328.89
+2565,2025-05-20,Pen Pack,Stationery,South,David Lee,Online,4,8.67,33.81
+2566,2025-05-21,Notebook Set,Stationery,North,Bob Chen,Retail Store,6,12.92,75.58
+2567,2025-05-21,Monitor 27in,Electronics,South,Carla Diaz,Online,4,249.93,974.73
+2568,2025-05-21,Monitor 27in,Electronics,South,Alice Kim,Online,5,250.35,1220.46
+2569,2025-05-21,Mechanical Keyboard,Electronics,West,David Lee,Partner,6,70.06,409.85
+2570,2025-05-21,Monitor 27in,Electronics,South,David Lee,Online,1,226.52,220.86
+2571,2025-05-21,Pen Pack,Stationery,West,Eve Torres,Retail Store,3,8.58,25.1
+2572,2025-05-22,Pen Pack,Stationery,North,Eve Torres,Retail Store,6,8.94,52.3
+2573,2025-05-22,USB-C Hub,Electronics,West,Carla Diaz,Online,3,38.05,111.3
+2574,2025-05-22,USB-C Hub,Electronics,North,David Lee,Partner,4,31.51,122.89
+2575,2025-05-22,Pen Pack,Stationery,West,Bob Chen,Online,6,7.78,45.51
+2576,2025-05-22,Notebook Set,Stationery,South,David Lee,Online,2,12.91,25.17
+2577,2025-05-23,Mechanical Keyboard,Electronics,South,Bob Chen,Online,4,67.72,264.11
+2578,2025-05-23,Wireless Mouse,Electronics,South,Carla Diaz,Retail Store,6,23.64,138.29
+2579,2025-05-23,Desk Lamp,Furniture,North,Bob Chen,Online,6,45.13,264.01
+2580,2025-05-23,Standing Desk,Furniture,East,Alice Kim,Retail Store,1,417.66,407.22
+2581,2025-05-25,Office Chair,Furniture,North,Alice Kim,Online,4,183.83,716.94
+2582,2025-05-25,Standing Desk,Furniture,North,Alice Kim,Online,1,447.86,436.66
+2583,2025-05-25,Webcam HD,Electronics,East,David Lee,Retail Store,1,54.67,53.3
+2584,2025-05-25,Notebook Set,Stationery,East,Carla Diaz,Retail Store,5,12.09,58.94
+2585,2025-05-26,Office Chair,Furniture,West,Eve Torres,Online,3,191.93,561.4
+2586,2025-05-26,Notebook Set,Stationery,North,David Lee,Partner,3,13.22,38.67
+2587,2025-05-26,Pen Pack,Stationery,South,Alice Kim,Partner,6,8.87,51.89
+2588,2025-05-26,Mechanical Keyboard,Electronics,South,Carla Diaz,Retail Store,5,63.04,307.32
+2589,2025-05-26,Monitor 27in,Electronics,West,Eve Torres,Retail Store,6,234.24,1370.3
+2590,2025-05-26,Office Chair,Furniture,East,Alice Kim,Partner,1,206.38,201.22
+2591,2025-05-27,Wireless Mouse,Electronics,West,Bob Chen,Partner,6,24.53,143.5
+2592,2025-05-27,Desk Lamp,Furniture,North,Carla Diaz,Retail Store,4,43.39,169.22
+2593,2025-05-28,Mechanical Keyboard,Electronics,South,Bob Chen,Partner,6,64.75,378.79
+2594,2025-05-28,Monitor 27in,Electronics,South,David Lee,Online,6,225.76,1320.7
+2595,2025-05-28,Standing Desk,Furniture,West,Bob Chen,Retail Store,6,482.61,2823.27
+2596,2025-05-30,Webcam HD,Electronics,South,Alice Kim,Online,2,52.85,103.06
+2597,2025-05-30,Pen Pack,Stationery,East,David Lee,Retail Store,6,7.26,42.47
+2598,2025-05-30,Office Chair,Furniture,West,Alice Kim,Partner,6,173.59,1015.5
+2599,2025-05-31,Webcam HD,Electronics,North,Carla Diaz,Online,6,59.47,347.9
+2600,2025-06-01,Monitor 27in,Electronics,West,David Lee,Partner,1,233.42,233.42
+2601,2025-06-01,Webcam HD,Electronics,South,Carla Diaz,Online,4,60.62,242.48
+2602,2025-06-01,Standing Desk,Furniture,East,Eve Torres,Online,1,389.7,389.7
+2603,2025-06-01,Mechanical Keyboard,Electronics,East,David Lee,Partner,5,64.48,322.4
+2604,2025-06-02,Wireless Mouse,Electronics,South,David Lee,Retail Store,3,22.89,68.67
+2605,2025-06-02,Notebook Set,Stationery,South,Eve Torres,Partner,3,13.19,39.57
+2606,2025-06-02,Monitor 27in,Electronics,West,Alice Kim,Partner,5,210.22,1051.1
+2607,2025-06-02,Desk Lamp,Furniture,East,Bob Chen,Retail Store,3,37.45,112.35
+2608,2025-06-02,Desk Lamp,Furniture,South,Alice Kim,Partner,2,42.01,84.02
+2609,2025-06-03,Standing Desk,Furniture,North,Carla Diaz,Partner,5,481.99,2409.95
+2610,2025-06-03,Monitor 27in,Electronics,South,David Lee,Retail Store,4,232.71,930.84
+2611,2025-06-04,Pen Pack,Stationery,East,Bob Chen,Partner,1,9.16,9.16
+2612,2025-06-04,Office Chair,Furniture,South,Alice Kim,Online,6,204.05,1224.3
+2613,2025-06-04,Desk Lamp,Furniture,South,Alice Kim,Partner,6,39.92,239.52
+2614,2025-06-04,Pen Pack,Stationery,West,Carla Diaz,Retail Store,3,8.04,24.12
+2615,2025-06-04,Pen Pack,Stationery,East,Carla Diaz,Partner,1,8.26,8.26
+2616,2025-06-05,Webcam HD,Electronics,East,Eve Torres,Online,4,50.84,203.36
+2617,2025-06-06,Standing Desk,Furniture,South,David Lee,Partner,4,446.74,1786.96
+2618,2025-06-06,Desk Lamp,Furniture,South,Bob Chen,Partner,3,44.97,134.91
+2619,2025-06-06,Office Chair,Furniture,East,Eve Torres,Online,6,191.31,1147.86
+2620,2025-06-06,USB-C Hub,Electronics,West,Bob Chen,Online,4,39.82,159.28
+2621,2025-06-06,Mechanical Keyboard,Electronics,South,Alice Kim,Online,3,74.33,222.99
+2622,2025-06-06,Webcam HD,Electronics,West,Bob Chen,Partner,6,54.15,324.9
+2623,2025-06-07,Pen Pack,Stationery,South,David Lee,Retail Store,2,7.27,14.54
+2624,2025-06-07,Standing Desk,Furniture,South,David Lee,Partner,6,440.6,2643.6
+2625,2025-06-07,Mechanical Keyboard,Electronics,West,Carla Diaz,Partner,4,72.55,290.2
+2626,2025-06-07,Desk Lamp,Furniture,North,Alice Kim,Online,3,36.12,108.36
+2627,2025-06-07,Desk Lamp,Furniture,South,Alice Kim,Partner,6,42.69,256.14
+2628,2025-06-08,Monitor 27in,Electronics,North,Eve Torres,Online,4,213.05,852.2
+2629,2025-06-08,Pen Pack,Stationery,West,Carla Diaz,Partner,4,9.2,36.8
+2630,2025-06-08,USB-C Hub,Electronics,South,David Lee,Partner,1,34.35,34.35
+2631,2025-06-08,Wireless Mouse,Electronics,West,Alice Kim,Partner,4,25.98,103.92
+2632,2025-06-09,Monitor 27in,Electronics,North,Bob Chen,Partner,5,237.26,1186.3
+2633,2025-06-09,Mechanical Keyboard,Electronics,South,Alice Kim,Partner,2,72.51,145.02
+2634,2025-06-09,Desk Lamp,Furniture,South,Eve Torres,Online,3,37.23,111.69
+2635,2025-06-09,USB-C Hub,Electronics,North,Alice Kim,Online,1,36.42,36.42
+2636,2025-06-09,Webcam HD,Electronics,South,David Lee,Partner,3,54.5,163.5
+2637,2025-06-09,Wireless Mouse,Electronics,East,Eve Torres,Retail Store,2,24.38,48.76
+2638,2025-06-10,Monitor 27in,Electronics,East,Eve Torres,Partner,4,236.23,944.92
+2639,2025-06-11,Office Chair,Furniture,North,Bob Chen,Online,6,166.46,998.76
+2640,2025-06-11,Office Chair,Furniture,South,Bob Chen,Partner,2,175.49,350.98
+2641,2025-06-11,Webcam HD,Electronics,East,Bob Chen,Partner,2,57.64,115.28
+2642,2025-06-11,Monitor 27in,Electronics,East,Carla Diaz,Retail Store,4,202.09,808.36
+2643,2025-06-12,USB-C Hub,Electronics,East,David Lee,Partner,4,35.49,141.96
+2644,2025-06-12,USB-C Hub,Electronics,East,Bob Chen,Partner,5,33.28,166.4
+2645,2025-06-12,Notebook Set,Stationery,South,David Lee,Online,5,12.77,63.85
+2646,2025-06-12,Notebook Set,Stationery,South,Alice Kim,Retail Store,4,11.94,47.76
+2647,2025-06-12,Mechanical Keyboard,Electronics,West,Alice Kim,Retail Store,5,60.29,301.45
+2648,2025-06-13,Mechanical Keyboard,Electronics,East,Bob Chen,Online,3,73.28,219.84
+2649,2025-06-13,Standing Desk,Furniture,South,David Lee,Online,1,388.28,388.28
+2650,2025-06-13,Mechanical Keyboard,Electronics,East,Eve Torres,Retail Store,2,67.06,134.12
+2651,2025-06-13,Mechanical Keyboard,Electronics,East,Eve Torres,Retail Store,5,64.17,320.85
+2652,2025-06-13,Monitor 27in,Electronics,South,Carla Diaz,Retail Store,1,247.31,247.31
+2653,2025-06-14,Notebook Set,Stationery,West,David Lee,Partner,6,12.83,76.98
+2654,2025-06-15,Standing Desk,Furniture,South,Bob Chen,Online,1,450.1,450.1
+2655,2025-06-16,Monitor 27in,Electronics,East,Bob Chen,Partner,6,212.71,1276.26
+2656,2025-06-16,Monitor 27in,Electronics,South,David Lee,Retail Store,4,236.87,947.48
+2657,2025-06-16,Desk Lamp,Furniture,West,Eve Torres,Partner,5,38.87,194.35
+2658,2025-06-17,Office Chair,Furniture,North,Carla Diaz,Retail Store,3,190.6,571.8
+2659,2025-06-17,Notebook Set,Stationery,North,Bob Chen,Online,1,12.7,12.7
+2660,2025-06-17,USB-C Hub,Electronics,East,Eve Torres,Retail Store,5,32.0,160.0
+2661,2025-06-17,Wireless Mouse,Electronics,South,David Lee,Retail Store,4,26.73,106.92
+2662,2025-06-17,Webcam HD,Electronics,North,David Lee,Online,6,63.22,379.32
+2663,2025-06-17,Monitor 27in,Electronics,North,David Lee,Partner,2,248.1,496.2
+2664,2025-06-18,Notebook Set,Stationery,North,Eve Torres,Retail Store,2,13.78,27.56
+2665,2025-06-18,USB-C Hub,Electronics,South,Bob Chen,Online,6,39.64,237.84
+2666,2025-06-18,Notebook Set,Stationery,North,David Lee,Retail Store,2,12.34,24.68
+2667,2025-06-18,Pen Pack,Stationery,North,Carla Diaz,Partner,2,7.95,15.9
+2668,2025-06-19,Webcam HD,Electronics,West,Carla Diaz,Retail Store,1,53.49,53.49
+2669,2025-06-20,Wireless Mouse,Electronics,West,Bob Chen,Retail Store,6,26.44,158.64
+2670,2025-06-21,Webcam HD,Electronics,West,Alice Kim,Retail Store,1,62.36,62.36
+2671,2025-06-21,Wireless Mouse,Electronics,East,Carla Diaz,Online,5,25.38,126.9
+2672,2025-06-21,Wireless Mouse,Electronics,South,David Lee,Retail Store,3,28.06,84.18
+2673,2025-06-21,Wireless Mouse,Electronics,South,Alice Kim,Partner,1,25.19,25.19
+2674,2025-06-21,Webcam HD,Electronics,West,Alice Kim,Online,2,55.15,110.3
+2675,2025-06-22,Standing Desk,Furniture,East,Carla Diaz,Retail Store,2,427.42,854.84
+2676,2025-06-22,Pen Pack,Stationery,East,Alice Kim,Retail Store,2,8.27,16.54
+2677,2025-06-22,Desk Lamp,Furniture,West,Alice Kim,Retail Store,2,37.4,74.8
+2678,2025-06-22,Office Chair,Furniture,North,Bob Chen,Retail Store,1,170.53,170.53
+2679,2025-06-22,Pen Pack,Stationery,North,Bob Chen,Partner,6,7.86,47.16
+2680,2025-06-22,Office Chair,Furniture,East,Alice Kim,Retail Store,4,205.19,820.76
+2681,2025-06-23,Webcam HD,Electronics,South,Carla Diaz,Retail Store,4,60.5,242.0
+2682,2025-06-23,Webcam HD,Electronics,West,Bob Chen,Online,6,62.2,373.2
+2683,2025-06-23,Mechanical Keyboard,Electronics,East,Eve Torres,Online,1,60.55,60.55
+2684,2025-06-24,Office Chair,Furniture,East,David Lee,Partner,1,192.52,192.52
+2685,2025-06-24,Wireless Mouse,Electronics,East,David Lee,Online,4,25.5,102.0
+2686,2025-06-24,Pen Pack,Stationery,South,Bob Chen,Retail Store,2,8.44,16.88
+2687,2025-06-24,Mechanical Keyboard,Electronics,South,David Lee,Online,3,74.66,223.98
+2688,2025-06-24,Desk Lamp,Furniture,North,Eve Torres,Partner,6,43.83,262.98
+2689,2025-06-24,USB-C Hub,Electronics,South,Bob Chen,Online,2,40.18,80.36
+2690,2025-06-25,Pen Pack,Stationery,South,Bob Chen,Retail Store,1,7.75,7.75
+2691,2025-06-27,Office Chair,Furniture,West,David Lee,Partner,1,200.9,200.9
+2692,2025-06-27,Standing Desk,Furniture,South,Bob Chen,Retail Store,6,444.5,2667.0
+2693,2025-06-27,Pen Pack,Stationery,West,Alice Kim,Retail Store,4,7.32,29.28
+2694,2025-06-27,Mechanical Keyboard,Electronics,East,David Lee,Online,3,64.41,193.23
+2695,2025-06-28,Wireless Mouse,Electronics,North,Carla Diaz,Online,2,22.76,45.52
+2696,2025-06-28,Standing Desk,Furniture,North,David Lee,Online,4,407.42,1629.68
